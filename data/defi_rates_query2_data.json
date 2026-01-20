@@ -1,0 +1,1869 @@
+{
+  "last_updated": "2026-01-20T09:42:34.278100",
+  "query_id": 6554864,
+  "data": [
+    {
+      "date": "2026-01-17 00:00:00.000 UTC",
+      "snusd_apy_7d": 0.11446176219596271,
+      "snusd_price": 1.024291064548664,
+      "usdai_apy_30dma": 0.06904995214921016,
+      "usdai_apy_7dma": 0.06427895817548349,
+      "usdai_apy_exchange_rate": 0.06159922717129995,
+      "usdai_exchange_rate": 1.064065068383652
+    },
+    {
+      "date": "2026-01-16 00:00:00.000 UTC",
+      "snusd_apy_7d": 0.11480108003092383,
+      "snusd_price": 1.0239624139334962,
+      "usdai_apy_30dma": 0.06959630715970572,
+      "usdai_apy_7dma": 0.06769121836498325,
+      "usdai_apy_exchange_rate": 0.061612173016821536,
+      "usdai_exchange_rate": 1.0638908194742227
+    },
+    {
+      "date": "2026-01-15 00:00:00.000 UTC",
+      "snusd_apy_7d": 0.11805147467722543,
+      "snusd_price": 1.0236629858214774,
+      "usdai_apy_30dma": 0.07018043170443328,
+      "usdai_apy_7dma": 0.06613678653875223,
+      "usdai_apy_exchange_rate": 0.055894739320091036,
+      "usdai_exchange_rate": 1.0637165635608101
+    },
+    {
+      "date": "2026-01-14 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.07098144048685807,
+      "usdai_apy_7dma": 0.06959526569516296,
+      "usdai_apy_exchange_rate": 0.07316884752137898,
+      "usdai_exchange_rate": 1.0635580713967532
+    },
+    {
+      "date": "2026-01-13 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.07169948248125416,
+      "usdai_apy_7dma": 0.06807193742713404,
+      "usdai_apy_exchange_rate": 0.0678739112061153,
+      "usdai_exchange_rate": 1.0633523268717127
+    },
+    {
+      "date": "2026-01-12 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.07165968246282327,
+      "usdai_apy_7dma": 0.06732720278341205,
+      "usdai_apy_exchange_rate": 0.06771355930252532,
+      "usdai_exchange_rate": 1.0631610290140119
+    },
+    {
+      "date": "2026-01-11 00:00:00.000 UTC",
+      "snusd_apy_7d": 0.1265730575160222,
+      "snusd_price": 1.02245828354007,
+      "usdai_apy_30dma": 0.07230605636489319,
+      "usdai_apy_7dma": 0.06911850694929288,
+      "usdai_apy_exchange_rate": 0.06209024969015231,
+      "usdai_exchange_rate": 1.0629702029065933
+    },
+    {
+      "date": "2026-01-10 00:00:00.000 UTC",
+      "snusd_apy_7d": 0.1308177336697165,
+      "snusd_price": 1.0221626834248372,
+      "usdai_apy_30dma": 0.07269664382505256,
+      "usdai_apy_7dma": 0.06834333903387317,
+      "usdai_apy_exchange_rate": 0.08548504849779825,
+      "usdai_exchange_rate": 1.0627947868181968
+    },
+    {
+      "date": "2026-01-09 00:00:00.000 UTC",
+      "snusd_apy_7d": 0.13091017055728837,
+      "snusd_price": 1.0218287451273989,
+      "usdai_apy_30dma": 0.07256517786652043,
+      "usdai_apy_7dma": 0.0659449517269347,
+      "usdai_apy_exchange_rate": 0.0507311502332044,
+      "usdai_exchange_rate": 1.0625559703652399
+    },
+    {
+      "date": "2026-01-08 00:00:00.000 UTC",
+      "snusd_apy_7d": 0.13277638915526846,
+      "snusd_price": 1.0214728578392769,
+      "usdai_apy_30dma": 0.07360946274459991,
+      "usdai_apy_7dma": 0.07102872593943367,
+      "usdai_apy_exchange_rate": 0.08010409341496616,
+      "usdai_exchange_rate": 1.062411920086368
+    },
+    {
+      "date": "2026-01-07 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.07391122888473861,
+      "usdai_apy_7dma": 0.06853391412286329,
+      "usdai_apy_exchange_rate": 0.06250554964517652,
+      "usdai_exchange_rate": 1.0621876513748898
+    },
+    {
+      "date": "2026-01-06 00:00:00.000 UTC",
+      "snusd_apy_7d": 0.13850461053615226,
+      "snusd_price": 1.0208067737124482,
+      "usdai_apy_30dma": 0.07473424178948189,
+      "usdai_apy_7dma": 0.06777607870241588,
+      "usdai_apy_exchange_rate": 0.06266076870006132,
+      "usdai_exchange_rate": 1.062011226924971
+    },
+    {
+      "date": "2026-01-05 00:00:00.000 UTC",
+      "snusd_apy_7d": 0.13790601307388117,
+      "snusd_price": 1.0204563248177634,
+      "usdai_apy_30dma": 0.07566282816137428,
+      "usdai_apy_7dma": 0.06952089453857692,
+      "usdai_apy_exchange_rate": 0.08025268846369116,
+      "usdai_exchange_rate": 1.0618344068202252
+    },
+    {
+      "date": "2026-01-04 00:00:00.000 UTC",
+      "snusd_apy_7d": 0.1399358617948918,
+      "snusd_price": 1.0201220522821013,
+      "usdai_apy_30dma": 0.07602036327735977,
+      "usdai_apy_7dma": 0.06791049889902166,
+      "usdai_apy_exchange_rate": 0.05666407428221443,
+      "usdai_exchange_rate": 1.0616098599068116
+    },
+    {
+      "date": "2026-01-03 00:00:00.000 UTC",
+      "snusd_apy_7d": 0.13883312542597692,
+      "snusd_price": 1.019753516797616,
+      "usdai_apy_30dma": 0.07704984909884365,
+      "usdai_apy_7dma": 0.0689102375181855,
+      "usdai_apy_exchange_rate": 0.06869633734922886,
+      "usdai_exchange_rate": 1.0614495635523369
+    },
+    {
+      "date": "2026-01-02 00:00:00.000 UTC",
+      "snusd_apy_7d": 0.13983669789861253,
+      "snusd_price": 1.0194187661950065,
+      "usdai_apy_30dma": 0.07760722692889134,
+      "usdai_apy_7dma": 0.07078287458233674,
+      "usdai_apy_exchange_rate": 0.08631756972069726,
+      "usdai_exchange_rate": 1.06125636960338
+    },
+    {
+      "date": "2026-01-01 00:00:00.000 UTC",
+      "snusd_apy_7d": 0.1357247011561733,
+      "snusd_price": 1.0190314680175692,
+      "usdai_apy_30dma": 0.0775878647744186,
+      "usdai_apy_7dma": 0.0693024445599377,
+      "usdai_apy_exchange_rate": 0.06264041069897353,
+      "usdai_exchange_rate": 1.0610156702306257
+    },
+    {
+      "date": "2025-12-31 00:00:00.000 UTC",
+      "snusd_apy_7d": 0.1333092118413175,
+      "snusd_price": 1.0186267184333486,
+      "usdai_apy_30dma": 0.07887762512882851,
+      "usdai_apy_7dma": 0.06949175089769656,
+      "usdai_apy_exchange_rate": 0.05720070170204461,
+      "usdai_exchange_rate": 1.0608390715618659
+    },
+    {
+      "date": "2025-12-30 00:00:00.000 UTC",
+      "snusd_apy_7d": 0.13099891704880418,
+      "snusd_price": 1.0182683875713978,
+      "usdai_apy_30dma": 0.07935336284386144,
+      "usdai_apy_7dma": 0.06964530501300557,
+      "usdai_apy_exchange_rate": 0.0748744795531886,
+      "usdai_exchange_rate": 1.0606774161689727
+    },
+    {
+      "date": "2025-12-29 00:00:00.000 UTC",
+      "snusd_apy_7d": 0.13142007103880227,
+      "snusd_price": 1.0179290853572225,
+      "usdai_apy_30dma": 0.08001808779117212,
+      "usdai_apy_7dma": 0.0690591046956089,
+      "usdai_apy_exchange_rate": 0.06897991898680433,
+      "usdai_exchange_rate": 1.0604676149014407
+    },
+    {
+      "date": "2025-12-28 00:00:00.000 UTC",
+      "snusd_apy_7d": 0.1270428670264807,
+      "snusd_price": 1.017560830972192,
+      "usdai_apy_30dma": 0.08038751973976531,
+      "usdai_apy_7dma": 0.0730644333628043,
+      "usdai_apy_exchange_rate": 0.06366224461636127,
+      "usdai_exchange_rate": 1.0602738289655997
+    },
+    {
+      "date": "2025-12-27 00:00:00.000 UTC",
+      "snusd_apy_7d": 0.12875914445416603,
+      "snusd_price": 1.017212116827266,
+      "usdai_apy_30dma": 0.08122790466688885,
+      "usdai_apy_7dma": 0.07219227499439687,
+      "usdai_apy_exchange_rate": 0.08180479679828756,
+      "usdai_exchange_rate": 1.0600945622715148
+    },
+    {
+      "date": "2025-12-26 00:00:00.000 UTC",
+      "snusd_apy_7d": 0.12201343852532798,
+      "snusd_price": 1.0168610085395926,
+      "usdai_apy_30dma": 0.08150349393800602,
+      "usdai_apy_7dma": 0.07256289032281558,
+      "usdai_apy_exchange_rate": 0.07595455956390396,
+      "usdai_exchange_rate": 1.0598662141690605
+    },
+    {
+      "date": "2025-12-25 00:00:00.000 UTC",
+      "snusd_apy_7d": 0.12298804363095162,
+      "snusd_price": 1.0165451950071933,
+      "usdai_apy_30dma": 0.08206492537893686,
+      "usdai_apy_7dma": 0.07185878071733083,
+      "usdai_apy_exchange_rate": 0.0639655550632856,
+      "usdai_exchange_rate": 1.05965365759693
+    },
+    {
+      "date": "2025-12-24 00:00:00.000 UTC",
+      "snusd_apy_7d": 0.12448787379869453,
+      "snusd_price": 1.016182958899524,
+      "usdai_apy_30dma": 0.0831210246270045,
+      "usdai_apy_7dma": 0.07386225534917099,
+      "usdai_apy_exchange_rate": 0.05827558050920767,
+      "usdai_exchange_rate": 1.0594736681613173
+    },
+    {
+      "date": "2025-12-23 00:00:00.000 UTC",
+      "snusd_apy_7d": 0.12735541159607688,
+      "snusd_price": 1.0158652756808284,
+      "usdai_apy_30dma": 0.084469938662228,
+      "usdai_apy_7dma": 0.07684230232766251,
+      "usdai_apy_exchange_rate": 0.07077107733141186,
+      "usdai_exchange_rate": 1.0593092715826642
+    },
+    {
+      "date": "2025-12-22 00:00:00.000 UTC",
+      "snusd_apy_7d": 0.12736685030858896,
+      "snusd_price": 1.0155195173386344,
+      "usdai_apy_30dma": 0.08555797954344442,
+      "usdai_apy_7dma": 0.07815000596500862,
+      "usdai_apy_exchange_rate": 0.09701721965717214,
+      "usdai_exchange_rate": 1.0591108393979094
+    },
+    {
+      "date": "2025-12-21 00:00:00.000 UTC",
+      "snusd_apy_7d": 0.13352930114751826,
+      "snusd_price": 1.0152276654309367,
+      "usdai_apy_30dma": 0.08587913638312905,
+      "usdai_apy_7dma": 0.07782041849302138,
+      "usdai_apy_exchange_rate": 0.05755713603750934,
+      "usdai_exchange_rate": 1.0588421933676633
+    },
+    {
+      "date": "2025-12-20 00:00:00.000 UTC",
+      "snusd_apy_7d": 0.13196640214341104,
+      "snusd_price": 1.0148501102444505,
+      "usdai_apy_30dma": 0.08762745489912123,
+      "usdai_apy_7dma": 0.07912367200954702,
+      "usdai_apy_exchange_rate": 0.08439910409721851,
+      "usdai_exchange_rate": 1.0586798645336197
+    },
+    {
+      "date": "2025-12-19 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.08812734837663413,
+      "usdai_apy_7dma": 0.07951019661917624,
+      "usdai_apy_exchange_rate": 0.07102579232551065,
+      "usdai_exchange_rate": 1.0584448752529918
+    },
+    {
+      "date": "2025-12-18 00:00:00.000 UTC",
+      "snusd_apy_7d": 0.052044359816889596,
+      "snusd_price": 1.0142845232904756,
+      "usdai_apy_30dma": 0.08965710792343161,
+      "usdai_apy_7dma": 0.07990763678623661,
+      "usdai_apy_exchange_rate": 0.0779898774861667,
+      "usdai_exchange_rate": 1.0582459153843609
+    },
+    {
+      "date": "2025-12-17 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.09034925464624727,
+      "usdai_apy_7dma": 0.08041494996561774,
+      "usdai_apy_exchange_rate": 0.07913590935864834,
+      "usdai_exchange_rate": 1.058028205620435
+    },
+    {
+      "date": "2025-12-16 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.0916412283710356,
+      "usdai_apy_7dma": 0.08083263385375201,
+      "usdai_apy_exchange_rate": 0.07992500279283465,
+      "usdai_exchange_rate": 1.0578074612484762
+    },
+    {
+      "date": "2025-12-15 00:00:00.000 UTC",
+      "snusd_apy_7d": 0.1437346428419226,
+      "snusd_price": 1.0131854428362397,
+      "usdai_apy_30dma": 0.09291103823737203,
+      "usdai_apy_7dma": 0.0821515016860795,
+      "usdai_apy_exchange_rate": 0.09471010735326146,
+      "usdai_exchange_rate": 1.0575846449793735
+    },
+    {
+      "date": "2025-12-14 00:00:00.000 UTC",
+      "snusd_apy_7d": 0.12060901546147985,
+      "snusd_price": 1.0127882857056496,
+      "usdai_apy_30dma": 0.09369090103325775,
+      "usdai_apy_7dma": 0.08107804874811,
+      "usdai_apy_exchange_rate": 0.06667991065318879,
+      "usdai_exchange_rate": 1.0573224846098348
+    },
+    {
+      "date": "2025-12-13 00:00:00.000 UTC",
+      "snusd_apy_7d": 0.10061912104793613,
+      "snusd_price": 1.0124384493152225,
+      "usdai_apy_30dma": 0.09774009931668778,
+      "usdai_apy_7dma": 0.08448354149148773,
+      "usdai_apy_exchange_rate": 0.0871047763646231,
+      "usdai_exchange_rate": 1.0571355116712304
+    },
+    {
+      "date": "2025-12-12 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.09600809328481366,
+      "usdai_apy_7dma": 0.08503696514557814,
+      "usdai_apy_exchange_rate": 0.07380787349493323,
+      "usdai_exchange_rate": 1.056893649378363
+    },
+    {
+      "date": "2025-12-11 00:00:00.000 UTC",
+      "snusd_apy_7d": 0.15033118675725232,
+      "snusd_price": 1.0132972879362807,
+      "usdai_apy_30dma": 0.09718513198690192,
+      "usdai_apy_7dma": 0.08699993306440638,
+      "usdai_apy_exchange_rate": 0.08154106974183462,
+      "usdai_exchange_rate": 1.0566874707239344
+    },
+    {
+      "date": "2025-12-10 00:00:00.000 UTC",
+      "snusd_apy_7d": 0.2037521767149899,
+      "snusd_price": 1.0141805366661756,
+      "usdai_apy_30dma": 0.09747387837536262,
+      "usdai_apy_7dma": 0.08755373342280996,
+      "usdai_apy_exchange_rate": 0.0820596965755882,
+      "usdai_exchange_rate": 1.0564605622191952
+    },
+    {
+      "date": "2025-12-09 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.09870050585138174,
+      "usdai_apy_7dma": 0.08807902035294239,
+      "usdai_apy_exchange_rate": 0.08915707761912706,
+      "usdai_exchange_rate": 1.0562323151259265
+    },
+    {
+      "date": "2025-12-08 00:00:00.000 UTC",
+      "snusd_apy_7d": 0.21710064932376816,
+      "snusd_price": 1.0105771035408204,
+      "usdai_apy_30dma": 0.09936559202448193,
+      "usdai_apy_7dma": 0.08981846945467718,
+      "usdai_apy_exchange_rate": 0.08719593678747506,
+      "usdai_exchange_rate": 1.0559852028246464
+    },
+    {
+      "date": "2025-12-07 00:00:00.000 UTC",
+      "snusd_apy_7d": 0.21710064932382434,
+      "snusd_price": 1.0105771035408213,
+      "usdai_apy_30dma": 0.1001082343876524,
+      "usdai_apy_7dma": 0.08757231179261393,
+      "usdai_apy_exchange_rate": 0.09051835985683288,
+      "usdai_exchange_rate": 1.0557433611718419
+    },
+    {
+      "date": "2025-12-06 00:00:00.000 UTC",
+      "snusd_apy_7d": 0.21710064932379639,
+      "snusd_price": 1.010577103540821,
+      "usdai_apy_30dma": 0.10041808833825037,
+      "usdai_apy_7dma": 0.08818629295199622,
+      "usdai_apy_exchange_rate": 0.09097874194325595,
+      "usdai_exchange_rate": 1.0554927512495622
+    },
+    {
+      "date": "2025-12-05 00:00:00.000 UTC",
+      "snusd_apy_7d": 0.21710064932379639,
+      "snusd_price": 1.0105771035408209,
+      "usdai_apy_30dma": 0.10135318048016755,
+      "usdai_apy_7dma": 0.0866268837379026,
+      "usdai_apy_exchange_rate": 0.08754864892673098,
+      "usdai_exchange_rate": 1.0552409805552552
+    },
+    {
+      "date": "2025-12-04 00:00:00.000 UTC",
+      "snusd_apy_7d": 0.21710064932378217,
+      "snusd_price": 1.0105771035408206,
+      "usdai_apy_30dma": 0.1031275995368119,
+      "usdai_apy_7dma": 0.08681618995266493,
+      "usdai_apy_exchange_rate": 0.08541767225065966,
+      "usdai_exchange_rate": 1.0549983717794396
+    },
+    {
+      "date": "2025-12-03 00:00:00.000 UTC",
+      "snusd_apy_7d": 0.21710064932378217,
+      "snusd_price": 1.0105771035408206,
+      "usdai_apy_30dma": 0.1023940575393488,
+      "usdai_apy_7dma": 0.08748116176425677,
+      "usdai_apy_exchange_rate": 0.08573670508651521,
+      "usdai_exchange_rate": 1.0547614866016688
+    },
+    {
+      "date": "2025-12-02 00:00:00.000 UTC",
+      "snusd_apy_7d": 0.2287680371977554,
+      "snusd_price": 1.0084377221445073,
+      "usdai_apy_30dma": 0.10356589581364592,
+      "usdai_apy_7dma": 0.08848984715073017,
+      "usdai_apy_exchange_rate": 0.10133322133127054,
+      "usdai_exchange_rate": 1.0545238055531707
+    },
+    {
+      "date": "2025-12-01 00:00:00.000 UTC",
+      "snusd_apy_7d": 0.18130942785029536,
+      "snusd_price": 1.006773347049638,
+      "usdai_apy_30dma": 0.10357202875357369,
+      "usdai_apy_7dma": 0.08767774874702226,
+      "usdai_apy_exchange_rate": 0.07147283315303232,
+      "usdai_exchange_rate": 1.0542449816461568
+    },
+    {
+      "date": "2025-11-30 00:00:00.000 UTC",
+      "snusd_apy_7d": 0.1813094278502818,
+      "snusd_price": 1.006773347049638,
+      "usdai_apy_30dma": 0.10490061266005574,
+      "usdai_apy_7dma": 0.09157348709171946,
+      "usdai_apy_exchange_rate": 0.09481622797250888,
+      "usdai_exchange_rate": 1.0540456061464036
+    },
+    {
+      "date": "2025-11-29 00:00:00.000 UTC",
+      "snusd_apy_7d": 0.1813094278502818,
+      "snusd_price": 1.006773347049638,
+      "usdai_apy_30dma": 0.1057085357107768,
+      "usdai_apy_7dma": 0.09280149791963309,
+      "usdai_apy_exchange_rate": 0.08006287744460061,
+      "usdai_exchange_rate": 1.0537840431964114
+    },
+    {
+      "date": "2025-11-28 00:00:00.000 UTC",
+      "snusd_apy_7d": 0.1813094278502818,
+      "snusd_price": 1.006773347049638,
+      "usdai_apy_30dma": 0.1077738162884965,
+      "usdai_apy_7dma": 0.09659993326293459,
+      "usdai_apy_exchange_rate": 0.08887379243006732,
+      "usdai_exchange_rate": 1.0535617059250704
+    },
+    {
+      "date": "2025-11-27 00:00:00.000 UTC",
+      "snusd_apy_7d": 0.18130942785032267,
+      "snusd_price": 1.0067733470496383,
+      "usdai_apy_30dma": 0.10850640416411175,
+      "usdai_apy_7dma": 0.09961891884682138,
+      "usdai_apy_exchange_rate": 0.09007247493180248,
+      "usdai_exchange_rate": 1.053315969110989
+    },
+    {
+      "date": "2025-11-26 00:00:00.000 UTC",
+      "snusd_apy_7d": 0.1813094278502818,
+      "snusd_price": 1.006773347049638,
+      "usdai_apy_30dma": 0.10954664800942396,
+      "usdai_apy_7dma": 0.10095083791693608,
+      "usdai_apy_exchange_rate": 0.09279750279182908,
+      "usdai_exchange_rate": 1.0530671152875204
+    },
+    {
+      "date": "2025-11-25 00:00:00.000 UTC",
+      "snusd_apy_7d": 0.2608032089339938,
+      "snusd_price": 1.0044580648427768,
+      "usdai_apy_30dma": 0.11087373499227962,
+      "usdai_apy_7dma": 0.10439670590802261,
+      "usdai_apy_exchange_rate": 0.09564853250531513,
+      "usdai_exchange_rate": 1.052811118601453
+    },
+    {
+      "date": "2025-11-24 00:00:00.000 UTC",
+      "snusd_apy_7d": 0.20331243314262193,
+      "snusd_price": 1.0035586801704344,
+      "usdai_apy_30dma": 0.11138636491137018,
+      "usdai_apy_7dma": 0.10484038400306857,
+      "usdai_apy_exchange_rate": 0.09874300156591276,
+      "usdai_exchange_rate": 1.052547670572618
+    },
+    {
+      "date": "2025-11-23 00:00:00.000 UTC",
+      "snusd_apy_7d": 0.20331243314260797,
+      "snusd_price": 1.0035586801704341,
+      "usdai_apy_30dma": 0.11216167285495487,
+      "usdai_apy_7dma": 0.1075764010796951,
+      "usdai_apy_exchange_rate": 0.10341230376790422,
+      "usdai_exchange_rate": 1.0522761575253496
+    },
+    {
+      "date": "2025-11-22 00:00:00.000 UTC",
+      "snusd_apy_7d": 0.20331243314262193,
+      "snusd_price": 1.0035586801704344,
+      "usdai_apy_30dma": 0.11241615767880811,
+      "usdai_apy_7dma": 0.1096631146532698,
+      "usdai_apy_exchange_rate": 0.10665192484771113,
+      "usdai_exchange_rate": 1.051992492103203
+    },
+    {
+      "date": "2025-11-21 00:00:00.000 UTC",
+      "snusd_apy_7d": 0.20331243314262193,
+      "snusd_price": 1.0035586801704344,
+      "usdai_apy_30dma": 0.11365839437612288,
+      "usdai_apy_7dma": 0.11129940985071578,
+      "usdai_apy_exchange_rate": 0.11000669151727482,
+      "usdai_exchange_rate": 1.0517004557980736
+    },
+    {
+      "date": "2025-11-20 00:00:00.000 UTC",
+      "snusd_apy_7d": 0.20331243314259417,
+      "snusd_price": 1.003558680170434,
+      "usdai_apy_30dma": 0.11334440780385537,
+      "usdai_apy_7dma": 0.12246357665626086,
+      "usdai_apy_exchange_rate": 0.09939590842260548,
+      "usdai_exchange_rate": 1.0513997814833145
+    },
+    {
+      "date": "2025-11-19 00:00:00.000 UTC",
+      "snusd_apy_7d": 0.20331243314262193,
+      "snusd_price": 1.0035586801704344,
+      "usdai_apy_30dma": 0.11410110415338443,
+      "usdai_apy_7dma": 0.11328481765423144,
+      "usdai_apy_exchange_rate": 0.11691857872943467,
+      "usdai_exchange_rate": 1.0511268537846006
+    },
+    {
+      "date": "2025-11-18 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.11499878828298166,
+      "usdai_apy_7dma": 0.11217059705825234,
+      "usdai_apy_exchange_rate": 0.09875427917063684,
+      "usdai_exchange_rate": 1.0508084721326512
+    },
+    {
+      "date": "2025-11-17 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.11649508905486225,
+      "usdai_apy_7dma": 0.11094905166182646,
+      "usdai_apy_exchange_rate": 0.1178951211022985,
+      "usdai_exchange_rate": 1.0505373781836453
+    },
+    {
+      "date": "2025-11-16 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.11523548472037942,
+      "usdai_apy_7dma": 0.11108668019809273,
+      "usdai_apy_exchange_rate": 0.11801929878292716,
+      "usdai_exchange_rate": 1.0502166604960663
+    },
+    {
+      "date": "2025-11-15 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.11535553546604663,
+      "usdai_apy_7dma": 0.10981387505940786,
+      "usdai_apy_exchange_rate": 0.11810599122983301,
+      "usdai_exchange_rate": 1.0498957212194864
+    },
+    {
+      "date": "2025-11-14 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.1162299534599248,
+      "usdai_apy_7dma": 0.10858090598123019,
+      "usdai_apy_exchange_rate": 0.18815585915609034,
+      "usdai_exchange_rate": 1.049574657055371
+    },
+    {
+      "date": "2025-11-13 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.11367453544716476,
+      "usdai_apy_7dma": 0.09596063729818471,
+      "usdai_apy_exchange_rate": 0.03514459540839954,
+      "usdai_exchange_rate": 1.0490790228923998
+    },
+    {
+      "date": "2025-11-12 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.11622723393876805,
+      "usdai_apy_7dma": 0.10794448169709495,
+      "usdai_apy_exchange_rate": 0.10911903455758099,
+      "usdai_exchange_rate": 1.0489797498713305
+    },
+    {
+      "date": "2025-11-11 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.11705128351277823,
+      "usdai_apy_7dma": 0.11246765113544928,
+      "usdai_apy_exchange_rate": 0.09020346139565572,
+      "usdai_exchange_rate": 1.0486821518849885
+    },
+    {
+      "date": "2025-11-10 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.11779656001469364,
+      "usdai_apy_7dma": 0.10864021555417946,
+      "usdai_apy_exchange_rate": 0.11885852085616233,
+      "usdai_exchange_rate": 1.0484340476973115
+    },
+    {
+      "date": "2025-11-09 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.11804181139208128,
+      "usdai_apy_7dma": 0.10893069161978897,
+      "usdai_apy_exchange_rate": 0.10910966281213308,
+      "usdai_exchange_rate": 1.0481114985106232
+    },
+    {
+      "date": "2025-11-08 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.11883330218033121,
+      "usdai_apy_7dma": 0.10784605543649903,
+      "usdai_apy_exchange_rate": 0.10947520768258934,
+      "usdai_exchange_rate": 1.0478141711061193
+    },
+    {
+      "date": "2025-11-07 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.11894433759117239,
+      "usdai_apy_7dma": 0.10811107581719963,
+      "usdai_apy_exchange_rate": 0.09981397837477202,
+      "usdai_exchange_rate": 1.0475159823270719
+    },
+    {
+      "date": "2025-11-06 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.11948179599273828,
+      "usdai_apy_7dma": 0.11085963883425243,
+      "usdai_apy_exchange_rate": 0.11903150620077119,
+      "usdai_exchange_rate": 1.0472429719495153
+    },
+    {
+      "date": "2025-11-05 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.11900337523686091,
+      "usdai_apy_7dma": 0.11414389434502674,
+      "usdai_apy_exchange_rate": 0.14078122062606124,
+      "usdai_exchange_rate": 1.0469203457692362
+    },
+    {
+      "date": "2025-11-04 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.11780725376768751,
+      "usdai_apy_7dma": 0.10986820978395014,
+      "usdai_apy_exchange_rate": 0.06341141232676706,
+      "usdai_exchange_rate": 1.046542623944671
+    },
+    {
+      "date": "2025-11-03 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.11951345148339822,
+      "usdai_apy_7dma": 0.11813512092172172,
+      "usdai_apy_exchange_rate": 0.12089185331542884,
+      "usdai_exchange_rate": 1.0463663549824003
+    },
+    {
+      "date": "2025-11-02 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.12029248224766367,
+      "usdai_apy_7dma": 0.11980915791630317,
+      "usdai_apy_exchange_rate": 0.10151720952910348,
+      "usdai_exchange_rate": 1.0460392384240327
+    },
+    {
+      "date": "2025-11-01 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.11931567419784583,
+      "usdai_apy_7dma": 0.12116776085186433,
+      "usdai_apy_exchange_rate": 0.11133035034749361,
+      "usdai_exchange_rate": 1.0457621792967577
+    },
+    {
+      "date": "2025-10-31 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.11931562225500085,
+      "usdai_apy_7dma": 0.12269231649843006,
+      "usdai_apy_exchange_rate": 0.11905391949414157,
+      "usdai_exchange_rate": 1.0454597891422042
+    },
+    {
+      "date": "2025-10-30 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.11940565625016036,
+      "usdai_apy_7dma": 0.12154844921119572,
+      "usdai_apy_exchange_rate": 0.1420212947761914,
+      "usdai_exchange_rate": 1.0451376549596996
+    },
+    {
+      "date": "2025-10-29 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.11829938675056824,
+      "usdai_apy_7dma": 0.1218195536384761,
+      "usdai_apy_exchange_rate": 0.11085142869852493,
+      "usdai_exchange_rate": 1.0447574665168746
+    },
+    {
+      "date": "2025-10-28 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.1185004481681975,
+      "usdai_apy_7dma": 0.12035322016000818,
+      "usdai_apy_exchange_rate": 0.1212797902911682,
+      "usdai_exchange_rate": 1.0444566003060807
+    },
+    {
+      "date": "2025-10-27 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.11845216120557997,
+      "usdai_apy_7dma": 0.12046993567676667,
+      "usdai_apy_exchange_rate": 0.13261011227749897,
+      "usdai_exchange_rate": 1.0441290908949925
+    },
+    {
+      "date": "2025-10-26 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.1181633170516557,
+      "usdai_apy_7dma": 0.12207550572531702,
+      "usdai_apy_exchange_rate": 0.11102743007803162,
+      "usdai_exchange_rate": 1.0437729325584169
+    },
+    {
+      "date": "2025-10-25 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.11900853446898901,
+      "usdai_apy_7dma": 0.12673491604660606,
+      "usdai_apy_exchange_rate": 0.12200223987345371,
+      "usdai_exchange_rate": 1.0434718969589987
+    },
+    {
+      "date": "2025-10-24 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.11849765507372237,
+      "usdai_apy_7dma": 0.12074988050294325,
+      "usdai_apy_exchange_rate": 0.11104684848350121,
+      "usdai_exchange_rate": 1.043142855527415
+    },
+    {
+      "date": "2025-10-23 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.11755665736346026,
+      "usdai_apy_7dma": 0.1222604480271492,
+      "usdai_apy_exchange_rate": 0.1439190257671541,
+      "usdai_exchange_rate": 1.0428419517135048
+    },
+    {
+      "date": "2025-10-22 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.11551522740621017,
+      "usdai_apy_7dma": 0.12232037735272419,
+      "usdai_apy_exchange_rate": 0.1005870943492495,
+      "usdai_exchange_rate": 1.0424578563219196
+    },
+    {
+      "date": "2025-10-21 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.11481109428639241,
+      "usdai_apy_7dma": 0.12387840941330122,
+      "usdai_apy_exchange_rate": 0.12209679890847758,
+      "usdai_exchange_rate": 1.0421841577920243
+    },
+    {
+      "date": "2025-10-20 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.1136956521663057,
+      "usdai_apy_7dma": 0.12239680244873281,
+      "usdai_apy_exchange_rate": 0.1438491026173514,
+      "usdai_exchange_rate": 1.0418552818773479
+    },
+    {
+      "date": "2025-10-19 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.11290752545598878,
+      "usdai_apy_7dma": 0.12096700518595206,
+      "usdai_apy_exchange_rate": 0.1436433023270549,
+      "usdai_exchange_rate": 1.0414717243109697
+    },
+    {
+      "date": "2025-10-18 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.11007457773636328,
+      "usdai_apy_7dma": 0.1165267843468182,
+      "usdai_apy_exchange_rate": 0.08010699106781405,
+      "usdai_exchange_rate": 1.041088821179706
+    },
+    {
+      "date": "2025-10-17 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.11044380354091085,
+      "usdai_apy_7dma": 0.12311379450538637,
+      "usdai_apy_exchange_rate": 0.12162082115294282,
+      "usdai_exchange_rate": 1.0408690459946692
+    },
+    {
+      "date": "2025-10-16 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.10972301588647516,
+      "usdai_apy_7dma": 0.124718589549199,
+      "usdai_apy_exchange_rate": 0.1443385310461791,
+      "usdai_exchange_rate": 1.0405417946071391
+    },
+    {
+      "date": "2025-10-15 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.10818656123535003,
+      "usdai_apy_7dma": 0.12021398082943412,
+      "usdai_apy_exchange_rate": 0.11149331877328872,
+      "usdai_exchange_rate": 1.0401575015140732
+    },
+    {
+      "date": "2025-10-14 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.10795125537248529,
+      "usdai_apy_7dma": 0.12084889677921413,
+      "usdai_apy_exchange_rate": 0.11172555015649865,
+      "usdai_exchange_rate": 1.0398563142522494
+    },
+    {
+      "date": "2025-10-13 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.108471285681948,
+      "usdai_apy_7dma": 0.11984223011749294,
+      "usdai_apy_exchange_rate": 0.1338405217778862,
+      "usdai_exchange_rate": 1.039554619193372
+    },
+    {
+      "date": "2025-10-12 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.10798408428165218,
+      "usdai_apy_7dma": 0.11570752365648906,
+      "usdai_apy_exchange_rate": 0.11256175645311783,
+      "usdai_exchange_rate": 1.0391969299496733
+    },
+    {
+      "date": "2025-10-11 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.10741343432703561,
+      "usdai_apy_7dma": 0.11599832184862764,
+      "usdai_apy_exchange_rate": 0.12621606217779124,
+      "usdai_exchange_rate": 1.0388932861136209
+    },
+    {
+      "date": "2025-10-10 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.1061229636613648,
+      "usdai_apy_7dma": 0.11857642385799926,
+      "usdai_apy_exchange_rate": 0.1328543864596312,
+      "usdai_exchange_rate": 1.0385550223344353
+    },
+    {
+      "date": "2025-10-09 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.1048050979649038,
+      "usdai_apy_7dma": 0.10991336408299032,
+      "usdai_apy_exchange_rate": 0.11280627000782495,
+      "usdai_exchange_rate": 1.0382001519513873
+    },
+    {
+      "date": "2025-10-08 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.10368982811223587,
+      "usdai_apy_7dma": 0.10970229580503586,
+      "usdai_apy_exchange_rate": 0.11593773042174882,
+      "usdai_exchange_rate": 1.0378961744910125
+    },
+    {
+      "date": "2025-10-07 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.10275354974905304,
+      "usdai_apy_7dma": 0.11053332565177561,
+      "usdai_apy_exchange_rate": 0.10467888352445032,
+      "usdai_exchange_rate": 1.0375842978277192
+    },
+    {
+      "date": "2025-10-06 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.10255970179953261,
+      "usdai_apy_7dma": 0.11112680083234386,
+      "usdai_apy_exchange_rate": 0.10489757655085907,
+      "usdai_exchange_rate": 1.0373013326310112
+    },
+    {
+      "date": "2025-10-05 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.10189012269623161,
+      "usdai_apy_7dma": 0.11283904292899301,
+      "usdai_apy_exchange_rate": 0.11459734379808784,
+      "usdai_exchange_rate": 1.0370178821979759
+    },
+    {
+      "date": "2025-10-04 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.101093080939691,
+      "usdai_apy_7dma": 0.1135867340167864,
+      "usdai_apy_exchange_rate": 0.14426277624339257,
+      "usdai_exchange_rate": 1.0367096830679854
+    },
+    {
+      "date": "2025-10-03 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.09832458653930835,
+      "usdai_apy_7dma": 0.11068416421912618,
+      "usdai_apy_exchange_rate": 0.07221296803456867,
+      "usdai_exchange_rate": 1.0363269932147574
+    },
+    {
+      "date": "2025-10-02 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.09892974928400569,
+      "usdai_apy_7dma": 0.11985144772819216,
+      "usdai_apy_exchange_rate": 0.11132879206214374,
+      "usdai_exchange_rate": 1.0361290461052513
+    },
+    {
+      "date": "2025-10-01 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.0973982373794235,
+      "usdai_apy_7dma": 0.11918674286437936,
+      "usdai_apy_exchange_rate": 0.121754939348927,
+      "usdai_exchange_rate": 1.035829445424275
+    },
+    {
+      "date": "2025-09-30 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.09530777255229536,
+      "usdai_apy_7dma": 0.11362416826819523,
+      "usdai_apy_exchange_rate": 0.10883320978842814,
+      "usdai_exchange_rate": 1.0355034392831037
+    },
+    {
+      "date": "2025-09-29 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.09469579457453037,
+      "usdai_apy_7dma": 0.1098874421626558,
+      "usdai_apy_exchange_rate": 0.11688327122740305,
+      "usdai_exchange_rate": 1.0352103955504068
+    },
+    {
+      "date": "2025-09-28 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.09257567668431381,
+      "usdai_apy_7dma": 0.1045417035237005,
+      "usdai_apy_exchange_rate": 0.1198311814126416,
+      "usdai_exchange_rate": 1.0348969245535626
+    },
+    {
+      "date": "2025-09-27 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.0913446525616978,
+      "usdai_apy_7dma": 0.10008489693701973,
+      "usdai_apy_exchange_rate": 0.12394478765977102,
+      "usdai_exchange_rate": 1.0345760770252486
+    },
+    {
+      "date": "2025-09-26 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.08945048827996493,
+      "usdai_apy_7dma": 0.09955068460103014,
+      "usdai_apy_exchange_rate": 0.1363839525980306,
+      "usdai_exchange_rate": 1.034244939186931
+    },
+    {
+      "date": "2025-09-25 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.08710670812476451,
+      "usdai_apy_7dma": 0.08844653004963865,
+      "usdai_apy_exchange_rate": 0.1066758580154541,
+      "usdai_exchange_rate": 1.0338827300030817
+    },
+    {
+      "date": "2025-09-24 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.08565757121400569,
+      "usdai_apy_7dma": 0.08623337393375115,
+      "usdai_apy_exchange_rate": 0.0828169171756381,
+      "usdai_exchange_rate": 1.0335956597818152
+    },
+    {
+      "date": "2025-09-23 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.08496123500894104,
+      "usdai_apy_7dma": 0.08868769884007029,
+      "usdai_apy_exchange_rate": 0.0826761270496521,
+      "usdai_exchange_rate": 1.0333703720880427
+    },
+    {
+      "date": "2025-09-22 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.08427053787567014,
+      "usdai_apy_7dma": 0.0909118080490379,
+      "usdai_apy_exchange_rate": 0.07946310075471597,
+      "usdai_exchange_rate": 1.0331455015551447
+    },
+    {
+      "date": "2025-09-21 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.0838690461506963,
+      "usdai_apy_7dma": 0.0944790997822709,
+      "usdai_apy_exchange_rate": 0.08863353530587625,
+      "usdai_exchange_rate": 1.0329290907465543
+    },
+    {
+      "date": "2025-09-20 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.08280450290670818,
+      "usdai_apy_7dma": 0.10000666037291427,
+      "usdai_apy_exchange_rate": 0.1202053013078439,
+      "usdai_exchange_rate": 1.0326887907063826
+    },
+    {
+      "date": "2025-09-19 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.08101602496541872,
+      "usdai_apy_7dma": 0.09986654301022393,
+      "usdai_apy_exchange_rate": 0.05865487073829012,
+      "usdai_exchange_rate": 1.0323676829895219
+    },
+    {
+      "date": "2025-09-18 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.08096958621023219,
+      "usdai_apy_7dma": 0.10512188402112832,
+      "usdai_apy_exchange_rate": 0.09118376520424154,
+      "usdai_exchange_rate": 1.0322064790244672
+    },
+    {
+      "date": "2025-09-17 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.07994802418784998,
+      "usdai_apy_7dma": 0.10459590930733197,
+      "usdai_apy_exchange_rate": 0.09999719151987208,
+      "usdai_exchange_rate": 1.031959731622189
+    },
+    {
+      "date": "2025-09-16 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.07893194355069874,
+      "usdai_apy_7dma": 0.10364179845675044,
+      "usdai_apy_exchange_rate": 0.09824489151242544,
+      "usdai_exchange_rate": 1.0316903047919654
+    },
+    {
+      "date": "2025-09-15 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.07815321010288849,
+      "usdai_apy_7dma": 0.1009422674446593,
+      "usdai_apy_exchange_rate": 0.10443414288734698,
+      "usdai_exchange_rate": 1.0314254534316973
+    },
+    {
+      "date": "2025-09-14 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.07360489927816195,
+      "usdai_apy_7dma": 0.09857301553593313,
+      "usdai_apy_exchange_rate": 0.1273264594403798,
+      "usdai_exchange_rate": 1.0311447938040208
+    },
+    {
+      "date": "2025-09-13 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.08093658951889458,
+      "usdai_apy_7dma": 0.09450687062142706,
+      "usdai_apy_exchange_rate": 0.11922447976901163,
+      "usdai_exchange_rate": 1.0308062698437206
+    },
+    {
+      "date": "2025-09-12 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.07696244019326087,
+      "usdai_apy_7dma": 0.08959054543325808,
+      "usdai_apy_exchange_rate": 0.09544225781462079,
+      "usdai_exchange_rate": 1.0304882205303263
+    },
+    {
+      "date": "2025-09-11 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.07378103159944019,
+      "usdai_apy_7dma": 0.08891109304572213,
+      "usdai_apy_exchange_rate": 0.08750194220766705,
+      "usdai_exchange_rate": 1.0302308898696335
+    },
+    {
+      "date": "2025-09-10 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.07086430019251795,
+      "usdai_apy_7dma": 0.08515480762061446,
+      "usdai_apy_exchange_rate": 0.09331841556580134,
+      "usdai_exchange_rate": 1.0299941523182043
+    },
+    {
+      "date": "2025-09-09 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.06775368634032457,
+      "usdai_apy_7dma": 0.08473329830771263,
+      "usdai_apy_exchange_rate": 0.07934817442778752,
+      "usdai_exchange_rate": 1.0297424200924954
+    },
+    {
+      "date": "2025-09-08 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.07088612865197957,
+      "usdai_apy_7dma": 0.08273833552155417,
+      "usdai_apy_exchange_rate": 0.08784937952626382,
+      "usdai_exchange_rate": 1.029527022437027
+    },
+    {
+      "date": "2025-09-07 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.06795781600110411,
+      "usdai_apy_7dma": 0.07862285195138541,
+      "usdai_apy_exchange_rate": 0.09886344503883726,
+      "usdai_exchange_rate": 1.0292895458411797
+    },
+    {
+      "date": "2025-09-06 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.11034883456712903,
+      "usdai_apy_7dma": 0.07742434129661982,
+      "usdai_apy_exchange_rate": 0.08481020345182877,
+      "usdai_exchange_rate": 1.0290237233856128
+    },
+    {
+      "date": "2025-09-05 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.1075218277854014,
+      "usdai_apy_7dma": 0.07291998859220228,
+      "usdai_apy_exchange_rate": 0.0906860911018692,
+      "usdai_exchange_rate": 1.0287942483694026
+    },
+    {
+      "date": "2025-09-04 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.10449895808200577,
+      "usdai_apy_7dma": 0.07180775525395831,
+      "usdai_apy_exchange_rate": 0.061207944231913336,
+      "usdai_exchange_rate": 1.028549602174147
+    },
+    {
+      "date": "2025-09-03 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.10245869327427531,
+      "usdai_apy_7dma": 0.07265231453622577,
+      "usdai_apy_exchange_rate": 0.09036785037548856,
+      "usdai_exchange_rate": 1.028382207854067
+    },
+    {
+      "date": "2025-09-02 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.09944643159509235,
+      "usdai_apy_7dma": 0.06918127133144426,
+      "usdai_apy_exchange_rate": 0.06538343492467824,
+      "usdai_exchange_rate": 1.0281384816531756
+    },
+    {
+      "date": "2025-09-01 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.09726698376426975,
+      "usdai_apy_7dma": 0.06886960215544582,
+      "usdai_apy_exchange_rate": 0.05904099453508249,
+      "usdai_exchange_rate": 1.0279600946336456
+    },
+    {
+      "date": "2025-08-31 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.09529895061310033,
+      "usdai_apy_7dma": 0.0692818645109624,
+      "usdai_apy_exchange_rate": 0.09047387045547817,
+      "usdai_exchange_rate": 1.027798552059315
+    },
+    {
+      "date": "2025-08-30 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.09228315493125105,
+      "usdai_apy_7dma": 0.06520777059611198,
+      "usdai_apy_exchange_rate": 0.05327973452090595,
+      "usdai_exchange_rate": 1.0275546904648916
+    },
+    {
+      "date": "2025-08-29 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.09050716378055418,
+      "usdai_apy_7dma": 0.06722757266533981,
+      "usdai_apy_exchange_rate": 0.08290045773416144,
+      "usdai_exchange_rate": 1.0274085661021743
+    },
+    {
+      "date": "2025-08-28 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.08774381518941547,
+      "usdai_apy_7dma": 0.06348425555849284,
+      "usdai_apy_exchange_rate": 0.06711985920778551,
+      "usdai_exchange_rate": 1.0271844098676888
+    },
+    {
+      "date": "2025-08-27 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.08550648654915595,
+      "usdai_apy_7dma": 0.06340298468154629,
+      "usdai_apy_exchange_rate": 0.06607054794201805,
+      "usdai_exchange_rate": 1.0270016061692882
+    },
+    {
+      "date": "2025-08-26 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.08330413495108867,
+      "usdai_apy_7dma": 0.06214457898735721,
+      "usdai_apy_exchange_rate": 0.06320175069268918,
+      "usdai_exchange_rate": 1.0268216026226185
+    },
+    {
+      "date": "2025-08-25 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.08119740992799904,
+      "usdai_apy_7dma": 0.06176388667879808,
+      "usdai_apy_exchange_rate": 0.06192683102369845,
+      "usdai_exchange_rate": 1.0266492098803583
+    },
+    {
+      "date": "2025-08-24 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.07913318222720908,
+      "usdai_apy_7dma": 0.06284787830474621,
+      "usdai_apy_exchange_rate": 0.06195521305152529,
+      "usdai_exchange_rate": 1.0264802203886092
+    },
+    {
+      "date": "2025-08-23 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.07706800845882492,
+      "usdai_apy_7dma": 0.06469468902283085,
+      "usdai_apy_exchange_rate": 0.0674183490055007,
+      "usdai_exchange_rate": 1.026311183562986
+    },
+    {
+      "date": "2025-08-22 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.07482073015864157,
+      "usdai_apy_7dma": 0.050489898899980866,
+      "usdai_apy_exchange_rate": 0.05669723798623272,
+      "usdai_exchange_rate": 1.026127749012429
+    },
+    {
+      "date": "2025-08-21 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.07293082222576715,
+      "usdai_apy_7dma": 0.09200131728228457,
+      "usdai_apy_exchange_rate": 0.06655096306915964,
+      "usdai_exchange_rate": 1.0259727220125943
+    },
+    {
+      "date": "2025-08-20 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.0765522862939395,
+      "usdai_apy_7dma": 0.08249403684383319,
+      "usdai_apy_exchange_rate": 0.057261708082694485,
+      "usdai_exchange_rate": 1.0257916326077718
+    },
+    {
+      "date": "2025-08-19 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.07464356269118301,
+      "usdai_apy_7dma": 0.07431379283201969,
+      "usdai_apy_exchange_rate": 0.06053690453277527,
+      "usdai_exchange_rate": 1.0256351557543943
+    },
+    {
+      "date": "2025-08-18 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.07262566587342384,
+      "usdai_apy_7dma": 0.0656656636130518,
+      "usdai_apy_exchange_rate": 0.06951477240533532,
+      "usdai_exchange_rate": 1.0254700128664103
+    },
+    {
+      "date": "2025-08-17 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.07543322971751644,
+      "usdai_apy_7dma": 0.05573498184086104,
+      "usdai_apy_exchange_rate": 0.07488288807811783,
+      "usdai_exchange_rate": 1.025281217163757
+    },
+    {
+      "date": "2025-08-16 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.07293713344824584,
+      "usdai_apy_7dma": 0.06979763265504964,
+      "usdai_apy_exchange_rate": -0.03201518185444918,
+      "usdai_exchange_rate": 1.0250783952704579
+    },
+    {
+      "date": "2025-08-15 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.07511705684242838,
+      "usdai_apy_7dma": 0.07437123006282809,
+      "usdai_apy_exchange_rate": 0.34727716666235864,
+      "usdai_exchange_rate": 1.0251697826270176
+    },
+    {
+      "date": "2025-08-14 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.06514388908761111,
+      "usdai_apy_7dma": 0.22055934939957464,
+      "usdai_apy_exchange_rate": 0,
+      "usdai_exchange_rate": 1.0243328959310083
+    },
+    {
+      "date": "2025-08-13 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.06733612794129268,
+      "usdai_apy_7dma": 0.22055934939957464,
+      "usdai_apy_exchange_rate": 0,
+      "usdai_exchange_rate": 1.0243328959310083
+    },
+    {
+      "date": "2025-08-12 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.07250726767140091,
+      "usdai_apy_7dma": 0.22055934939957464,
+      "usdai_apy_exchange_rate": 0,
+      "usdai_exchange_rate": 1.0243328959310083
+    },
+    {
+      "date": "2025-08-11 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.07250726767140091,
+      "usdai_apy_7dma": 0.22055934939957464,
+      "usdai_apy_exchange_rate": 0,
+      "usdai_exchange_rate": 1.0243328959310083
+    },
+    {
+      "date": "2025-08-10 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.07250726767140091,
+      "usdai_apy_7dma": 0.22055934939957464,
+      "usdai_apy_exchange_rate": 0.17332144377743797,
+      "usdai_exchange_rate": 1.0243328959310083
+    },
+    {
+      "date": "2025-08-09 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.07046669361322765,
+      "usdai_apy_7dma": 0.19579914314565494,
+      "usdai_apy_exchange_rate": 0,
+      "usdai_exchange_rate": 1.0238844245368919
+    },
+    {
+      "date": "2025-08-08 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.07046669361322765,
+      "usdai_apy_7dma": 0.19579914314565494,
+      "usdai_apy_exchange_rate": 1.3705940020195846,
+      "usdai_exchange_rate": 1.0238844245368919
+    },
+    {
+      "date": "2025-07-28 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.047947468665220705,
+      "usdai_apy_7dma": 0.02502784073061865,
+      "usdai_apy_exchange_rate": 0,
+      "usdai_exchange_rate": 1.0214660353402767
+    },
+    {
+      "date": "2025-07-27 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.047947468665220705,
+      "usdai_apy_7dma": 0.02502784073061865,
+      "usdai_apy_exchange_rate": 0,
+      "usdai_exchange_rate": 1.0214660353402767
+    },
+    {
+      "date": "2025-07-26 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.049858824430970956,
+      "usdai_apy_7dma": 0.02502784073061865,
+      "usdai_apy_exchange_rate": 0,
+      "usdai_exchange_rate": 1.0214660353402767
+    },
+    {
+      "date": "2025-07-25 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.05221853027974025,
+      "usdai_apy_7dma": 0.04699093897749197,
+      "usdai_apy_exchange_rate": 0,
+      "usdai_exchange_rate": 1.0214660353402767
+    },
+    {
+      "date": "2025-07-24 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.05221853027974025,
+      "usdai_apy_7dma": 0.04699093897749197,
+      "usdai_apy_exchange_rate": 0,
+      "usdai_exchange_rate": 1.0214660353402767
+    },
+    {
+      "date": "2025-07-23 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.053687338965874666,
+      "usdai_apy_7dma": 0.05175987040192433,
+      "usdai_apy_exchange_rate": 0,
+      "usdai_exchange_rate": 1.0214660353402767
+    },
+    {
+      "date": "2025-07-22 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.06450808428935709,
+      "usdai_apy_7dma": 0.058628746690187264,
+      "usdai_apy_exchange_rate": 0.17519488511433057,
+      "usdai_exchange_rate": 1.0214660353402767
+    },
+    {
+      "date": "2025-07-21 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.05866825478554607,
+      "usdai_apy_7dma": 0.04299621533248959,
+      "usdai_apy_exchange_rate": 0,
+      "usdai_exchange_rate": 1.0210143562157432
+    },
+    {
+      "date": "2025-07-20 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.05866825478554607,
+      "usdai_apy_7dma": 0.06515824274723912,
+      "usdai_apy_exchange_rate": 0,
+      "usdai_exchange_rate": 1.0210143562157432
+    },
+    {
+      "date": "2025-07-19 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.05866825478554607,
+      "usdai_apy_7dma": 0.06515824274723912,
+      "usdai_apy_exchange_rate": 0.15374168772811325,
+      "usdai_exchange_rate": 1.0210143562157432
+    },
+    {
+      "date": "2025-07-18 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.053543531861275626,
+      "usdai_apy_7dma": 0.0431951445003658,
+      "usdai_apy_exchange_rate": 0,
+      "usdai_exchange_rate": 1.020614391913557
+    },
+    {
+      "date": "2025-07-17 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.053543531861275626,
+      "usdai_apy_7dma": 0.059210033362114424,
+      "usdai_apy_exchange_rate": 0.03338251997102648,
+      "usdai_exchange_rate": 1.020614391913557
+    },
+    {
+      "date": "2025-07-16 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.05278733681382465,
+      "usdai_apy_7dma": 0.05444110193768207,
+      "usdai_apy_exchange_rate": 0.04808213401784056,
+      "usdai_exchange_rate": 1.0205225759200809
+    },
+    {
+      "date": "2025-07-15 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.05238781936179888,
+      "usdai_apy_7dma": 0.06853251207898355,
+      "usdai_apy_exchange_rate": 0.06576716561044682,
+      "usdai_exchange_rate": 1.020391280982357
+    },
+    {
+      "date": "2025-07-14 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.051926462594604116,
+      "usdai_apy_7dma": 0.05913720270606256,
+      "usdai_apy_exchange_rate": 0.15513419190324673,
+      "usdai_exchange_rate": 1.020213231577395
+    },
+    {
+      "date": "2025-07-13 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.0482404722621526,
+      "usdai_apy_7dma": 0.04125556024390468,
+      "usdai_apy_exchange_rate": 0,
+      "usdai_exchange_rate": 1.0198102109209872
+    },
+    {
+      "date": "2025-07-12 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.0500271564200101,
+      "usdai_apy_7dma": 0.0625845340168791,
+      "usdai_apy_exchange_rate": 0,
+      "usdai_exchange_rate": 1.0198102109209872
+    },
+    {
+      "date": "2025-07-11 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.05195127782077972,
+      "usdai_apy_7dma": 0.0625845340168791,
+      "usdai_apy_exchange_rate": 0.11210422203224035,
+      "usdai_exchange_rate": 1.0198102109209872
+    },
+    {
+      "date": "2025-07-10 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.04954516005232129,
+      "usdai_apy_7dma": 0.04656964515513048,
+      "usdai_apy_exchange_rate": 0,
+      "usdai_exchange_rate": 1.0195133806242132
+    },
+    {
+      "date": "2025-07-09 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.051609541721168016,
+      "usdai_apy_7dma": 0.06260430038727301,
+      "usdai_apy_exchange_rate": 0.14672200500695087,
+      "usdai_exchange_rate": 1.0195133806242132
+    },
+    {
+      "date": "2025-07-08 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.0474742172304818,
+      "usdai_apy_7dma": 0.041644013957708594,
+      "usdai_apy_exchange_rate": 0,
+      "usdai_exchange_rate": 1.019131044200194
+    },
+    {
+      "date": "2025-07-07 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.049632136195503704,
+      "usdai_apy_7dma": 0.04980709880995904,
+      "usdai_apy_exchange_rate": 0.0299626946681415,
+      "usdai_exchange_rate": 1.019131044200194
+    },
+    {
+      "date": "2025-07-06 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.050568776268235235,
+      "usdai_apy_7dma": 0.074047507700612,
+      "usdai_apy_exchange_rate": 0.149302816410821,
+      "usdai_exchange_rate": 1.0190486163539043
+    },
+    {
+      "date": "2025-07-05 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.04563207426110595,
+      "usdai_apy_7dma": 0.052718533927637576,
+      "usdai_apy_exchange_rate": 0,
+      "usdai_exchange_rate": 1.018660180179494
+    },
+    {
+      "date": "2025-07-04 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.048033762380111526,
+      "usdai_apy_7dma": 0.052718533927637576,
+      "usdai_apy_exchange_rate": 0,
+      "usdai_exchange_rate": 1.018660180179494
+    },
+    {
+      "date": "2025-07-03 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.050702304734562165,
+      "usdai_apy_7dma": 0.06091005863799578,
+      "usdai_apy_exchange_rate": 0.11224258662499764,
+      "usdai_exchange_rate": 1.018660180179494
+    },
+    {
+      "date": "2025-07-02 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.047082288152771844,
+      "usdai_apy_7dma": 0.054988428472007404,
+      "usdai_apy_exchange_rate": 0,
+      "usdai_exchange_rate": 1.0183633375093113
+    },
+    {
+      "date": "2025-07-01 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.05002493116232008,
+      "usdai_apy_7dma": 0.054988428472007404,
+      "usdai_apy_exchange_rate": 0.057141593965753135,
+      "usdai_exchange_rate": 1.0183633375093113
+    },
+    {
+      "date": "2025-06-30 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.049550486975424544,
+      "usdai_apy_7dma": 0.05312023798890445,
+      "usdai_apy_exchange_rate": 0.19964555690271224,
+      "usdai_exchange_rate": 1.0182083107289759
+    },
+    {
+      "date": "2025-06-29 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.038829410552046854,
+      "usdai_apy_7dma": 0.0709740669605845,
+      "usdai_apy_exchange_rate": 0,
+      "usdai_exchange_rate": 1.0177006550430536
+    },
+    {
+      "date": "2025-06-28 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.041816288286819686,
+      "usdai_apy_7dma": 0.0709740669605845,
+      "usdai_apy_exchange_rate": 0,
+      "usdai_exchange_rate": 1.0177006550430536
+    },
+    {
+      "date": "2025-06-27 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.045300978977387996,
+      "usdai_apy_7dma": 0.0709740669605845,
+      "usdai_apy_exchange_rate": 0.057340672972507445,
+      "usdai_exchange_rate": 1.0177006550430536
+    },
+    {
+      "date": "2025-06-26 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.044206461341468044,
+      "usdai_apy_7dma": 0.0627825422502263,
+      "usdai_apy_exchange_rate": 0.070791175463079,
+      "usdai_exchange_rate": 1.017545204200463
+    },
+    {
+      "date": "2025-06-25 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.04154798992930695,
+      "usdai_apy_7dma": 0.05266951718407215,
+      "usdai_apy_exchange_rate": 0,
+      "usdai_exchange_rate": 1.0173545430383373
+    },
+    {
+      "date": "2025-06-24 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.0461644332547855,
+      "usdai_apy_7dma": 0.05266951718407215,
+      "usdai_apy_exchange_rate": 0.044064260584032455,
+      "usdai_exchange_rate": 1.0173545430383373
+    },
+    {
+      "date": "2025-06-23 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.04642695483862963,
+      "usdai_apy_7dma": 0.04790271832170997,
+      "usdai_apy_exchange_rate": 0.3246223597044726,
+      "usdai_exchange_rate": 1.0172343600396174
+    },
+    {
+      "date": "2025-06-22 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.006684754143509204,
+      "usdai_apy_7dma": 0.006684754143509204,
+      "usdai_apy_exchange_rate": 0,
+      "usdai_exchange_rate": 1.0164511755005117
+    },
+    {
+      "date": "2025-06-21 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.007798879834094071,
+      "usdai_apy_7dma": 0.007798879834094071,
+      "usdai_apy_exchange_rate": 0,
+      "usdai_exchange_rate": 1.0164511755005117
+    },
+    {
+      "date": "2025-06-20 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.009358655800912885,
+      "usdai_apy_7dma": 0.009358655800912885,
+      "usdai_apy_exchange_rate": 0,
+      "usdai_exchange_rate": 1.0164511755005117
+    },
+    {
+      "date": "2025-06-19 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.011698319751141106,
+      "usdai_apy_7dma": 0.011698319751141106,
+      "usdai_apy_exchange_rate": 0,
+      "usdai_exchange_rate": 1.0164511755005117
+    },
+    {
+      "date": "2025-06-18 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.015597759668188141,
+      "usdai_apy_7dma": 0.015597759668188141,
+      "usdai_apy_exchange_rate": 0,
+      "usdai_exchange_rate": 1.0164511755005117
+    },
+    {
+      "date": "2025-06-17 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.023396639502282213,
+      "usdai_apy_7dma": 0.023396639502282213,
+      "usdai_apy_exchange_rate": 0.010696668547497179,
+      "usdai_exchange_rate": 1.0164511755005117
+    },
+    {
+      "date": "2025-06-16 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": 0.036096610457067246,
+      "usdai_apy_7dma": 0.036096610457067246,
+      "usdai_apy_exchange_rate": 0.036096610457067246,
+      "usdai_exchange_rate": 1.016421546063386
+    },
+    {
+      "date": "2025-06-15 00:00:00.000 UTC",
+      "snusd_apy_7d": null,
+      "snusd_price": null,
+      "usdai_apy_30dma": null,
+      "usdai_apy_7dma": null,
+      "usdai_apy_exchange_rate": null,
+      "usdai_exchange_rate": 1.0163228037166707
+    }
+  ]
+}

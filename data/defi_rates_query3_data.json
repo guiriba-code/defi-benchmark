@@ -1,0 +1,3590 @@
+{
+  "last_updated": "2026-01-20T09:42:35.883716",
+  "query_id": 6555058,
+  "data": [
+    {
+      "autoUSD annualized_return_ma7": 0.11408857721744164,
+      "date": "2026-01-20",
+      "gtUSDa annualized_return_ma7": null,
+      "mAPOLLO annualized_return_ma7": 0.0784,
+      "mHYPER annualized_return_ma7": 0.0645
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.11037231790624084,
+      "date": "2026-01-19",
+      "gtUSDa annualized_return_ma7": 0.05096116653845639,
+      "mAPOLLO annualized_return_ma7": 0.0959,
+      "mHYPER annualized_return_ma7": 0.1206
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.11037231790624084,
+      "date": "2026-01-19",
+      "gtUSDa annualized_return_ma7": 0.05270978796527504,
+      "mAPOLLO annualized_return_ma7": 0.0959,
+      "mHYPER annualized_return_ma7": 0.1206
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.11386037681609304,
+      "date": "2026-01-18",
+      "gtUSDa annualized_return_ma7": 0.05611917547983829,
+      "mAPOLLO annualized_return_ma7": 0.0977,
+      "mHYPER annualized_return_ma7": 0.1206
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.11386037681609304,
+      "date": "2026-01-18",
+      "gtUSDa annualized_return_ma7": 0.05313335834351154,
+      "mAPOLLO annualized_return_ma7": 0.0977,
+      "mHYPER annualized_return_ma7": 0.1206
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.11190353028204389,
+      "date": "2026-01-17",
+      "gtUSDa annualized_return_ma7": 0.054587956162677656,
+      "mAPOLLO annualized_return_ma7": 0.0977,
+      "mHYPER annualized_return_ma7": 0.1206
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.11190353028204389,
+      "date": "2026-01-17",
+      "gtUSDa annualized_return_ma7": 0.05479187477147942,
+      "mAPOLLO annualized_return_ma7": 0.0977,
+      "mHYPER annualized_return_ma7": 0.1206
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.10789507398219048,
+      "date": "2026-01-16",
+      "gtUSDa annualized_return_ma7": 0.05689922500458509,
+      "mAPOLLO annualized_return_ma7": 0.0977,
+      "mHYPER annualized_return_ma7": 0.1206
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.10789507398219048,
+      "date": "2026-01-16",
+      "gtUSDa annualized_return_ma7": 0.05607052560891197,
+      "mAPOLLO annualized_return_ma7": 0.0977,
+      "mHYPER annualized_return_ma7": 0.1206
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.10476955424294496,
+      "date": "2026-01-15",
+      "gtUSDa annualized_return_ma7": 0.057989523673426614,
+      "mAPOLLO annualized_return_ma7": 0.10619999999999999,
+      "mHYPER annualized_return_ma7": 0.1234
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.10476955424294496,
+      "date": "2026-01-15",
+      "gtUSDa annualized_return_ma7": 0.056689593151559,
+      "mAPOLLO annualized_return_ma7": 0.10619999999999999,
+      "mHYPER annualized_return_ma7": 0.1234
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.09245183122499619,
+      "date": "2026-01-14",
+      "gtUSDa annualized_return_ma7": 0.05751841463974956,
+      "mAPOLLO annualized_return_ma7": 0.11289999999999999,
+      "mHYPER annualized_return_ma7": 0.1234
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.09245183122499619,
+      "date": "2026-01-14",
+      "gtUSDa annualized_return_ma7": 0.05985651624949309,
+      "mAPOLLO annualized_return_ma7": 0.11289999999999999,
+      "mHYPER annualized_return_ma7": 0.1234
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.09216665979227845,
+      "date": "2026-01-13",
+      "gtUSDa annualized_return_ma7": 0.05859333152201827,
+      "mAPOLLO annualized_return_ma7": 0.1222,
+      "mHYPER annualized_return_ma7": 0.1234
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.09216665979227845,
+      "date": "2026-01-13",
+      "gtUSDa annualized_return_ma7": 0.0598902219720507,
+      "mAPOLLO annualized_return_ma7": 0.1222,
+      "mHYPER annualized_return_ma7": 0.1234
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.09388129397905498,
+      "date": "2026-01-12",
+      "gtUSDa annualized_return_ma7": 0.057922225428867796,
+      "mAPOLLO annualized_return_ma7": 0.1225,
+      "mHYPER annualized_return_ma7": 0.11720000000000001
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.09388129397905498,
+      "date": "2026-01-12",
+      "gtUSDa annualized_return_ma7": 0.06022673266236477,
+      "mAPOLLO annualized_return_ma7": 0.1225,
+      "mHYPER annualized_return_ma7": 0.11720000000000001
+    },
+    {
+      "autoUSD annualized_return_ma7": null,
+      "date": "2026-01-11",
+      "gtUSDa annualized_return_ma7": 0.05737628895224966,
+      "mAPOLLO annualized_return_ma7": 0.1244,
+      "mHYPER annualized_return_ma7": 0.11720000000000001
+    },
+    {
+      "autoUSD annualized_return_ma7": null,
+      "date": "2026-01-11",
+      "gtUSDa annualized_return_ma7": 0.05889511647242565,
+      "mAPOLLO annualized_return_ma7": 0.1244,
+      "mHYPER annualized_return_ma7": 0.11720000000000001
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.08005599095075797,
+      "date": "2026-01-10",
+      "gtUSDa annualized_return_ma7": 0.08347005628821233,
+      "mAPOLLO annualized_return_ma7": 0.1244,
+      "mHYPER annualized_return_ma7": 0.11720000000000001
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.08005599095075797,
+      "date": "2026-01-10",
+      "gtUSDa annualized_return_ma7": 0.08337890799288526,
+      "mAPOLLO annualized_return_ma7": 0.1244,
+      "mHYPER annualized_return_ma7": 0.11720000000000001
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.08326758981706345,
+      "date": "2026-01-09",
+      "gtUSDa annualized_return_ma7": 0.08481303489324168,
+      "mAPOLLO annualized_return_ma7": 0.1244,
+      "mHYPER annualized_return_ma7": 0.11720000000000001
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.08326758981706345,
+      "date": "2026-01-09",
+      "gtUSDa annualized_return_ma7": 0.08257660634442089,
+      "mAPOLLO annualized_return_ma7": 0.1244,
+      "mHYPER annualized_return_ma7": 0.11720000000000001
+    },
+    {
+      "autoUSD annualized_return_ma7": null,
+      "date": "2026-01-08",
+      "gtUSDa annualized_return_ma7": 0.0833205918752812,
+      "mAPOLLO annualized_return_ma7": 0.12179999999999999,
+      "mHYPER annualized_return_ma7": 0.06559999999999999
+    },
+    {
+      "autoUSD annualized_return_ma7": null,
+      "date": "2026-01-08",
+      "gtUSDa annualized_return_ma7": 0.08381256495125326,
+      "mAPOLLO annualized_return_ma7": 0.12179999999999999,
+      "mHYPER annualized_return_ma7": 0.06559999999999999
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.0809643723918833,
+      "date": "2026-01-07",
+      "gtUSDa annualized_return_ma7": 0.08255686944021502,
+      "mAPOLLO annualized_return_ma7": 0.1016,
+      "mHYPER annualized_return_ma7": 0.06559999999999999
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.0809643723918833,
+      "date": "2026-01-07",
+      "gtUSDa annualized_return_ma7": 0.08186182853339537,
+      "mAPOLLO annualized_return_ma7": 0.1016,
+      "mHYPER annualized_return_ma7": 0.06559999999999999
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.07497319305768946,
+      "date": "2026-01-06",
+      "gtUSDa annualized_return_ma7": 0.08079222973305944,
+      "mAPOLLO annualized_return_ma7": 0.1131,
+      "mHYPER annualized_return_ma7": 0.06559999999999999
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.07497319305768946,
+      "date": "2026-01-06",
+      "gtUSDa annualized_return_ma7": 0.08162271822951665,
+      "mAPOLLO annualized_return_ma7": 0.1131,
+      "mHYPER annualized_return_ma7": 0.06559999999999999
+    },
+    {
+      "autoUSD annualized_return_ma7": null,
+      "date": "2026-01-05",
+      "gtUSDa annualized_return_ma7": 0.07965311558152534,
+      "mAPOLLO annualized_return_ma7": 0.1079,
+      "mHYPER annualized_return_ma7": 0.0645
+    },
+    {
+      "autoUSD annualized_return_ma7": null,
+      "date": "2026-01-05",
+      "gtUSDa annualized_return_ma7": 0.07880673455530665,
+      "mAPOLLO annualized_return_ma7": 0.1079,
+      "mHYPER annualized_return_ma7": 0.0645
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.0719952793532302,
+      "date": "2026-01-04",
+      "gtUSDa annualized_return_ma7": 0.07912543700011594,
+      "mAPOLLO annualized_return_ma7": 0.0993,
+      "mHYPER annualized_return_ma7": 0.0645
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.0719952793532302,
+      "date": "2026-01-04",
+      "gtUSDa annualized_return_ma7": 0.07902220401642673,
+      "mAPOLLO annualized_return_ma7": 0.0993,
+      "mHYPER annualized_return_ma7": 0.0645
+    },
+    {
+      "autoUSD annualized_return_ma7": null,
+      "date": "2026-01-03",
+      "gtUSDa annualized_return_ma7": 0.07783387536016421,
+      "mAPOLLO annualized_return_ma7": 0.0993,
+      "mHYPER annualized_return_ma7": 0.0645
+    },
+    {
+      "autoUSD annualized_return_ma7": null,
+      "date": "2026-01-03",
+      "gtUSDa annualized_return_ma7": 0.05363560589415927,
+      "mAPOLLO annualized_return_ma7": 0.0993,
+      "mHYPER annualized_return_ma7": 0.0645
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.06958882696151271,
+      "date": "2026-01-02",
+      "gtUSDa annualized_return_ma7": 0.055360872514534906,
+      "mAPOLLO annualized_return_ma7": 0.0993,
+      "mHYPER annualized_return_ma7": 0.0645
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.06958882696151271,
+      "date": "2026-01-02",
+      "gtUSDa annualized_return_ma7": 0.052918079574377774,
+      "mAPOLLO annualized_return_ma7": 0.0993,
+      "mHYPER annualized_return_ma7": 0.0645
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.07209126988276639,
+      "date": "2026-01-01",
+      "gtUSDa annualized_return_ma7": 0.05282009102784313,
+      "mAPOLLO annualized_return_ma7": 0.1007,
+      "mHYPER annualized_return_ma7": 0.0799
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.07209126988276639,
+      "date": "2026-01-01",
+      "gtUSDa annualized_return_ma7": 0.054672113602982124,
+      "mAPOLLO annualized_return_ma7": 0.1007,
+      "mHYPER annualized_return_ma7": 0.0799
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.07468174009247619,
+      "date": "2025-12-31",
+      "gtUSDa annualized_return_ma7": 0.053509261038678244,
+      "mAPOLLO annualized_return_ma7": 0.1007,
+      "mHYPER annualized_return_ma7": 0.0799
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.07468174009247619,
+      "date": "2025-12-31",
+      "gtUSDa annualized_return_ma7": 0.05317025583203911,
+      "mAPOLLO annualized_return_ma7": 0.1007,
+      "mHYPER annualized_return_ma7": 0.0799
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.07130294063967992,
+      "date": "2025-12-30",
+      "gtUSDa annualized_return_ma7": 0.05311915200978819,
+      "mAPOLLO annualized_return_ma7": 0.0799,
+      "mHYPER annualized_return_ma7": 0.0799
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.07130294063967992,
+      "date": "2025-12-30",
+      "gtUSDa annualized_return_ma7": 0.053905434707853896,
+      "mAPOLLO annualized_return_ma7": 0.0799,
+      "mHYPER annualized_return_ma7": 0.0799
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.06970957420063556,
+      "date": "2025-12-29",
+      "gtUSDa annualized_return_ma7": 0.05445301813881285,
+      "mAPOLLO annualized_return_ma7": 0.08439999999999999,
+      "mHYPER annualized_return_ma7": 0.0702
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.06970957420063556,
+      "date": "2025-12-29",
+      "gtUSDa annualized_return_ma7": 0.05440059094284773,
+      "mAPOLLO annualized_return_ma7": 0.08439999999999999,
+      "mHYPER annualized_return_ma7": 0.0702
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.07172328181171791,
+      "date": "2025-12-28",
+      "gtUSDa annualized_return_ma7": 0.05544521459088695,
+      "mAPOLLO annualized_return_ma7": 0.0725,
+      "mHYPER annualized_return_ma7": 0.0702
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.07172328181171791,
+      "date": "2025-12-28",
+      "gtUSDa annualized_return_ma7": 0.05313787193218963,
+      "mAPOLLO annualized_return_ma7": 0.0725,
+      "mHYPER annualized_return_ma7": 0.0702
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.06849082567287887,
+      "date": "2025-12-27",
+      "gtUSDa annualized_return_ma7": 0.053584463469949564,
+      "mAPOLLO annualized_return_ma7": 0.0725,
+      "mHYPER annualized_return_ma7": 0.0702
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.06849082567287887,
+      "date": "2025-12-27",
+      "gtUSDa annualized_return_ma7": 0.0537881233551607,
+      "mAPOLLO annualized_return_ma7": 0.0725,
+      "mHYPER annualized_return_ma7": 0.0702
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.07213538656869456,
+      "date": "2025-12-26",
+      "gtUSDa annualized_return_ma7": 0.05509761887146641,
+      "mAPOLLO annualized_return_ma7": 0.0725,
+      "mHYPER annualized_return_ma7": 0.0702
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.07213538656869456,
+      "date": "2025-12-26",
+      "gtUSDa annualized_return_ma7": 0.05139026599383268,
+      "mAPOLLO annualized_return_ma7": 0.0725,
+      "mHYPER annualized_return_ma7": 0.0702
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.0734559705633299,
+      "date": "2025-12-25",
+      "gtUSDa annualized_return_ma7": 0.053445659276072185,
+      "mAPOLLO annualized_return_ma7": 0.0706,
+      "mHYPER annualized_return_ma7": 0.0364
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.0734559705633299,
+      "date": "2025-12-25",
+      "gtUSDa annualized_return_ma7": 0.05164825234483259,
+      "mAPOLLO annualized_return_ma7": 0.0706,
+      "mHYPER annualized_return_ma7": 0.0364
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.07497420927556742,
+      "date": "2025-12-24",
+      "gtUSDa annualized_return_ma7": 0.05460930905578428,
+      "mAPOLLO annualized_return_ma7": 0.0901,
+      "mHYPER annualized_return_ma7": 0.0538
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.07497420927556742,
+      "date": "2025-12-24",
+      "gtUSDa annualized_return_ma7": 0.054119575805003796,
+      "mAPOLLO annualized_return_ma7": 0.0901,
+      "mHYPER annualized_return_ma7": 0.0538
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.07518231402229698,
+      "date": "2025-12-23",
+      "gtUSDa annualized_return_ma7": 0.05335218135969226,
+      "mAPOLLO annualized_return_ma7": 0.1011,
+      "mHYPER annualized_return_ma7": 0.0538
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.07518231402229698,
+      "date": "2025-12-23",
+      "gtUSDa annualized_return_ma7": 0.05335625118931294,
+      "mAPOLLO annualized_return_ma7": 0.1011,
+      "mHYPER annualized_return_ma7": 0.0538
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.07365205934424979,
+      "date": "2025-12-22",
+      "gtUSDa annualized_return_ma7": 0.05306574186567186,
+      "mAPOLLO annualized_return_ma7": 0.094,
+      "mHYPER annualized_return_ma7": 0.0635
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.07365205934424979,
+      "date": "2025-12-22",
+      "gtUSDa annualized_return_ma7": 0.054164068587285834,
+      "mAPOLLO annualized_return_ma7": 0.094,
+      "mHYPER annualized_return_ma7": 0.0635
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.07093189840079214,
+      "date": "2025-12-21",
+      "gtUSDa annualized_return_ma7": 0.05500428248276088,
+      "mAPOLLO annualized_return_ma7": 0.10060000000000001,
+      "mHYPER annualized_return_ma7": 0.0635
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.07093189840079214,
+      "date": "2025-12-21",
+      "gtUSDa annualized_return_ma7": 0.05146585919414667,
+      "mAPOLLO annualized_return_ma7": 0.10060000000000001,
+      "mHYPER annualized_return_ma7": 0.0635
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.07715891538489421,
+      "date": "2025-12-20",
+      "gtUSDa annualized_return_ma7": 0.0553156014842714,
+      "mAPOLLO annualized_return_ma7": 0.10060000000000001,
+      "mHYPER annualized_return_ma7": 0.0635
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.07715891538489421,
+      "date": "2025-12-20",
+      "gtUSDa annualized_return_ma7": 0.05251227342571266,
+      "mAPOLLO annualized_return_ma7": 0.10060000000000001,
+      "mHYPER annualized_return_ma7": 0.0635
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.07670625066715674,
+      "date": "2025-12-19",
+      "gtUSDa annualized_return_ma7": 0.05152783679148055,
+      "mAPOLLO annualized_return_ma7": 0.10060000000000001,
+      "mHYPER annualized_return_ma7": 0.0635
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.07670625066715674,
+      "date": "2025-12-19",
+      "gtUSDa annualized_return_ma7": 0.05089448785462481,
+      "mAPOLLO annualized_return_ma7": 0.10060000000000001,
+      "mHYPER annualized_return_ma7": 0.0635
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.07923261074051076,
+      "date": "2025-12-18",
+      "gtUSDa annualized_return_ma7": 0.05111861392992885,
+      "mAPOLLO annualized_return_ma7": 0.1007,
+      "mHYPER annualized_return_ma7": 0.10550000000000001
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.07923261074051076,
+      "date": "2025-12-18",
+      "gtUSDa annualized_return_ma7": 0.052442028114255065,
+      "mAPOLLO annualized_return_ma7": 0.1007,
+      "mHYPER annualized_return_ma7": 0.10550000000000001
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.07636538577417924,
+      "date": "2025-12-17",
+      "gtUSDa annualized_return_ma7": 0.053023415772482395,
+      "mAPOLLO annualized_return_ma7": 0.09849999999999999,
+      "mHYPER annualized_return_ma7": 0.0872
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.07636538577417924,
+      "date": "2025-12-17",
+      "gtUSDa annualized_return_ma7": 0.05227692405489954,
+      "mAPOLLO annualized_return_ma7": 0.09849999999999999,
+      "mHYPER annualized_return_ma7": 0.0872
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.0770955700807897,
+      "date": "2025-12-16",
+      "gtUSDa annualized_return_ma7": 0.05299020971510154,
+      "mAPOLLO annualized_return_ma7": 0.0959,
+      "mHYPER annualized_return_ma7": 0.0872
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.0770955700807897,
+      "date": "2025-12-16",
+      "gtUSDa annualized_return_ma7": 0.05351527959789745,
+      "mAPOLLO annualized_return_ma7": 0.0959,
+      "mHYPER annualized_return_ma7": 0.0872
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.07734950339671377,
+      "date": "2025-12-15",
+      "gtUSDa annualized_return_ma7": 0.053293907896455814,
+      "mAPOLLO annualized_return_ma7": 0.092,
+      "mHYPER annualized_return_ma7": 0.1288
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.07734950339671377,
+      "date": "2025-12-15",
+      "gtUSDa annualized_return_ma7": 0.052465009107658285,
+      "mAPOLLO annualized_return_ma7": 0.092,
+      "mHYPER annualized_return_ma7": 0.1288
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.08155003169497671,
+      "date": "2025-12-14",
+      "gtUSDa annualized_return_ma7": 0.05232021875469475,
+      "mAPOLLO annualized_return_ma7": 0.0932,
+      "mHYPER annualized_return_ma7": 0.1288
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.08155003169497671,
+      "date": "2025-12-14",
+      "gtUSDa annualized_return_ma7": 0.05119423897588452,
+      "mAPOLLO annualized_return_ma7": 0.0932,
+      "mHYPER annualized_return_ma7": 0.1288
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.08086420812327404,
+      "date": "2025-12-13",
+      "gtUSDa annualized_return_ma7": 0.0532179156141827,
+      "mAPOLLO annualized_return_ma7": 0.0932,
+      "mHYPER annualized_return_ma7": 0.1288
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.08086420812327404,
+      "date": "2025-12-13",
+      "gtUSDa annualized_return_ma7": 0.05331133124690276,
+      "mAPOLLO annualized_return_ma7": 0.0932,
+      "mHYPER annualized_return_ma7": 0.1288
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.07932199245232825,
+      "date": "2025-12-12",
+      "gtUSDa annualized_return_ma7": 0.054272052879515635,
+      "mAPOLLO annualized_return_ma7": 0.0932,
+      "mHYPER annualized_return_ma7": 0.1288
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.07932199245232825,
+      "date": "2025-12-12",
+      "gtUSDa annualized_return_ma7": 0.05359091967602493,
+      "mAPOLLO annualized_return_ma7": 0.0932,
+      "mHYPER annualized_return_ma7": 0.1288
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.08437875190206393,
+      "date": "2025-12-11",
+      "gtUSDa annualized_return_ma7": 0.05463288395344139,
+      "mAPOLLO annualized_return_ma7": 0.1002,
+      "mHYPER annualized_return_ma7": 0.1281
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.08437875190206393,
+      "date": "2025-12-11",
+      "gtUSDa annualized_return_ma7": 0.05352244636184708,
+      "mAPOLLO annualized_return_ma7": 0.1002,
+      "mHYPER annualized_return_ma7": 0.1281
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.08418495403908959,
+      "date": "2025-12-10",
+      "gtUSDa annualized_return_ma7": 0.05416768988898689,
+      "mAPOLLO annualized_return_ma7": 0.0934,
+      "mHYPER annualized_return_ma7": 0.1281
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.08418495403908959,
+      "date": "2025-12-10",
+      "gtUSDa annualized_return_ma7": 0.05411372330216437,
+      "mAPOLLO annualized_return_ma7": 0.0934,
+      "mHYPER annualized_return_ma7": 0.1281
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.08041209956266114,
+      "date": "2025-12-09",
+      "gtUSDa annualized_return_ma7": 0.053873976949375,
+      "mAPOLLO annualized_return_ma7": 0.0977,
+      "mHYPER annualized_return_ma7": 0.1281
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.08041209956266114,
+      "date": "2025-12-09",
+      "gtUSDa annualized_return_ma7": 0.05234996031708377,
+      "mAPOLLO annualized_return_ma7": 0.0977,
+      "mHYPER annualized_return_ma7": 0.1281
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.0836160140607177,
+      "date": "2025-12-08",
+      "gtUSDa annualized_return_ma7": 0.05360210242826716,
+      "mAPOLLO annualized_return_ma7": 0.1076,
+      "mHYPER annualized_return_ma7": 0.0916
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.0836160140607177,
+      "date": "2025-12-08",
+      "gtUSDa annualized_return_ma7": 0.054193057278087896,
+      "mAPOLLO annualized_return_ma7": 0.1076,
+      "mHYPER annualized_return_ma7": 0.0916
+    },
+    {
+      "autoUSD annualized_return_ma7": null,
+      "date": "2025-12-07",
+      "gtUSDa annualized_return_ma7": 0.055081160143501624,
+      "mAPOLLO annualized_return_ma7": 0.1057,
+      "mHYPER annualized_return_ma7": 0.0916
+    },
+    {
+      "autoUSD annualized_return_ma7": null,
+      "date": "2025-12-07",
+      "gtUSDa annualized_return_ma7": 0.054936606587747946,
+      "mAPOLLO annualized_return_ma7": 0.1057,
+      "mHYPER annualized_return_ma7": 0.0916
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.10298156324353432,
+      "date": "2025-12-06",
+      "gtUSDa annualized_return_ma7": 0.05528243393109401,
+      "mAPOLLO annualized_return_ma7": 0.1057,
+      "mHYPER annualized_return_ma7": 0.0916
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.10298156324353432,
+      "date": "2025-12-06",
+      "gtUSDa annualized_return_ma7": 0.05737482062557075,
+      "mAPOLLO annualized_return_ma7": 0.1057,
+      "mHYPER annualized_return_ma7": 0.0916
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.10740199585040654,
+      "date": "2025-12-05",
+      "gtUSDa annualized_return_ma7": 0.05777954922426205,
+      "mAPOLLO annualized_return_ma7": 0.1057,
+      "mHYPER annualized_return_ma7": 0.0916
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.10740199585040654,
+      "date": "2025-12-05",
+      "gtUSDa annualized_return_ma7": 0.0586572605137013,
+      "mAPOLLO annualized_return_ma7": 0.1057,
+      "mHYPER annualized_return_ma7": 0.0916
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.10178003526837184,
+      "date": "2025-12-04",
+      "gtUSDa annualized_return_ma7": 0.06034446645411005,
+      "mAPOLLO annualized_return_ma7": 0.1084,
+      "mHYPER annualized_return_ma7": 0.09630000000000001
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.10178003526837184,
+      "date": "2025-12-04",
+      "gtUSDa annualized_return_ma7": 0.06023829906898939,
+      "mAPOLLO annualized_return_ma7": 0.1084,
+      "mHYPER annualized_return_ma7": 0.09630000000000001
+    },
+    {
+      "autoUSD annualized_return_ma7": null,
+      "date": "2025-12-03",
+      "gtUSDa annualized_return_ma7": 0.06923676708321838,
+      "mAPOLLO annualized_return_ma7": 0.11019999999999999,
+      "mHYPER annualized_return_ma7": 0.09630000000000001
+    },
+    {
+      "autoUSD annualized_return_ma7": null,
+      "date": "2025-12-03",
+      "gtUSDa annualized_return_ma7": 0.07028117973615373,
+      "mAPOLLO annualized_return_ma7": 0.11019999999999999,
+      "mHYPER annualized_return_ma7": 0.09630000000000001
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.10270520720547915,
+      "date": "2025-12-02",
+      "gtUSDa annualized_return_ma7": 0.0705528680591854,
+      "mAPOLLO annualized_return_ma7": 0.1101,
+      "mHYPER annualized_return_ma7": 0.09630000000000001
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.10270520720547915,
+      "date": "2025-12-02",
+      "gtUSDa annualized_return_ma7": 0.0700276540553741,
+      "mAPOLLO annualized_return_ma7": 0.1101,
+      "mHYPER annualized_return_ma7": 0.09630000000000001
+    },
+    {
+      "autoUSD annualized_return_ma7": null,
+      "date": "2025-12-01",
+      "gtUSDa annualized_return_ma7": 0.07247879507167572,
+      "mAPOLLO annualized_return_ma7": 0.12890000000000001,
+      "mHYPER annualized_return_ma7": 0.1261
+    },
+    {
+      "autoUSD annualized_return_ma7": null,
+      "date": "2025-12-01",
+      "gtUSDa annualized_return_ma7": 0.07239389040776849,
+      "mAPOLLO annualized_return_ma7": 0.12890000000000001,
+      "mHYPER annualized_return_ma7": 0.1261
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.10225078793757182,
+      "date": "2025-11-30",
+      "gtUSDa annualized_return_ma7": 0.07479707453447025,
+      "mAPOLLO annualized_return_ma7": 0.1559,
+      "mHYPER annualized_return_ma7": 0.1261
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.10225078793757182,
+      "date": "2025-11-30",
+      "gtUSDa annualized_return_ma7": 0.07647221671216656,
+      "mAPOLLO annualized_return_ma7": 0.1559,
+      "mHYPER annualized_return_ma7": 0.1261
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.1052221122479678,
+      "date": "2025-11-29",
+      "gtUSDa annualized_return_ma7": 0.07368710048169062,
+      "mAPOLLO annualized_return_ma7": 0.1559,
+      "mHYPER annualized_return_ma7": 0.1261
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.1052221122479678,
+      "date": "2025-11-29",
+      "gtUSDa annualized_return_ma7": 0.07353435321947797,
+      "mAPOLLO annualized_return_ma7": 0.1559,
+      "mHYPER annualized_return_ma7": 0.1261
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.10040394690151734,
+      "date": "2025-11-28",
+      "gtUSDa annualized_return_ma7": 0.0717747894843644,
+      "mAPOLLO annualized_return_ma7": 0.1559,
+      "mHYPER annualized_return_ma7": 0.1261
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.10040394690151734,
+      "date": "2025-11-28",
+      "gtUSDa annualized_return_ma7": 0.06981047219452904,
+      "mAPOLLO annualized_return_ma7": 0.1559,
+      "mHYPER annualized_return_ma7": 0.1261
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.10023219019897069,
+      "date": "2025-11-27",
+      "gtUSDa annualized_return_ma7": 0.0703933408354291,
+      "mAPOLLO annualized_return_ma7": 0.1566,
+      "mHYPER annualized_return_ma7": 0.132
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.10023219019897069,
+      "date": "2025-11-27",
+      "gtUSDa annualized_return_ma7": 0.07066819533502976,
+      "mAPOLLO annualized_return_ma7": 0.1566,
+      "mHYPER annualized_return_ma7": 0.132
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.10564773126486889,
+      "date": "2025-11-26",
+      "gtUSDa annualized_return_ma7": 0.07110689799990345,
+      "mAPOLLO annualized_return_ma7": 0.1616,
+      "mHYPER annualized_return_ma7": 0.132
+    },
+    {
+      "autoUSD annualized_return_ma7": null,
+      "date": "2025-11-25",
+      "gtUSDa annualized_return_ma7": 0.06309205520520055,
+      "mAPOLLO annualized_return_ma7": 0.16,
+      "mHYPER annualized_return_ma7": 0.132
+    },
+    {
+      "autoUSD annualized_return_ma7": null,
+      "date": "2025-11-25",
+      "gtUSDa annualized_return_ma7": 0.06354821036829465,
+      "mAPOLLO annualized_return_ma7": 0.16,
+      "mHYPER annualized_return_ma7": 0.132
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.10669273885731136,
+      "date": "2025-11-24",
+      "gtUSDa annualized_return_ma7": 0.06415236213428192,
+      "mAPOLLO annualized_return_ma7": 0.1448,
+      "mHYPER annualized_return_ma7": 0.136
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.10669273885731136,
+      "date": "2025-11-24",
+      "gtUSDa annualized_return_ma7": 0.06320427400867715,
+      "mAPOLLO annualized_return_ma7": 0.1448,
+      "mHYPER annualized_return_ma7": 0.136
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.11349954719815754,
+      "date": "2025-11-23",
+      "gtUSDa annualized_return_ma7": 0.06448338869777547,
+      "mAPOLLO annualized_return_ma7": 0.1521,
+      "mHYPER annualized_return_ma7": 0.136
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.11349954719815754,
+      "date": "2025-11-23",
+      "gtUSDa annualized_return_ma7": 0.06264865461444862,
+      "mAPOLLO annualized_return_ma7": 0.1521,
+      "mHYPER annualized_return_ma7": 0.136
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.11380542846314562,
+      "date": "2025-11-22",
+      "gtUSDa annualized_return_ma7": 0.06266167488710757,
+      "mAPOLLO annualized_return_ma7": 0.1521,
+      "mHYPER annualized_return_ma7": 0.136
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.11380542846314562,
+      "date": "2025-11-22",
+      "gtUSDa annualized_return_ma7": 0.06124318728848352,
+      "mAPOLLO annualized_return_ma7": 0.1521,
+      "mHYPER annualized_return_ma7": 0.136
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.1178620606922809,
+      "date": "2025-11-21",
+      "gtUSDa annualized_return_ma7": 0.06490712404348072,
+      "mAPOLLO annualized_return_ma7": 0.1521,
+      "mHYPER annualized_return_ma7": 0.136
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.1178620606922809,
+      "date": "2025-11-21",
+      "gtUSDa annualized_return_ma7": 0.0644836961669856,
+      "mAPOLLO annualized_return_ma7": 0.1521,
+      "mHYPER annualized_return_ma7": 0.136
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.12744678852331567,
+      "date": "2025-11-20",
+      "gtUSDa annualized_return_ma7": 0.06590293586804584,
+      "mAPOLLO annualized_return_ma7": 0.1666,
+      "mHYPER annualized_return_ma7": 0.1497
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.12744678852331567,
+      "date": "2025-11-20",
+      "gtUSDa annualized_return_ma7": 0.06796332937306247,
+      "mAPOLLO annualized_return_ma7": 0.1666,
+      "mHYPER annualized_return_ma7": 0.1497
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.1244295169379542,
+      "date": "2025-11-19",
+      "gtUSDa annualized_return_ma7": 0.06786973645429145,
+      "mAPOLLO annualized_return_ma7": 0.1609,
+      "mHYPER annualized_return_ma7": 0.1497
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.1244295169379542,
+      "date": "2025-11-19",
+      "gtUSDa annualized_return_ma7": 0.06777615045638623,
+      "mAPOLLO annualized_return_ma7": 0.1609,
+      "mHYPER annualized_return_ma7": 0.1497
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.12683908841637978,
+      "date": "2025-11-18",
+      "gtUSDa annualized_return_ma7": 0.07075680531483362,
+      "mAPOLLO annualized_return_ma7": 0.19140000000000001,
+      "mHYPER annualized_return_ma7": 0.1497
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.12683908841637978,
+      "date": "2025-11-18",
+      "gtUSDa annualized_return_ma7": 0.06828016982272157,
+      "mAPOLLO annualized_return_ma7": 0.19140000000000001,
+      "mHYPER annualized_return_ma7": 0.1497
+    },
+    {
+      "autoUSD annualized_return_ma7": null,
+      "date": "2025-11-17",
+      "gtUSDa annualized_return_ma7": 0.0718745727969204,
+      "mAPOLLO annualized_return_ma7": 0.1891,
+      "mHYPER annualized_return_ma7": 0.1435
+    },
+    {
+      "autoUSD annualized_return_ma7": null,
+      "date": "2025-11-17",
+      "gtUSDa annualized_return_ma7": 0.07096505546539865,
+      "mAPOLLO annualized_return_ma7": 0.1891,
+      "mHYPER annualized_return_ma7": 0.1435
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.12449287820548993,
+      "date": "2025-11-16",
+      "gtUSDa annualized_return_ma7": 0.07329483547515614,
+      "mAPOLLO annualized_return_ma7": 0.15460000000000002,
+      "mHYPER annualized_return_ma7": 0.1435
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.12449287820548993,
+      "date": "2025-11-16",
+      "gtUSDa annualized_return_ma7": 0.07320271961697528,
+      "mAPOLLO annualized_return_ma7": 0.15460000000000002,
+      "mHYPER annualized_return_ma7": 0.1435
+    },
+    {
+      "autoUSD annualized_return_ma7": null,
+      "date": "2025-11-15",
+      "gtUSDa annualized_return_ma7": 0.07856882872800662,
+      "mAPOLLO annualized_return_ma7": 0.15460000000000002,
+      "mHYPER annualized_return_ma7": 0.1435
+    },
+    {
+      "autoUSD annualized_return_ma7": null,
+      "date": "2025-11-15",
+      "gtUSDa annualized_return_ma7": 0.07748801951502832,
+      "mAPOLLO annualized_return_ma7": 0.15460000000000002,
+      "mHYPER annualized_return_ma7": 0.1435
+    },
+    {
+      "autoUSD annualized_return_ma7": null,
+      "date": "2025-11-14",
+      "gtUSDa annualized_return_ma7": 0.08373306330629719,
+      "mAPOLLO annualized_return_ma7": 0.15460000000000002,
+      "mHYPER annualized_return_ma7": 0.1435
+    },
+    {
+      "autoUSD annualized_return_ma7": null,
+      "date": "2025-11-14",
+      "gtUSDa annualized_return_ma7": 0.088452574150457,
+      "mAPOLLO annualized_return_ma7": 0.15460000000000002,
+      "mHYPER annualized_return_ma7": 0.1435
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.10819696023111713,
+      "date": "2025-11-13",
+      "gtUSDa annualized_return_ma7": 0.09383261569705018,
+      "mAPOLLO annualized_return_ma7": 0.111,
+      "mHYPER annualized_return_ma7": 0.1338
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.10819696023111713,
+      "date": "2025-11-13",
+      "gtUSDa annualized_return_ma7": 0.08943895039781012,
+      "mAPOLLO annualized_return_ma7": 0.111,
+      "mHYPER annualized_return_ma7": 0.1338
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.10643739014188207,
+      "date": "2025-11-12",
+      "gtUSDa annualized_return_ma7": 0.10179193056165786,
+      "mAPOLLO annualized_return_ma7": 0.1016,
+      "mHYPER annualized_return_ma7": 0.1338
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.10643739014188207,
+      "date": "2025-11-12",
+      "gtUSDa annualized_return_ma7": 0.10705855513674332,
+      "mAPOLLO annualized_return_ma7": 0.1016,
+      "mHYPER annualized_return_ma7": 0.1338
+    },
+    {
+      "autoUSD annualized_return_ma7": null,
+      "date": "2025-11-11",
+      "gtUSDa annualized_return_ma7": 0.11604109180078599,
+      "mAPOLLO annualized_return_ma7": 0.037599999999999995,
+      "mHYPER annualized_return_ma7": 0.1338
+    },
+    {
+      "autoUSD annualized_return_ma7": null,
+      "date": "2025-11-11",
+      "gtUSDa annualized_return_ma7": 0.11412287850447263,
+      "mAPOLLO annualized_return_ma7": 0.037599999999999995,
+      "mHYPER annualized_return_ma7": 0.1338
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.10546968095109509,
+      "date": "2025-11-10",
+      "gtUSDa annualized_return_ma7": 0.11301484320110709,
+      "mAPOLLO annualized_return_ma7": 0.0204,
+      "mHYPER annualized_return_ma7": 0.1047
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.10546968095109509,
+      "date": "2025-11-10",
+      "gtUSDa annualized_return_ma7": 0.11257322353487585,
+      "mAPOLLO annualized_return_ma7": 0.0204,
+      "mHYPER annualized_return_ma7": 0.1047
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.10623748151245704,
+      "date": "2025-11-09",
+      "gtUSDa annualized_return_ma7": 0.1143319577528238,
+      "mAPOLLO annualized_return_ma7": 0.0415,
+      "mHYPER annualized_return_ma7": 0.1047
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.10623748151245704,
+      "date": "2025-11-09",
+      "gtUSDa annualized_return_ma7": 0.11490906355462055,
+      "mAPOLLO annualized_return_ma7": 0.0415,
+      "mHYPER annualized_return_ma7": 0.1047
+    },
+    {
+      "autoUSD annualized_return_ma7": null,
+      "date": "2025-11-08",
+      "gtUSDa annualized_return_ma7": 0.1145534310612295,
+      "mAPOLLO annualized_return_ma7": 0.0415,
+      "mHYPER annualized_return_ma7": 0.1047
+    },
+    {
+      "autoUSD annualized_return_ma7": null,
+      "date": "2025-11-08",
+      "gtUSDa annualized_return_ma7": 0.11680147896291422,
+      "mAPOLLO annualized_return_ma7": 0.0415,
+      "mHYPER annualized_return_ma7": 0.1047
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.10403375348032182,
+      "date": "2025-11-07",
+      "gtUSDa annualized_return_ma7": 0.11469806212796217,
+      "mAPOLLO annualized_return_ma7": 0.0415,
+      "mHYPER annualized_return_ma7": 0.1047
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.10403375348032182,
+      "date": "2025-11-07",
+      "gtUSDa annualized_return_ma7": 0.11590486285846953,
+      "mAPOLLO annualized_return_ma7": 0.0415,
+      "mHYPER annualized_return_ma7": 0.1047
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.10696886433759197,
+      "date": "2025-11-06",
+      "gtUSDa annualized_return_ma7": 0.10758474450710982,
+      "mAPOLLO annualized_return_ma7": 0.0787,
+      "mHYPER annualized_return_ma7": 0.0886
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.10696886433759197,
+      "date": "2025-11-06",
+      "gtUSDa annualized_return_ma7": 0.10975061647056224,
+      "mAPOLLO annualized_return_ma7": 0.0787,
+      "mHYPER annualized_return_ma7": 0.0886
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.10253001651386166,
+      "date": "2025-11-05",
+      "gtUSDa annualized_return_ma7": 0.10845060909936621,
+      "mAPOLLO annualized_return_ma7": 0.0824,
+      "mHYPER annualized_return_ma7": 0.0886
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.10253001651386166,
+      "date": "2025-11-05",
+      "gtUSDa annualized_return_ma7": 0.09919961592567575,
+      "mAPOLLO annualized_return_ma7": 0.0824,
+      "mHYPER annualized_return_ma7": 0.0886
+    },
+    {
+      "autoUSD annualized_return_ma7": null,
+      "date": "2025-11-04",
+      "gtUSDa annualized_return_ma7": 0.08688402871659234,
+      "mAPOLLO annualized_return_ma7": 0.1282,
+      "mHYPER annualized_return_ma7": 0.0886
+    },
+    {
+      "autoUSD annualized_return_ma7": null,
+      "date": "2025-11-04",
+      "gtUSDa annualized_return_ma7": 0.0971429456532252,
+      "mAPOLLO annualized_return_ma7": 0.1282,
+      "mHYPER annualized_return_ma7": 0.0886
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.10620241128662465,
+      "date": "2025-11-03",
+      "gtUSDa annualized_return_ma7": 0.09052040452134524,
+      "mAPOLLO annualized_return_ma7": 0.17800000000000002,
+      "mHYPER annualized_return_ma7": 0.0805
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.10620241128662465,
+      "date": "2025-11-03",
+      "gtUSDa annualized_return_ma7": 0.09141816995021385,
+      "mAPOLLO annualized_return_ma7": 0.17800000000000002,
+      "mHYPER annualized_return_ma7": 0.0805
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.10839605619851642,
+      "date": "2025-11-02",
+      "gtUSDa annualized_return_ma7": 0.08895155648084986,
+      "mAPOLLO annualized_return_ma7": 0.19260000000000002,
+      "mHYPER annualized_return_ma7": 0.0805
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.10839605619851642,
+      "date": "2025-11-02",
+      "gtUSDa annualized_return_ma7": 0.090177787325236,
+      "mAPOLLO annualized_return_ma7": 0.19260000000000002,
+      "mHYPER annualized_return_ma7": 0.0805
+    },
+    {
+      "autoUSD annualized_return_ma7": null,
+      "date": "2025-11-01",
+      "gtUSDa annualized_return_ma7": 0.08616533093463473,
+      "mAPOLLO annualized_return_ma7": 0.19260000000000002,
+      "mHYPER annualized_return_ma7": 0.0805
+    },
+    {
+      "autoUSD annualized_return_ma7": null,
+      "date": "2025-11-01",
+      "gtUSDa annualized_return_ma7": 0.08773847836073571,
+      "mAPOLLO annualized_return_ma7": 0.19260000000000002,
+      "mHYPER annualized_return_ma7": 0.0805
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.10958444000508423,
+      "date": "2025-10-31",
+      "gtUSDa annualized_return_ma7": 0.08509192171406182,
+      "mAPOLLO annualized_return_ma7": 0.19260000000000002,
+      "mHYPER annualized_return_ma7": 0.0805
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.10958444000508423,
+      "date": "2025-10-31",
+      "gtUSDa annualized_return_ma7": 0.08449898268341652,
+      "mAPOLLO annualized_return_ma7": 0.19260000000000002,
+      "mHYPER annualized_return_ma7": 0.0805
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.10840276518999212,
+      "date": "2025-10-30",
+      "gtUSDa annualized_return_ma7": 0.08242227408869925,
+      "mAPOLLO annualized_return_ma7": 0.1677,
+      "mHYPER annualized_return_ma7": 0.0692
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.10840276518999212,
+      "date": "2025-10-30",
+      "gtUSDa annualized_return_ma7": 0.08093367446512018,
+      "mAPOLLO annualized_return_ma7": 0.1677,
+      "mHYPER annualized_return_ma7": 0.0692
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.10156442968822181,
+      "date": "2025-10-29",
+      "gtUSDa annualized_return_ma7": 0.08012394715233499,
+      "mAPOLLO annualized_return_ma7": 0.16079999999999997,
+      "mHYPER annualized_return_ma7": 0.0692
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.10156442968822181,
+      "date": "2025-10-29",
+      "gtUSDa annualized_return_ma7": 0.0765558086608102,
+      "mAPOLLO annualized_return_ma7": 0.16079999999999997,
+      "mHYPER annualized_return_ma7": 0.0692
+    },
+    {
+      "autoUSD annualized_return_ma7": null,
+      "date": "2025-10-28",
+      "gtUSDa annualized_return_ma7": 0.07646203393519214,
+      "mAPOLLO annualized_return_ma7": 0.1434,
+      "mHYPER annualized_return_ma7": 0.1336
+    },
+    {
+      "autoUSD annualized_return_ma7": null,
+      "date": "2025-10-28",
+      "gtUSDa annualized_return_ma7": 0.07383509935182112,
+      "mAPOLLO annualized_return_ma7": 0.1434,
+      "mHYPER annualized_return_ma7": 0.1336
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.09756141803821165,
+      "date": "2025-10-27",
+      "gtUSDa annualized_return_ma7": 0.07034404525855419,
+      "mAPOLLO annualized_return_ma7": 0.0951,
+      "mHYPER annualized_return_ma7": 0.08810000000000001
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.09756141803821165,
+      "date": "2025-10-27",
+      "gtUSDa annualized_return_ma7": 0.07328581636137829,
+      "mAPOLLO annualized_return_ma7": 0.0951,
+      "mHYPER annualized_return_ma7": 0.08810000000000001
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.10505723303763852,
+      "date": "2025-10-26",
+      "gtUSDa annualized_return_ma7": 0.07212829024933466,
+      "mAPOLLO annualized_return_ma7": 0.1105,
+      "mHYPER annualized_return_ma7": 0.08810000000000001
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.10505723303763852,
+      "date": "2025-10-26",
+      "gtUSDa annualized_return_ma7": 0.07074545101729125,
+      "mAPOLLO annualized_return_ma7": 0.1105,
+      "mHYPER annualized_return_ma7": 0.08810000000000001
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.10297998894590044,
+      "date": "2025-10-25",
+      "gtUSDa annualized_return_ma7": 0.07014126451831885,
+      "mAPOLLO annualized_return_ma7": 0.1105,
+      "mHYPER annualized_return_ma7": 0.08810000000000001
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.10297998894590044,
+      "date": "2025-10-25",
+      "gtUSDa annualized_return_ma7": 0.06913885655466004,
+      "mAPOLLO annualized_return_ma7": 0.1105,
+      "mHYPER annualized_return_ma7": 0.08810000000000001
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.09387906228573177,
+      "date": "2025-10-24",
+      "gtUSDa annualized_return_ma7": 0.06837550371734645,
+      "mAPOLLO annualized_return_ma7": 0.1105,
+      "mHYPER annualized_return_ma7": 0.08810000000000001
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.09387906228573177,
+      "date": "2025-10-24",
+      "gtUSDa annualized_return_ma7": 0.06991232308388283,
+      "mAPOLLO annualized_return_ma7": 0.1105,
+      "mHYPER annualized_return_ma7": 0.08810000000000001
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.10090222063533012,
+      "date": "2025-10-23",
+      "gtUSDa annualized_return_ma7": 0.0701744673586792,
+      "mAPOLLO annualized_return_ma7": 0.1293,
+      "mHYPER annualized_return_ma7": 0.0758
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.10090222063533012,
+      "date": "2025-10-23",
+      "gtUSDa annualized_return_ma7": 0.06673321376449408,
+      "mAPOLLO annualized_return_ma7": 0.1293,
+      "mHYPER annualized_return_ma7": 0.0758
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.10175159121767008,
+      "date": "2025-10-22",
+      "gtUSDa annualized_return_ma7": 0.07008967678852966,
+      "mAPOLLO annualized_return_ma7": 0.17079999999999998,
+      "mHYPER annualized_return_ma7": 0.0758
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.10175159121767008,
+      "date": "2025-10-22",
+      "gtUSDa annualized_return_ma7": 0.06733118743406911,
+      "mAPOLLO annualized_return_ma7": 0.17079999999999998,
+      "mHYPER annualized_return_ma7": 0.0758
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.10683277920991213,
+      "date": "2025-10-21",
+      "gtUSDa annualized_return_ma7": 0.06648821193432117,
+      "mAPOLLO annualized_return_ma7": 0.196,
+      "mHYPER annualized_return_ma7": 0.0147
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.10683277920991213,
+      "date": "2025-10-21",
+      "gtUSDa annualized_return_ma7": 0.06731067808393905,
+      "mAPOLLO annualized_return_ma7": 0.196,
+      "mHYPER annualized_return_ma7": 0.0147
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.10654763423499067,
+      "date": "2025-10-20",
+      "gtUSDa annualized_return_ma7": 0.06845659880584821,
+      "mAPOLLO annualized_return_ma7": 0.24600000000000002,
+      "mHYPER annualized_return_ma7": 0.4443
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.10654763423499067,
+      "date": "2025-10-20",
+      "gtUSDa annualized_return_ma7": 0.07365223900286648,
+      "mAPOLLO annualized_return_ma7": 0.24600000000000002,
+      "mHYPER annualized_return_ma7": 0.4443
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.11365954857930824,
+      "date": "2025-10-19",
+      "gtUSDa annualized_return_ma7": 0.0750305607219541,
+      "mAPOLLO annualized_return_ma7": 0.1452,
+      "mHYPER annualized_return_ma7": 0.4443
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.11365954857930824,
+      "date": "2025-10-19",
+      "gtUSDa annualized_return_ma7": 0.07575578899036076,
+      "mAPOLLO annualized_return_ma7": 0.1452,
+      "mHYPER annualized_return_ma7": 0.4443
+    },
+    {
+      "autoUSD annualized_return_ma7": null,
+      "date": "2025-10-18",
+      "gtUSDa annualized_return_ma7": 0.07786497491563568,
+      "mAPOLLO annualized_return_ma7": 0.1452,
+      "mHYPER annualized_return_ma7": 0.4443
+    },
+    {
+      "autoUSD annualized_return_ma7": null,
+      "date": "2025-10-18",
+      "gtUSDa annualized_return_ma7": 0.0760273038044068,
+      "mAPOLLO annualized_return_ma7": 0.1452,
+      "mHYPER annualized_return_ma7": 0.4443
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.11078453302354807,
+      "date": "2025-10-17",
+      "gtUSDa annualized_return_ma7": 0.08443265425252999,
+      "mAPOLLO annualized_return_ma7": 0.1452,
+      "mHYPER annualized_return_ma7": 0.4443
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.11161991447003122,
+      "date": "2025-10-16",
+      "gtUSDa annualized_return_ma7": 0.08048004696893243,
+      "mAPOLLO annualized_return_ma7": 0.1167,
+      "mHYPER annualized_return_ma7": 0.42340000000000005
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.11161991447003122,
+      "date": "2025-10-16",
+      "gtUSDa annualized_return_ma7": 0.08154055782167441,
+      "mAPOLLO annualized_return_ma7": 0.1167,
+      "mHYPER annualized_return_ma7": 0.42340000000000005
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.10983265964391706,
+      "date": "2025-10-15",
+      "gtUSDa annualized_return_ma7": 0.08376320494805636,
+      "mAPOLLO annualized_return_ma7": 0.09519999999999999,
+      "mHYPER annualized_return_ma7": 0.42340000000000005
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.10983265964391706,
+      "date": "2025-10-15",
+      "gtUSDa annualized_return_ma7": 0.08039611069376078,
+      "mAPOLLO annualized_return_ma7": 0.09519999999999999,
+      "mHYPER annualized_return_ma7": 0.42340000000000005
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.10998568627381644,
+      "date": "2025-10-14",
+      "gtUSDa annualized_return_ma7": 0.08390932287594524,
+      "mAPOLLO annualized_return_ma7": 0.08199999999999999,
+      "mHYPER annualized_return_ma7": 0.5958
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.10998568627381644,
+      "date": "2025-10-14",
+      "gtUSDa annualized_return_ma7": 0.08431221815686216,
+      "mAPOLLO annualized_return_ma7": 0.08199999999999999,
+      "mHYPER annualized_return_ma7": 0.5958
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.10262504415363687,
+      "date": "2025-10-13",
+      "gtUSDa annualized_return_ma7": 0.08005781334677459,
+      "mAPOLLO annualized_return_ma7": 0.1346,
+      "mHYPER annualized_return_ma7": 0.12119999999999999
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.10262504415363687,
+      "date": "2025-10-13",
+      "gtUSDa annualized_return_ma7": 0.08196853658952995,
+      "mAPOLLO annualized_return_ma7": 0.1346,
+      "mHYPER annualized_return_ma7": 0.12119999999999999
+    },
+    {
+      "autoUSD annualized_return_ma7": null,
+      "date": "2025-10-12",
+      "gtUSDa annualized_return_ma7": 0.07694266090180944,
+      "mAPOLLO annualized_return_ma7": 0.1346,
+      "mHYPER annualized_return_ma7": 0.12119999999999999
+    },
+    {
+      "autoUSD annualized_return_ma7": null,
+      "date": "2025-10-12",
+      "gtUSDa annualized_return_ma7": 0.07811193071017075,
+      "mAPOLLO annualized_return_ma7": 0.1346,
+      "mHYPER annualized_return_ma7": 0.12119999999999999
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.10169726630698754,
+      "date": "2025-10-11",
+      "gtUSDa annualized_return_ma7": 0.07637695131503466,
+      "mAPOLLO annualized_return_ma7": 0.1346,
+      "mHYPER annualized_return_ma7": 0.12119999999999999
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.10169726630698754,
+      "date": "2025-10-11",
+      "gtUSDa annualized_return_ma7": 0.07385330993895657,
+      "mAPOLLO annualized_return_ma7": 0.1346,
+      "mHYPER annualized_return_ma7": 0.12119999999999999
+    },
+    {
+      "autoUSD annualized_return_ma7": null,
+      "date": "2025-10-10",
+      "gtUSDa annualized_return_ma7": 0.07072518069909539,
+      "mAPOLLO annualized_return_ma7": 0.1346,
+      "mHYPER annualized_return_ma7": 0.12119999999999999
+    },
+    {
+      "autoUSD annualized_return_ma7": null,
+      "date": "2025-10-10",
+      "gtUSDa annualized_return_ma7": 0.0740727452347645,
+      "mAPOLLO annualized_return_ma7": 0.1346,
+      "mHYPER annualized_return_ma7": 0.12119999999999999
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.09868919272180865,
+      "date": "2025-10-09",
+      "gtUSDa annualized_return_ma7": 0.07232921178159635,
+      "mAPOLLO annualized_return_ma7": 0.16829999999999998,
+      "mHYPER annualized_return_ma7": 0.12119999999999999
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.09868919272180865,
+      "date": "2025-10-09",
+      "gtUSDa annualized_return_ma7": 0.07093391215540804,
+      "mAPOLLO annualized_return_ma7": 0.16829999999999998,
+      "mHYPER annualized_return_ma7": 0.12119999999999999
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.09927310246608745,
+      "date": "2025-10-08",
+      "gtUSDa annualized_return_ma7": 0.07252808970372855,
+      "mAPOLLO annualized_return_ma7": 0.1978,
+      "mHYPER annualized_return_ma7": 0.1955
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.09927310246608745,
+      "date": "2025-10-08",
+      "gtUSDa annualized_return_ma7": 0.07197750113568388,
+      "mAPOLLO annualized_return_ma7": 0.1978,
+      "mHYPER annualized_return_ma7": 0.1955
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.10107148176442558,
+      "date": "2025-10-07",
+      "gtUSDa annualized_return_ma7": 0.07158370699723995,
+      "mAPOLLO annualized_return_ma7": 0.17550000000000002,
+      "mHYPER annualized_return_ma7": 0.0663
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.10107148176442558,
+      "date": "2025-10-07",
+      "gtUSDa annualized_return_ma7": 0.07179850619684426,
+      "mAPOLLO annualized_return_ma7": 0.17550000000000002,
+      "mHYPER annualized_return_ma7": 0.0663
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.10158615726369391,
+      "date": "2025-10-06",
+      "gtUSDa annualized_return_ma7": 0.07120764592341092,
+      "mAPOLLO annualized_return_ma7": 0.3272,
+      "mHYPER annualized_return_ma7": 0.0663
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.10158615726369391,
+      "date": "2025-10-06",
+      "gtUSDa annualized_return_ma7": 0.07589840536534384,
+      "mAPOLLO annualized_return_ma7": 0.3272,
+      "mHYPER annualized_return_ma7": 0.0663
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.10671269186198014,
+      "date": "2025-10-05",
+      "gtUSDa annualized_return_ma7": 0.07610748710110551,
+      "mAPOLLO annualized_return_ma7": 0.3272,
+      "mHYPER annualized_return_ma7": 0.1308
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.10671269186198014,
+      "date": "2025-10-05",
+      "gtUSDa annualized_return_ma7": 0.07442724407749332,
+      "mAPOLLO annualized_return_ma7": 0.3272,
+      "mHYPER annualized_return_ma7": 0.1308
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.102183532170145,
+      "date": "2025-10-04",
+      "gtUSDa annualized_return_ma7": 0.07707824225153807,
+      "mAPOLLO annualized_return_ma7": 0.3272,
+      "mHYPER annualized_return_ma7": 0.1308
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.102183532170145,
+      "date": "2025-10-04",
+      "gtUSDa annualized_return_ma7": 0.07606541498690074,
+      "mAPOLLO annualized_return_ma7": 0.3272,
+      "mHYPER annualized_return_ma7": 0.1308
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.10340393875080768,
+      "date": "2025-10-03",
+      "gtUSDa annualized_return_ma7": 0.07693884327258542,
+      "mAPOLLO annualized_return_ma7": 0.3272,
+      "mHYPER annualized_return_ma7": 0.1308
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.10340393875080768,
+      "date": "2025-10-03",
+      "gtUSDa annualized_return_ma7": 0.07667736609786752,
+      "mAPOLLO annualized_return_ma7": 0.3272,
+      "mHYPER annualized_return_ma7": 0.1308
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.10561574099765599,
+      "date": "2025-10-02",
+      "gtUSDa annualized_return_ma7": 0.07337887042477106,
+      "mAPOLLO annualized_return_ma7": 0.3488,
+      "mHYPER annualized_return_ma7": 0.2343
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.10561574099765599,
+      "date": "2025-10-02",
+      "gtUSDa annualized_return_ma7": 0.07298532103713219,
+      "mAPOLLO annualized_return_ma7": 0.3488,
+      "mHYPER annualized_return_ma7": 0.2343
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.10356574127201332,
+      "date": "2025-10-01",
+      "gtUSDa annualized_return_ma7": 0.07568366877338387,
+      "mAPOLLO annualized_return_ma7": 0.341,
+      "mHYPER annualized_return_ma7": 0.1576
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.10356574127201332,
+      "date": "2025-10-01",
+      "gtUSDa annualized_return_ma7": 0.07196598171081554,
+      "mAPOLLO annualized_return_ma7": 0.341,
+      "mHYPER annualized_return_ma7": 0.1576
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.10036356143472966,
+      "date": "2025-09-30",
+      "gtUSDa annualized_return_ma7": 0.0753846468990932,
+      "mAPOLLO annualized_return_ma7": 0.3566,
+      "mHYPER annualized_return_ma7": 0.1576
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.10036356143472966,
+      "date": "2025-09-30",
+      "gtUSDa annualized_return_ma7": 0.07787765979650067,
+      "mAPOLLO annualized_return_ma7": 0.3566,
+      "mHYPER annualized_return_ma7": 0.1576
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.09947728216629609,
+      "date": "2025-09-29",
+      "gtUSDa annualized_return_ma7": 0.08121886262960178,
+      "mAPOLLO annualized_return_ma7": 0.1322,
+      "mHYPER annualized_return_ma7": 0.2922
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.09947728216629609,
+      "date": "2025-09-29",
+      "gtUSDa annualized_return_ma7": 0.08710800893638129,
+      "mAPOLLO annualized_return_ma7": 0.1322,
+      "mHYPER annualized_return_ma7": 0.2922
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.10022604169865239,
+      "date": "2025-09-28",
+      "gtUSDa annualized_return_ma7": 0.08115401395949601,
+      "mAPOLLO annualized_return_ma7": 0.1483,
+      "mHYPER annualized_return_ma7": 0.21850000000000003
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.10022604169865239,
+      "date": "2025-09-28",
+      "gtUSDa annualized_return_ma7": 0.08555060186123095,
+      "mAPOLLO annualized_return_ma7": 0.1483,
+      "mHYPER annualized_return_ma7": 0.21850000000000003
+    },
+    {
+      "autoUSD annualized_return_ma7": null,
+      "date": "2025-09-27",
+      "gtUSDa annualized_return_ma7": 0.08720003855673233,
+      "mAPOLLO annualized_return_ma7": 0.1483,
+      "mHYPER annualized_return_ma7": 0.21850000000000003
+    },
+    {
+      "autoUSD annualized_return_ma7": null,
+      "date": "2025-09-27",
+      "gtUSDa annualized_return_ma7": 0.08893711922516064,
+      "mAPOLLO annualized_return_ma7": 0.1483,
+      "mHYPER annualized_return_ma7": 0.21850000000000003
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.1035577144408353,
+      "date": "2025-09-26",
+      "gtUSDa annualized_return_ma7": 0.09468088563458427,
+      "mAPOLLO annualized_return_ma7": 0.1483,
+      "mHYPER annualized_return_ma7": 0.21850000000000003
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.1035577144408353,
+      "date": "2025-09-26",
+      "gtUSDa annualized_return_ma7": 0.08713893789082915,
+      "mAPOLLO annualized_return_ma7": 0.1483,
+      "mHYPER annualized_return_ma7": 0.21850000000000003
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.10493963599286946,
+      "date": "2025-09-25",
+      "gtUSDa annualized_return_ma7": 0.10600581312832724,
+      "mAPOLLO annualized_return_ma7": 0.1315,
+      "mHYPER annualized_return_ma7": 0.11630000000000001
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.10493963599286946,
+      "date": "2025-09-25",
+      "gtUSDa annualized_return_ma7": 0.10933027223104759,
+      "mAPOLLO annualized_return_ma7": 0.1315,
+      "mHYPER annualized_return_ma7": 0.11630000000000001
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.10211627698889142,
+      "date": "2025-09-24",
+      "gtUSDa annualized_return_ma7": 0.10725606929096303,
+      "mAPOLLO annualized_return_ma7": 0.113,
+      "mHYPER annualized_return_ma7": 0.18719999999999998
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.10211627698889142,
+      "date": "2025-09-24",
+      "gtUSDa annualized_return_ma7": 0.10862529169756095,
+      "mAPOLLO annualized_return_ma7": 0.113,
+      "mHYPER annualized_return_ma7": 0.18719999999999998
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.10431324872376933,
+      "date": "2025-09-23",
+      "gtUSDa annualized_return_ma7": 0.1278818901407501,
+      "mAPOLLO annualized_return_ma7": 0.1365,
+      "mHYPER annualized_return_ma7": 0.18719999999999998
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.10431324872376933,
+      "date": "2025-09-23",
+      "gtUSDa annualized_return_ma7": 0.11367694739839715,
+      "mAPOLLO annualized_return_ma7": 0.1365,
+      "mHYPER annualized_return_ma7": 0.18719999999999998
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.10545291787045837,
+      "date": "2025-09-22",
+      "gtUSDa annualized_return_ma7": 0.1367789425604979,
+      "mAPOLLO annualized_return_ma7": 0.21559999999999999,
+      "mHYPER annualized_return_ma7": 0.1991
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.10545291787045837,
+      "date": "2025-09-22",
+      "gtUSDa annualized_return_ma7": 0.13054859331763022,
+      "mAPOLLO annualized_return_ma7": 0.21559999999999999,
+      "mHYPER annualized_return_ma7": 0.1991
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.10426805526725769,
+      "date": "2025-09-21",
+      "gtUSDa annualized_return_ma7": 0.13532859754773036,
+      "mAPOLLO annualized_return_ma7": 0.1986,
+      "mHYPER annualized_return_ma7": 0.1991
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.10426805526725769,
+      "date": "2025-09-21",
+      "gtUSDa annualized_return_ma7": 0.12730553798883312,
+      "mAPOLLO annualized_return_ma7": 0.1986,
+      "mHYPER annualized_return_ma7": 0.1991
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.1120224206572376,
+      "date": "2025-09-20",
+      "gtUSDa annualized_return_ma7": 0.13529793843218507,
+      "mAPOLLO annualized_return_ma7": 0.1986,
+      "mHYPER annualized_return_ma7": 0.1991
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.1120224206572376,
+      "date": "2025-09-20",
+      "gtUSDa annualized_return_ma7": 0.14115146250458677,
+      "mAPOLLO annualized_return_ma7": 0.1986,
+      "mHYPER annualized_return_ma7": 0.1991
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.10818394403869024,
+      "date": "2025-09-19",
+      "gtUSDa annualized_return_ma7": 0.14346124555957884,
+      "mAPOLLO annualized_return_ma7": 0.1986,
+      "mHYPER annualized_return_ma7": 0.1991
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.10818394403869024,
+      "date": "2025-09-19",
+      "gtUSDa annualized_return_ma7": 0.16126678067013167,
+      "mAPOLLO annualized_return_ma7": 0.1986,
+      "mHYPER annualized_return_ma7": 0.1991
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.11183876239018596,
+      "date": "2025-09-18",
+      "gtUSDa annualized_return_ma7": 0.1475097251211306,
+      "mAPOLLO annualized_return_ma7": 0.1848,
+      "mHYPER annualized_return_ma7": 0.32299999999999995
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.11183876239018596,
+      "date": "2025-09-18",
+      "gtUSDa annualized_return_ma7": 0.14022303253255436,
+      "mAPOLLO annualized_return_ma7": 0.1848,
+      "mHYPER annualized_return_ma7": 0.32299999999999995
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.10857378413743426,
+      "date": "2025-09-17",
+      "gtUSDa annualized_return_ma7": 0.1438770642251964,
+      "mAPOLLO annualized_return_ma7": 0.205,
+      "mHYPER annualized_return_ma7": 0.2441
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.10857378413743426,
+      "date": "2025-09-17",
+      "gtUSDa annualized_return_ma7": 0.14754726592613296,
+      "mAPOLLO annualized_return_ma7": 0.205,
+      "mHYPER annualized_return_ma7": 0.2441
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.11114937822748638,
+      "date": "2025-09-16",
+      "gtUSDa annualized_return_ma7": 0.15106297889371365,
+      "mAPOLLO annualized_return_ma7": 0.21660000000000001,
+      "mHYPER annualized_return_ma7": 0.2441
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.11114937822748638,
+      "date": "2025-09-16",
+      "gtUSDa annualized_return_ma7": 0.14165277257919254,
+      "mAPOLLO annualized_return_ma7": 0.21660000000000001,
+      "mHYPER annualized_return_ma7": 0.2441
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.10982803613897539,
+      "date": "2025-09-15",
+      "gtUSDa annualized_return_ma7": 0.12665116698405518,
+      "mAPOLLO annualized_return_ma7": 0.1317,
+      "mHYPER annualized_return_ma7": 0.223
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.11162522294246414,
+      "date": "2025-09-14",
+      "gtUSDa annualized_return_ma7": 0.12480161718449466,
+      "mAPOLLO annualized_return_ma7": 0.1873,
+      "mHYPER annualized_return_ma7": 0.223
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.10805018418447888,
+      "date": "2025-09-13",
+      "gtUSDa annualized_return_ma7": 0.12388113643812068,
+      "mAPOLLO annualized_return_ma7": 0.1873,
+      "mHYPER annualized_return_ma7": 0.223
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.10673068014791025,
+      "date": "2025-09-12",
+      "gtUSDa annualized_return_ma7": 0.12610541754413293,
+      "mAPOLLO annualized_return_ma7": 0.1873,
+      "mHYPER annualized_return_ma7": 0.223
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.10808250583603828,
+      "date": "2025-09-11",
+      "gtUSDa annualized_return_ma7": 0.12083937585248572,
+      "mAPOLLO annualized_return_ma7": 0.1959,
+      "mHYPER annualized_return_ma7": 0.2241
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.10808250583603828,
+      "date": "2025-09-11",
+      "gtUSDa annualized_return_ma7": 0.11271930311780813,
+      "mAPOLLO annualized_return_ma7": 0.1959,
+      "mHYPER annualized_return_ma7": 0.2241
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.10792476279566983,
+      "date": "2025-09-10",
+      "gtUSDa annualized_return_ma7": 0.1145202848663918,
+      "mAPOLLO annualized_return_ma7": 0.19210000000000002,
+      "mHYPER annualized_return_ma7": 0.2241
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.10792476279566983,
+      "date": "2025-09-10",
+      "gtUSDa annualized_return_ma7": 0.109300377205501,
+      "mAPOLLO annualized_return_ma7": 0.19210000000000002,
+      "mHYPER annualized_return_ma7": 0.2241
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.11258193493478987,
+      "date": "2025-09-09",
+      "gtUSDa annualized_return_ma7": 0.11296708623154579,
+      "mAPOLLO annualized_return_ma7": 0.14880000000000002,
+      "mHYPER annualized_return_ma7": 0.2241
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.11258193493478987,
+      "date": "2025-09-09",
+      "gtUSDa annualized_return_ma7": 0.11407887760748535,
+      "mAPOLLO annualized_return_ma7": 0.14880000000000002,
+      "mHYPER annualized_return_ma7": 0.2241
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.1146315400733074,
+      "date": "2025-09-08",
+      "gtUSDa annualized_return_ma7": 0.1197642889371483,
+      "mAPOLLO annualized_return_ma7": 0.1586,
+      "mHYPER annualized_return_ma7": 0.17600000000000002
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.1146308807162936,
+      "date": "2025-09-07",
+      "gtUSDa annualized_return_ma7": 0.11413617430558962,
+      "mAPOLLO annualized_return_ma7": 0.1356,
+      "mHYPER annualized_return_ma7": 0.17600000000000002
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.1146308807162936,
+      "date": "2025-09-07",
+      "gtUSDa annualized_return_ma7": 0.10612727434932298,
+      "mAPOLLO annualized_return_ma7": 0.1356,
+      "mHYPER annualized_return_ma7": 0.17600000000000002
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.11589415054816199,
+      "date": "2025-09-06",
+      "gtUSDa annualized_return_ma7": 0.10372689640251917,
+      "mAPOLLO annualized_return_ma7": 0.1356,
+      "mHYPER annualized_return_ma7": 0.17600000000000002
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.11589415054816199,
+      "date": "2025-09-06",
+      "gtUSDa annualized_return_ma7": 0.10674686191250864,
+      "mAPOLLO annualized_return_ma7": 0.1356,
+      "mHYPER annualized_return_ma7": 0.17600000000000002
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.11847387704857903,
+      "date": "2025-09-05",
+      "gtUSDa annualized_return_ma7": 0.09693829488914595,
+      "mAPOLLO annualized_return_ma7": 0.1356,
+      "mHYPER annualized_return_ma7": 0.17600000000000002
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.11847387704857903,
+      "date": "2025-09-05",
+      "gtUSDa annualized_return_ma7": 0.10572288685699664,
+      "mAPOLLO annualized_return_ma7": 0.1356,
+      "mHYPER annualized_return_ma7": 0.17600000000000002
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.10682622977044214,
+      "date": "2025-09-04",
+      "gtUSDa annualized_return_ma7": 0.10037550558249489,
+      "mAPOLLO annualized_return_ma7": 0.1193,
+      "mHYPER annualized_return_ma7": 0.09939999999999999
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.10682622977044214,
+      "date": "2025-09-04",
+      "gtUSDa annualized_return_ma7": 0.09869515206739644,
+      "mAPOLLO annualized_return_ma7": 0.1193,
+      "mHYPER annualized_return_ma7": 0.09939999999999999
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.10457753311401322,
+      "date": "2025-09-03",
+      "gtUSDa annualized_return_ma7": 0.09263477168428573,
+      "mAPOLLO annualized_return_ma7": 0.0965,
+      "mHYPER annualized_return_ma7": 0.1802
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.10457753311401322,
+      "date": "2025-09-03",
+      "gtUSDa annualized_return_ma7": 0.0951516535100411,
+      "mAPOLLO annualized_return_ma7": 0.0965,
+      "mHYPER annualized_return_ma7": 0.1802
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.11694219579561753,
+      "date": "2025-09-02",
+      "gtUSDa annualized_return_ma7": 0.09743904064138503,
+      "mAPOLLO annualized_return_ma7": 0.091,
+      "mHYPER annualized_return_ma7": 0.1802
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.11694219579561753,
+      "date": "2025-09-02",
+      "gtUSDa annualized_return_ma7": 0.0982542935029758,
+      "mAPOLLO annualized_return_ma7": 0.091,
+      "mHYPER annualized_return_ma7": 0.1802
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.11158813489387451,
+      "date": "2025-09-01",
+      "gtUSDa annualized_return_ma7": 0.09349460039812642,
+      "mAPOLLO annualized_return_ma7": 0.056100000000000004,
+      "mHYPER annualized_return_ma7": 0.2511
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.11158813489387451,
+      "date": "2025-09-01",
+      "gtUSDa annualized_return_ma7": 0.09626498712388822,
+      "mAPOLLO annualized_return_ma7": 0.056100000000000004,
+      "mHYPER annualized_return_ma7": 0.2511
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.11176035373011822,
+      "date": "2025-08-31",
+      "gtUSDa annualized_return_ma7": 0.0959567447697153,
+      "mAPOLLO annualized_return_ma7": 0.1705,
+      "mHYPER annualized_return_ma7": 0.2511
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.11176035373011822,
+      "date": "2025-08-31",
+      "gtUSDa annualized_return_ma7": 0.10257442325588594,
+      "mAPOLLO annualized_return_ma7": 0.1705,
+      "mHYPER annualized_return_ma7": 0.2511
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.12441993387063838,
+      "date": "2025-08-30",
+      "gtUSDa annualized_return_ma7": 0.10321355155813736,
+      "mAPOLLO annualized_return_ma7": 0.1705,
+      "mHYPER annualized_return_ma7": 0.2511
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.12441993387063838,
+      "date": "2025-08-30",
+      "gtUSDa annualized_return_ma7": 0.10405884365941717,
+      "mAPOLLO annualized_return_ma7": 0.1705,
+      "mHYPER annualized_return_ma7": 0.2511
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.11327468048214592,
+      "date": "2025-08-29",
+      "gtUSDa annualized_return_ma7": 0.11322567823218993,
+      "mAPOLLO annualized_return_ma7": 0.1705,
+      "mHYPER annualized_return_ma7": 0.2511
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.11327468048214592,
+      "date": "2025-08-29",
+      "gtUSDa annualized_return_ma7": 0.10728925152679851,
+      "mAPOLLO annualized_return_ma7": 0.1705,
+      "mHYPER annualized_return_ma7": 0.2511
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.11467068069407382,
+      "date": "2025-08-28",
+      "gtUSDa annualized_return_ma7": 0.11317582636456959,
+      "mAPOLLO annualized_return_ma7": 0.16949999999999998,
+      "mHYPER annualized_return_ma7": 0.32770000000000005
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.11467068069407382,
+      "date": "2025-08-28",
+      "gtUSDa annualized_return_ma7": 0.1118671296991463,
+      "mAPOLLO annualized_return_ma7": 0.16949999999999998,
+      "mHYPER annualized_return_ma7": 0.32770000000000005
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.1089307905686634,
+      "date": "2025-08-27",
+      "gtUSDa annualized_return_ma7": 0.12116764218089099,
+      "mAPOLLO annualized_return_ma7": 0.1564,
+      "mHYPER annualized_return_ma7": 0.2368
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.1089307905686634,
+      "date": "2025-08-27",
+      "gtUSDa annualized_return_ma7": 0.11675472911482503,
+      "mAPOLLO annualized_return_ma7": 0.1564,
+      "mHYPER annualized_return_ma7": 0.2368
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.11668759814970524,
+      "date": "2025-08-26",
+      "gtUSDa annualized_return_ma7": 0.11986710212665964,
+      "mAPOLLO annualized_return_ma7": 0.24059999999999998,
+      "mHYPER annualized_return_ma7": 0.2368
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.11668759814970524,
+      "date": "2025-08-26",
+      "gtUSDa annualized_return_ma7": 0.12073251775933179,
+      "mAPOLLO annualized_return_ma7": 0.24059999999999998,
+      "mHYPER annualized_return_ma7": 0.2368
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.11565527408676432,
+      "date": "2025-08-25",
+      "gtUSDa annualized_return_ma7": 0.11968495227636167,
+      "mAPOLLO annualized_return_ma7": 0.24059999999999998,
+      "mHYPER annualized_return_ma7": 0.153
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.11565527408676432,
+      "date": "2025-08-25",
+      "gtUSDa annualized_return_ma7": 0.12209331076022593,
+      "mAPOLLO annualized_return_ma7": 0.24059999999999998,
+      "mHYPER annualized_return_ma7": 0.153
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.12573792211880758,
+      "date": "2025-08-24",
+      "gtUSDa annualized_return_ma7": 0.11768978072679159,
+      "mAPOLLO annualized_return_ma7": 0.21850000000000003,
+      "mHYPER annualized_return_ma7": 0.153
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.12573792211880758,
+      "date": "2025-08-24",
+      "gtUSDa annualized_return_ma7": 0.11982071926579511,
+      "mAPOLLO annualized_return_ma7": 0.21850000000000003,
+      "mHYPER annualized_return_ma7": 0.153
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.12051496674579974,
+      "date": "2025-08-23",
+      "gtUSDa annualized_return_ma7": 0.1132343353704291,
+      "mAPOLLO annualized_return_ma7": 0.21850000000000003,
+      "mHYPER annualized_return_ma7": 0.153
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.12051496674579974,
+      "date": "2025-08-23",
+      "gtUSDa annualized_return_ma7": 0.11477965307281916,
+      "mAPOLLO annualized_return_ma7": 0.21850000000000003,
+      "mHYPER annualized_return_ma7": 0.153
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.13137851270464418,
+      "date": "2025-08-22",
+      "gtUSDa annualized_return_ma7": 0.11468281143031027,
+      "mAPOLLO annualized_return_ma7": 0.21850000000000003,
+      "mHYPER annualized_return_ma7": 0.153
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.13137851270464418,
+      "date": "2025-08-22",
+      "gtUSDa annualized_return_ma7": 0.11017663101924581,
+      "mAPOLLO annualized_return_ma7": 0.21850000000000003,
+      "mHYPER annualized_return_ma7": 0.153
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.12802242557326737,
+      "date": "2025-08-21",
+      "gtUSDa annualized_return_ma7": 0.1089653446924608,
+      "mAPOLLO annualized_return_ma7": 0.2025,
+      "mHYPER annualized_return_ma7": 0.09849999999999999
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.12802242557326737,
+      "date": "2025-08-21",
+      "gtUSDa annualized_return_ma7": 0.10830257698348893,
+      "mAPOLLO annualized_return_ma7": 0.2025,
+      "mHYPER annualized_return_ma7": 0.09849999999999999
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.12483364300463498,
+      "date": "2025-08-20",
+      "gtUSDa annualized_return_ma7": 0.10789723963877139,
+      "mAPOLLO annualized_return_ma7": 0.2009,
+      "mHYPER annualized_return_ma7": 0.09849999999999999
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.12483364300463498,
+      "date": "2025-08-20",
+      "gtUSDa annualized_return_ma7": 0.11548699225067086,
+      "mAPOLLO annualized_return_ma7": 0.2009,
+      "mHYPER annualized_return_ma7": 0.09849999999999999
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.12884157687413852,
+      "date": "2025-08-19",
+      "gtUSDa annualized_return_ma7": 0.10551017815383336,
+      "mAPOLLO annualized_return_ma7": 0.11939999999999999,
+      "mHYPER annualized_return_ma7": 0.09849999999999999
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.12884157687413852,
+      "date": "2025-08-19",
+      "gtUSDa annualized_return_ma7": 0.10206670459477121,
+      "mAPOLLO annualized_return_ma7": 0.11939999999999999,
+      "mHYPER annualized_return_ma7": 0.09849999999999999
+    },
+    {
+      "autoUSD annualized_return_ma7": null,
+      "date": "2025-08-18",
+      "gtUSDa annualized_return_ma7": 0.10480950861482113,
+      "mAPOLLO annualized_return_ma7": 0.11939999999999999,
+      "mHYPER annualized_return_ma7": 0.19399999999999998
+    },
+    {
+      "autoUSD annualized_return_ma7": null,
+      "date": "2025-08-18",
+      "gtUSDa annualized_return_ma7": 0.09874168619694844,
+      "mAPOLLO annualized_return_ma7": 0.11939999999999999,
+      "mHYPER annualized_return_ma7": 0.19399999999999998
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.11816397232864094,
+      "date": "2025-08-17",
+      "gtUSDa annualized_return_ma7": 0.0900090818699189,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": 0.19399999999999998
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.11816397232864094,
+      "date": "2025-08-17",
+      "gtUSDa annualized_return_ma7": 0.09131758218814594,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": 0.19399999999999998
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.11936966691456692,
+      "date": "2025-08-16",
+      "gtUSDa annualized_return_ma7": 0.08606142844348232,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": 0.19399999999999998
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.11936966691456692,
+      "date": "2025-08-16",
+      "gtUSDa annualized_return_ma7": 0.0908932875419161,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": 0.19399999999999998
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.11649603821884442,
+      "date": "2025-08-15",
+      "gtUSDa annualized_return_ma7": 0.0883056999080808,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": 0.19399999999999998
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.11343618709626689,
+      "date": "2025-08-14",
+      "gtUSDa annualized_return_ma7": 0.08677869827799775,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": 0.2682
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.11343618709626689,
+      "date": "2025-08-14",
+      "gtUSDa annualized_return_ma7": 0.08704254532429552,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": 0.2682
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.1169644619756049,
+      "date": "2025-08-13",
+      "gtUSDa annualized_return_ma7": 0.08661868956976625,
+      "mAPOLLO annualized_return_ma7": 0.028900000000000002,
+      "mHYPER annualized_return_ma7": 0.2682
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.11661669908067072,
+      "date": "2025-08-12",
+      "gtUSDa annualized_return_ma7": 0.07636013237363352,
+      "mAPOLLO annualized_return_ma7": 0.028900000000000002,
+      "mHYPER annualized_return_ma7": 0.2682
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.11661669908067072,
+      "date": "2025-08-12",
+      "gtUSDa annualized_return_ma7": 0.0841288038883815,
+      "mAPOLLO annualized_return_ma7": 0.028900000000000002,
+      "mHYPER annualized_return_ma7": 0.2682
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.10522193785917988,
+      "date": "2025-08-11",
+      "gtUSDa annualized_return_ma7": 0.0868253493712766,
+      "mAPOLLO annualized_return_ma7": 0.044000000000000004,
+      "mHYPER annualized_return_ma7": 0.1752
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.10522193785917988,
+      "date": "2025-08-11",
+      "gtUSDa annualized_return_ma7": 0.08341791011143783,
+      "mAPOLLO annualized_return_ma7": 0.044000000000000004,
+      "mHYPER annualized_return_ma7": 0.1752
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.10978968331488154,
+      "date": "2025-08-10",
+      "gtUSDa annualized_return_ma7": 0.08956019188329703,
+      "mAPOLLO annualized_return_ma7": 0.044000000000000004,
+      "mHYPER annualized_return_ma7": 0.2986
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.10978968331488154,
+      "date": "2025-08-10",
+      "gtUSDa annualized_return_ma7": 0.08733640845155506,
+      "mAPOLLO annualized_return_ma7": 0.044000000000000004,
+      "mHYPER annualized_return_ma7": 0.2986
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.10968642956560849,
+      "date": "2025-08-09",
+      "gtUSDa annualized_return_ma7": 0.09023322484079957,
+      "mAPOLLO annualized_return_ma7": 0.044000000000000004,
+      "mHYPER annualized_return_ma7": 0.2986
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.10968642956560849,
+      "date": "2025-08-09",
+      "gtUSDa annualized_return_ma7": 0.08648200075689663,
+      "mAPOLLO annualized_return_ma7": 0.044000000000000004,
+      "mHYPER annualized_return_ma7": 0.2986
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.10512206782367697,
+      "date": "2025-08-08",
+      "gtUSDa annualized_return_ma7": 0.08753700493086233,
+      "mAPOLLO annualized_return_ma7": 0.044000000000000004,
+      "mHYPER annualized_return_ma7": 0.2986
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.10512206782367697,
+      "date": "2025-08-08",
+      "gtUSDa annualized_return_ma7": 0.08969804894460229,
+      "mAPOLLO annualized_return_ma7": 0.044000000000000004,
+      "mHYPER annualized_return_ma7": 0.2986
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.10401431759389862,
+      "date": "2025-08-07",
+      "gtUSDa annualized_return_ma7": 0.09023907987934957,
+      "mAPOLLO annualized_return_ma7": 0.053399999999999996,
+      "mHYPER annualized_return_ma7": 0.17120000000000002
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.10401431759389862,
+      "date": "2025-08-07",
+      "gtUSDa annualized_return_ma7": 0.08807569182394061,
+      "mAPOLLO annualized_return_ma7": 0.053399999999999996,
+      "mHYPER annualized_return_ma7": 0.17120000000000002
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.11060817619560087,
+      "date": "2025-08-06",
+      "gtUSDa annualized_return_ma7": 0.09041359302258668,
+      "mAPOLLO annualized_return_ma7": 0.0437,
+      "mHYPER annualized_return_ma7": 0.17120000000000002
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.11060817619560087,
+      "date": "2025-08-06",
+      "gtUSDa annualized_return_ma7": 0.08923737437836772,
+      "mAPOLLO annualized_return_ma7": 0.0437,
+      "mHYPER annualized_return_ma7": 0.17120000000000002
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.11075723832449186,
+      "date": "2025-08-05",
+      "gtUSDa annualized_return_ma7": 0.09471903001036983,
+      "mAPOLLO annualized_return_ma7": 0.0621,
+      "mHYPER annualized_return_ma7": 0.17120000000000002
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.11075723832449186,
+      "date": "2025-08-05",
+      "gtUSDa annualized_return_ma7": 0.09036176607362127,
+      "mAPOLLO annualized_return_ma7": 0.0621,
+      "mHYPER annualized_return_ma7": 0.17120000000000002
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.10378327713797915,
+      "date": "2025-08-04",
+      "gtUSDa annualized_return_ma7": 0.09461560909398053,
+      "mAPOLLO annualized_return_ma7": 0.10980000000000001,
+      "mHYPER annualized_return_ma7": 0.31329999999999997
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.10378327713797915,
+      "date": "2025-08-04",
+      "gtUSDa annualized_return_ma7": 0.09393322910626734,
+      "mAPOLLO annualized_return_ma7": 0.10980000000000001,
+      "mHYPER annualized_return_ma7": 0.31329999999999997
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.10069169612135093,
+      "date": "2025-08-03",
+      "gtUSDa annualized_return_ma7": 0.09555136002766708,
+      "mAPOLLO annualized_return_ma7": 0.2627,
+      "mHYPER annualized_return_ma7": 0.1885
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.09503054336369035,
+      "date": "2025-08-02",
+      "gtUSDa annualized_return_ma7": 0.09670285738608184,
+      "mAPOLLO annualized_return_ma7": 0.2627,
+      "mHYPER annualized_return_ma7": 0.1885
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.10224026531687436,
+      "date": "2025-08-01",
+      "gtUSDa annualized_return_ma7": 0.1031254795958607,
+      "mAPOLLO annualized_return_ma7": 0.2627,
+      "mHYPER annualized_return_ma7": 0.1885
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.10224026531687436,
+      "date": "2025-08-01",
+      "gtUSDa annualized_return_ma7": 0.1025616738587169,
+      "mAPOLLO annualized_return_ma7": 0.2627,
+      "mHYPER annualized_return_ma7": 0.1885
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.09171894256620802,
+      "date": "2025-07-31",
+      "gtUSDa annualized_return_ma7": 0.10456823690130884,
+      "mAPOLLO annualized_return_ma7": 0.2651,
+      "mHYPER annualized_return_ma7": 0.1885
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.09171894256620802,
+      "date": "2025-07-31",
+      "gtUSDa annualized_return_ma7": 0.10474736363546064,
+      "mAPOLLO annualized_return_ma7": 0.2651,
+      "mHYPER annualized_return_ma7": 0.1885
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.10461216586269444,
+      "date": "2025-07-30",
+      "gtUSDa annualized_return_ma7": 0.10696996462941052,
+      "mAPOLLO annualized_return_ma7": 0.34450000000000003,
+      "mHYPER annualized_return_ma7": 0.1885
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.10461216586269444,
+      "date": "2025-07-30",
+      "gtUSDa annualized_return_ma7": 0.1060232621076731,
+      "mAPOLLO annualized_return_ma7": 0.34450000000000003,
+      "mHYPER annualized_return_ma7": 0.1885
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.10761124709202155,
+      "date": "2025-07-29",
+      "gtUSDa annualized_return_ma7": 0.10431330654995771,
+      "mAPOLLO annualized_return_ma7": 0.3212,
+      "mHYPER annualized_return_ma7": 0.20559999999999998
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.10761124709202155,
+      "date": "2025-07-29",
+      "gtUSDa annualized_return_ma7": 0.11079569535369199,
+      "mAPOLLO annualized_return_ma7": 0.3212,
+      "mHYPER annualized_return_ma7": 0.20559999999999998
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.10488055975142853,
+      "date": "2025-07-28",
+      "gtUSDa annualized_return_ma7": 0.10867924078081277,
+      "mAPOLLO annualized_return_ma7": 0.24600000000000002,
+      "mHYPER annualized_return_ma7": 0.0143
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.10488055975142853,
+      "date": "2025-07-28",
+      "gtUSDa annualized_return_ma7": 0.11107722637827329,
+      "mAPOLLO annualized_return_ma7": 0.24600000000000002,
+      "mHYPER annualized_return_ma7": 0.0143
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.1101300454346407,
+      "date": "2025-07-27",
+      "gtUSDa annualized_return_ma7": 0.1116683851249513,
+      "mAPOLLO annualized_return_ma7": 0.09519999999999999,
+      "mHYPER annualized_return_ma7": 0.0143
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.1101300454346407,
+      "date": "2025-07-27",
+      "gtUSDa annualized_return_ma7": 0.11249433849100088,
+      "mAPOLLO annualized_return_ma7": 0.09519999999999999,
+      "mHYPER annualized_return_ma7": 0.0143
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.11107480165158454,
+      "date": "2025-07-26",
+      "gtUSDa annualized_return_ma7": 0.11811087302258758,
+      "mAPOLLO annualized_return_ma7": 0.09519999999999999,
+      "mHYPER annualized_return_ma7": 0.0143
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.11107480165158454,
+      "date": "2025-07-26",
+      "gtUSDa annualized_return_ma7": 0.11009596347985348,
+      "mAPOLLO annualized_return_ma7": 0.09519999999999999,
+      "mHYPER annualized_return_ma7": 0.0143
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.11502634341652095,
+      "date": "2025-07-25",
+      "gtUSDa annualized_return_ma7": 0.10966144340792314,
+      "mAPOLLO annualized_return_ma7": 0.09519999999999999,
+      "mHYPER annualized_return_ma7": 0.0143
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.11502634341652095,
+      "date": "2025-07-25",
+      "gtUSDa annualized_return_ma7": 0.11385780915983985,
+      "mAPOLLO annualized_return_ma7": 0.09519999999999999,
+      "mHYPER annualized_return_ma7": 0.0143
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.11527698902368406,
+      "date": "2025-07-24",
+      "gtUSDa annualized_return_ma7": 0.11255632982442497,
+      "mAPOLLO annualized_return_ma7": 0.0833,
+      "mHYPER annualized_return_ma7": 0.0143
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.11527698902368406,
+      "date": "2025-07-24",
+      "gtUSDa annualized_return_ma7": 0.11490419488418935,
+      "mAPOLLO annualized_return_ma7": 0.0833,
+      "mHYPER annualized_return_ma7": 0.0143
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.11709473778052332,
+      "date": "2025-07-23",
+      "gtUSDa annualized_return_ma7": 0.113580302129102,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": 0.0167
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.11709473778052332,
+      "date": "2025-07-23",
+      "gtUSDa annualized_return_ma7": 0.12137651751621989,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": 0.0167
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.11255900149032697,
+      "date": "2025-07-22",
+      "gtUSDa annualized_return_ma7": 0.12655558930931243,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": 0
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.11255900149032697,
+      "date": "2025-07-22",
+      "gtUSDa annualized_return_ma7": 0.12895923698237508,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": 0
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.11523338734263835,
+      "date": "2025-07-21",
+      "gtUSDa annualized_return_ma7": 0.11265754598378355,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": 0
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.11523338734263835,
+      "date": "2025-07-21",
+      "gtUSDa annualized_return_ma7": 0.11829477571072997,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": 0
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.1186269976606248,
+      "date": "2025-07-20",
+      "gtUSDa annualized_return_ma7": 0.11373914159756895,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": 0
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.1186269976606248,
+      "date": "2025-07-20",
+      "gtUSDa annualized_return_ma7": 0.11915417377366531,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": 0
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.1247156348363142,
+      "date": "2025-07-19",
+      "gtUSDa annualized_return_ma7": 0.12019223689511421,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.1247156348363142,
+      "date": "2025-07-19",
+      "gtUSDa annualized_return_ma7": 0.11193267559976752,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.1281963605944212,
+      "date": "2025-07-18",
+      "gtUSDa annualized_return_ma7": 0.11244102869344534,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.1281963605944212,
+      "date": "2025-07-18",
+      "gtUSDa annualized_return_ma7": 0.10653941476566572,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.12057188690123927,
+      "date": "2025-07-17",
+      "gtUSDa annualized_return_ma7": 0.10973462206988031,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.12057188690123927,
+      "date": "2025-07-17",
+      "gtUSDa annualized_return_ma7": 0.11101373692049628,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.11917312856915914,
+      "date": "2025-07-16",
+      "gtUSDa annualized_return_ma7": 0.10235743718341239,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.11917312856915914,
+      "date": "2025-07-16",
+      "gtUSDa annualized_return_ma7": 0.10078773526409004,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": null,
+      "date": "2025-07-15",
+      "gtUSDa annualized_return_ma7": 0.09570257964415685,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": null,
+      "date": "2025-07-15",
+      "gtUSDa annualized_return_ma7": 0.08254910378283219,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.11304373539080749,
+      "date": "2025-07-14",
+      "gtUSDa annualized_return_ma7": 0.08602371883648575,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.11304373539080749,
+      "date": "2025-07-14",
+      "gtUSDa annualized_return_ma7": 0.08364399329951056,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.11331634951729698,
+      "date": "2025-07-13",
+      "gtUSDa annualized_return_ma7": 0.08683477304803279,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.11331634951729698,
+      "date": "2025-07-13",
+      "gtUSDa annualized_return_ma7": 0.076085486465121,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.1161396442231671,
+      "date": "2025-07-12",
+      "gtUSDa annualized_return_ma7": 0.08000402671115904,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.1161396442231671,
+      "date": "2025-07-12",
+      "gtUSDa annualized_return_ma7": 0.07838569007282853,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.11420187593148559,
+      "date": "2025-07-11",
+      "gtUSDa annualized_return_ma7": 0.07268711361702476,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.11420187593148559,
+      "date": "2025-07-11",
+      "gtUSDa annualized_return_ma7": 0.08040465686999836,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": null,
+      "date": "2025-07-10",
+      "gtUSDa annualized_return_ma7": 0.0745005704339416,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": null,
+      "date": "2025-07-10",
+      "gtUSDa annualized_return_ma7": 0.08090283956979537,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.1079241423947445,
+      "date": "2025-07-09",
+      "gtUSDa annualized_return_ma7": 0.0797365470281641,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.1079241423947445,
+      "date": "2025-07-09",
+      "gtUSDa annualized_return_ma7": 0.0779658945429267,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": null,
+      "date": "2025-07-08",
+      "gtUSDa annualized_return_ma7": 0.07448720896101185,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": null,
+      "date": "2025-07-08",
+      "gtUSDa annualized_return_ma7": 0.08072866700124942,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.0992653379396497,
+      "date": "2025-07-07",
+      "gtUSDa annualized_return_ma7": 0.07936003530955962,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.0992653379396497,
+      "date": "2025-07-07",
+      "gtUSDa annualized_return_ma7": 0.08130580741704221,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": null,
+      "date": "2025-07-06",
+      "gtUSDa annualized_return_ma7": 0.08441654342969682,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": null,
+      "date": "2025-07-06",
+      "gtUSDa annualized_return_ma7": 0.08600318104714821,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.09882433414762996,
+      "date": "2025-07-05",
+      "gtUSDa annualized_return_ma7": 0.0833344961317897,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.09882433414762996,
+      "date": "2025-07-05",
+      "gtUSDa annualized_return_ma7": 0.08724185330289744,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.09761277233670225,
+      "date": "2025-07-04",
+      "gtUSDa annualized_return_ma7": 0.08384620269943319,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.09761277233670225,
+      "date": "2025-07-04",
+      "gtUSDa annualized_return_ma7": 0.0841572146417631,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": null,
+      "date": "2025-07-03",
+      "gtUSDa annualized_return_ma7": 0.07841435511571242,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": null,
+      "date": "2025-07-03",
+      "gtUSDa annualized_return_ma7": 0.07976478595467847,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.0934715296046518,
+      "date": "2025-07-02",
+      "gtUSDa annualized_return_ma7": 0.07045005179490452,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.0934715296046518,
+      "date": "2025-07-02",
+      "gtUSDa annualized_return_ma7": 0.07735103011688363,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.08941220519488362,
+      "date": "2025-07-01",
+      "gtUSDa annualized_return_ma7": 0.07204510990549538,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.08941220519488362,
+      "date": "2025-07-01",
+      "gtUSDa annualized_return_ma7": 0.0738773002983691,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.09190751632972485,
+      "date": "2025-06-30",
+      "gtUSDa annualized_return_ma7": 0.06806414379461477,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.09172935028650858,
+      "date": "2025-06-29",
+      "gtUSDa annualized_return_ma7": 0.07318062697045027,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.09172935028650858,
+      "date": "2025-06-29",
+      "gtUSDa annualized_return_ma7": 0.08097473716293516,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.09038278276577963,
+      "date": "2025-06-28",
+      "gtUSDa annualized_return_ma7": 0.07779950013961481,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.09038278276577963,
+      "date": "2025-06-28",
+      "gtUSDa annualized_return_ma7": 0.08006308348277745,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": null,
+      "date": "2025-06-27",
+      "gtUSDa annualized_return_ma7": 0.08366589647033981,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": null,
+      "date": "2025-06-27",
+      "gtUSDa annualized_return_ma7": 0.08393784530063447,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.09604004992919243,
+      "date": "2025-06-26",
+      "gtUSDa annualized_return_ma7": 0.08282388102305274,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.09604004992919243,
+      "date": "2025-06-26",
+      "gtUSDa annualized_return_ma7": 0.08879658306794894,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.10617537726518214,
+      "date": "2025-06-25",
+      "gtUSDa annualized_return_ma7": 0.09052111316636229,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.10617537726518214,
+      "date": "2025-06-25",
+      "gtUSDa annualized_return_ma7": 0.09283673944228488,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.10941796811689578,
+      "date": "2025-06-24",
+      "gtUSDa annualized_return_ma7": 0.08885049937911964,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.10941796811689578,
+      "date": "2025-06-24",
+      "gtUSDa annualized_return_ma7": 0.09559605332991244,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.11282938119706891,
+      "date": "2025-06-23",
+      "gtUSDa annualized_return_ma7": 0.0954940255796051,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.11282938119706891,
+      "date": "2025-06-23",
+      "gtUSDa annualized_return_ma7": 0.08725345872296311,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.11351652083355841,
+      "date": "2025-06-22",
+      "gtUSDa annualized_return_ma7": 0.0866054305474786,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.11351652083355841,
+      "date": "2025-06-22",
+      "gtUSDa annualized_return_ma7": 0.08212513290433324,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.11436682597827037,
+      "date": "2025-06-21",
+      "gtUSDa annualized_return_ma7": 0.09726657905927924,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.11027356206005152,
+      "date": "2025-06-20",
+      "gtUSDa annualized_return_ma7": 0.09031896626933071,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.11124815796469707,
+      "date": "2025-06-19",
+      "gtUSDa annualized_return_ma7": 0.07647819193355435,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.11124815796469707,
+      "date": "2025-06-19",
+      "gtUSDa annualized_return_ma7": 0.07364066274374188,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.11006049075681565,
+      "date": "2025-06-18",
+      "gtUSDa annualized_return_ma7": 0.06828287887768193,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.11006049075681565,
+      "date": "2025-06-18",
+      "gtUSDa annualized_return_ma7": 0.06720323696483188,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.11188081620933102,
+      "date": "2025-06-17",
+      "gtUSDa annualized_return_ma7": 0.06682922265503957,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.11188081620933102,
+      "date": "2025-06-17",
+      "gtUSDa annualized_return_ma7": 0.06407126142348972,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.11573614392774745,
+      "date": "2025-06-16",
+      "gtUSDa annualized_return_ma7": 0.05412029549167403,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.11573614392774745,
+      "date": "2025-06-16",
+      "gtUSDa annualized_return_ma7": 0.05412029549167403,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.11460080454913087,
+      "date": "2025-06-15",
+      "gtUSDa annualized_return_ma7": 0.048327298567782714,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.11460080454913087,
+      "date": "2025-06-15",
+      "gtUSDa annualized_return_ma7": 0.043818181935774435,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.11404931147176317,
+      "date": "2025-06-14",
+      "gtUSDa annualized_return_ma7": 0.012536681585304401,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.11404931147176317,
+      "date": "2025-06-14",
+      "gtUSDa annualized_return_ma7": 0.038585368199864946,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.11355005755453466,
+      "date": "2025-06-13",
+      "gtUSDa annualized_return_ma7": 0.012536681585304401,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.11355005755453466,
+      "date": "2025-06-13",
+      "gtUSDa annualized_return_ma7": 0.013581405050746434,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.11695372752597989,
+      "date": "2025-06-12",
+      "gtUSDa annualized_return_ma7": 0.014816078237177928,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.11695372752597989,
+      "date": "2025-06-12",
+      "gtUSDa annualized_return_ma7": 0.01629768606089572,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.11402521628127207,
+      "date": "2025-06-11",
+      "gtUSDa annualized_return_ma7": 0.006639688850767156,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.11402521628127207,
+      "date": "2025-06-11",
+      "gtUSDa annualized_return_ma7": 0.009528777203198125,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.11184159628949354,
+      "date": "2025-06-10",
+      "gtUSDa annualized_return_ma7": 0,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.11931926062295467,
+      "date": "2025-06-09",
+      "gtUSDa annualized_return_ma7": 0,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.11931926062295467,
+      "date": "2025-06-09",
+      "gtUSDa annualized_return_ma7": 0,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": null,
+      "date": "2025-06-08",
+      "gtUSDa annualized_return_ma7": 0,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": null,
+      "date": "2025-06-08",
+      "gtUSDa annualized_return_ma7": 0,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.11296732796056168,
+      "date": "2025-06-07",
+      "gtUSDa annualized_return_ma7": 0,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.11777178060731601,
+      "date": "2025-06-06",
+      "gtUSDa annualized_return_ma7": 0,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.12208474015114253,
+      "date": "2025-06-05",
+      "gtUSDa annualized_return_ma7": null,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.1035039849960146,
+      "date": "2025-06-04",
+      "gtUSDa annualized_return_ma7": null,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.09586835357393832,
+      "date": "2025-06-02",
+      "gtUSDa annualized_return_ma7": null,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.09070692188123697,
+      "date": "2025-06-01",
+      "gtUSDa annualized_return_ma7": null,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.08361891317244784,
+      "date": "2025-05-31",
+      "gtUSDa annualized_return_ma7": null,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.0910458819519552,
+      "date": "2025-05-30",
+      "gtUSDa annualized_return_ma7": null,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.09486067470165611,
+      "date": "2025-05-29",
+      "gtUSDa annualized_return_ma7": null,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.08993870211276389,
+      "date": "2025-05-28",
+      "gtUSDa annualized_return_ma7": null,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.08535435602811987,
+      "date": "2025-05-26",
+      "gtUSDa annualized_return_ma7": null,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.08267285330811946,
+      "date": "2025-05-25",
+      "gtUSDa annualized_return_ma7": null,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.08668336718795543,
+      "date": "2025-05-23",
+      "gtUSDa annualized_return_ma7": null,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.08629601451297336,
+      "date": "2025-05-22",
+      "gtUSDa annualized_return_ma7": null,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.08111577514015449,
+      "date": "2025-05-21",
+      "gtUSDa annualized_return_ma7": null,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.08184136265846342,
+      "date": "2025-05-20",
+      "gtUSDa annualized_return_ma7": null,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.08019933148058185,
+      "date": "2025-05-19",
+      "gtUSDa annualized_return_ma7": null,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.07601727099777517,
+      "date": "2025-05-18",
+      "gtUSDa annualized_return_ma7": null,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.07589853561954259,
+      "date": "2025-05-17",
+      "gtUSDa annualized_return_ma7": null,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.08118825137351908,
+      "date": "2025-05-16",
+      "gtUSDa annualized_return_ma7": null,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.0770572747641646,
+      "date": "2025-05-14",
+      "gtUSDa annualized_return_ma7": null,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.07686077572823061,
+      "date": "2025-05-13",
+      "gtUSDa annualized_return_ma7": null,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.07433433642641477,
+      "date": "2025-05-12",
+      "gtUSDa annualized_return_ma7": null,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.07041033656666856,
+      "date": "2025-05-11",
+      "gtUSDa annualized_return_ma7": null,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.07145886043463599,
+      "date": "2025-05-10",
+      "gtUSDa annualized_return_ma7": null,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.0733589303988261,
+      "date": "2025-05-09",
+      "gtUSDa annualized_return_ma7": null,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.0691846362638811,
+      "date": "2025-05-07",
+      "gtUSDa annualized_return_ma7": null,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.07285146865644992,
+      "date": "2025-05-06",
+      "gtUSDa annualized_return_ma7": null,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.07413755607232436,
+      "date": "2025-05-05",
+      "gtUSDa annualized_return_ma7": null,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.07477775269888978,
+      "date": "2025-05-04",
+      "gtUSDa annualized_return_ma7": null,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.07342758519672773,
+      "date": "2025-05-03",
+      "gtUSDa annualized_return_ma7": null,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.0676307077670584,
+      "date": "2025-05-01",
+      "gtUSDa annualized_return_ma7": null,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.06823580964317916,
+      "date": "2025-04-30",
+      "gtUSDa annualized_return_ma7": null,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.06521913011767329,
+      "date": "2025-04-29",
+      "gtUSDa annualized_return_ma7": null,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.0632831252080658,
+      "date": "2025-04-28",
+      "gtUSDa annualized_return_ma7": null,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.059693293956055674,
+      "date": "2025-04-27",
+      "gtUSDa annualized_return_ma7": null,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.05560224409286046,
+      "date": "2025-04-26",
+      "gtUSDa annualized_return_ma7": null,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.05144082253932633,
+      "date": "2025-04-25",
+      "gtUSDa annualized_return_ma7": null,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.0473301837450832,
+      "date": "2025-04-24",
+      "gtUSDa annualized_return_ma7": null,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.045887097356334935,
+      "date": "2025-04-23",
+      "gtUSDa annualized_return_ma7": null,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.038830804961348275,
+      "date": "2025-04-22",
+      "gtUSDa annualized_return_ma7": null,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.035642818020425154,
+      "date": "2025-04-21",
+      "gtUSDa annualized_return_ma7": null,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.029971627643943587,
+      "date": "2025-04-19",
+      "gtUSDa annualized_return_ma7": null,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.0270483335374221,
+      "date": "2025-04-18",
+      "gtUSDa annualized_return_ma7": null,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.024131273872285655,
+      "date": "2025-04-17",
+      "gtUSDa annualized_return_ma7": null,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.018246559753876256,
+      "date": "2025-04-16",
+      "gtUSDa annualized_return_ma7": null,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.014186228469918702,
+      "date": "2025-04-15",
+      "gtUSDa annualized_return_ma7": null,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.006485090694893212,
+      "date": "2025-04-14",
+      "gtUSDa annualized_return_ma7": null,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.002831343401021555,
+      "date": "2025-04-13",
+      "gtUSDa annualized_return_ma7": null,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.00073835964235725,
+      "date": "2025-04-08",
+      "gtUSDa annualized_return_ma7": null,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.00073835964235725,
+      "date": "2025-04-07",
+      "gtUSDa annualized_return_ma7": null,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.00073835964235725,
+      "date": "2025-04-06",
+      "gtUSDa annualized_return_ma7": null,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.00073835964235725,
+      "date": "2025-04-05",
+      "gtUSDa annualized_return_ma7": null,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.00073835964235725,
+      "date": "2025-04-04",
+      "gtUSDa annualized_return_ma7": null,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0.0007752776244751125,
+      "date": "2025-04-02",
+      "gtUSDa annualized_return_ma7": null,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0,
+      "date": "2025-04-01",
+      "gtUSDa annualized_return_ma7": null,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0,
+      "date": "2025-03-31",
+      "gtUSDa annualized_return_ma7": null,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0,
+      "date": "2025-03-30",
+      "gtUSDa annualized_return_ma7": null,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0,
+      "date": "2025-03-29",
+      "gtUSDa annualized_return_ma7": null,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0,
+      "date": "2025-03-28",
+      "gtUSDa annualized_return_ma7": null,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0,
+      "date": "2025-03-27",
+      "gtUSDa annualized_return_ma7": null,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0,
+      "date": "2025-03-26",
+      "gtUSDa annualized_return_ma7": null,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0,
+      "date": "2025-03-25",
+      "gtUSDa annualized_return_ma7": null,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0,
+      "date": "2025-03-24",
+      "gtUSDa annualized_return_ma7": null,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0,
+      "date": "2025-03-23",
+      "gtUSDa annualized_return_ma7": null,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0,
+      "date": "2025-03-22",
+      "gtUSDa annualized_return_ma7": null,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0,
+      "date": "2025-03-21",
+      "gtUSDa annualized_return_ma7": null,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0,
+      "date": "2025-03-20",
+      "gtUSDa annualized_return_ma7": null,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0,
+      "date": "2025-03-19",
+      "gtUSDa annualized_return_ma7": null,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0,
+      "date": "2025-03-18",
+      "gtUSDa annualized_return_ma7": null,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0,
+      "date": "2025-03-17",
+      "gtUSDa annualized_return_ma7": null,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0,
+      "date": "2025-03-16",
+      "gtUSDa annualized_return_ma7": null,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0,
+      "date": "2025-03-15",
+      "gtUSDa annualized_return_ma7": null,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    },
+    {
+      "autoUSD annualized_return_ma7": 0,
+      "date": "2025-03-14",
+      "gtUSDa annualized_return_ma7": null,
+      "mAPOLLO annualized_return_ma7": null,
+      "mHYPER annualized_return_ma7": null
+    }
+  ]
+}
