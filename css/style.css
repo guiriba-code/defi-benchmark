@@ -1,0 +1,573 @@
+/* ═══════════════════════════════════════════════════════════════════════════
+   ESTÉTICA ASCII - Inspirado em ertdfgcvb
+   Fundo branco, caracteres pretos, dinamismo terminal
+   Animações inspiradas em nfinitepaper.com e axon-pulse.com
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+:root {
+    --bg-color: #ffffff;
+    --text-color: #000000;
+    --text-muted: #666666;
+    --border-color: #cccccc;
+    --hover-color: #333333;
+    
+    /* Paleta de cores DISTINTAS para cada gráfico */
+    --chart-green: #00aa55;
+    --chart-cyan: #00cccc;
+    --chart-blue: #0066cc;
+    --chart-teal: #008888;
+    
+    /* Query 2 - Tons quentes/dourados */
+    --chart-gold: #cc9900;
+    --chart-amber: #ffaa00;
+    
+    /* Query 3 - Tons magenta/pink */
+    --chart-magenta: #cc0066;
+    --chart-pink: #ff66aa;
+    
+    /* Query 4 - Tons navy/índigo */
+    --chart-navy: #003366;
+    --chart-indigo: #6666cc;
+    
+    --sidebar-width: 340px;
+    --font-mono: 'Monaco', 'Menlo', 'Lucida Console', 'Courier New', monospace;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   BODY & BACKGROUND
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+body {
+    font-family: var(--font-mono);
+    font-size: 14px;
+    line-height: 1.6;
+    color: var(--text-color);
+    background: var(--bg-color);
+    min-height: 100vh;
+    overflow-x: hidden;
+    position: relative;
+}
+
+/* Canvas para figura ASCII animada */
+#ascii-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    pointer-events: none;
+    opacity: 0.12;
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   EFEITO DE TREMOR (GLITCH) NO TEXTO
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+.glitch-text {
+    position: relative;
+    display: inline-block;
+    transition: all 0.1s ease;
+}
+
+.glitch-text:hover {
+    animation: textGlitch 0.3s ease-in-out infinite;
+}
+
+@keyframes textGlitch {
+    0%, 100% { transform: translate(0, 0); }
+    10% { transform: translate(-1px, 1px); }
+    20% { transform: translate(1px, -1px); }
+    30% { transform: translate(-1px, -1px); }
+    40% { transform: translate(1px, 1px); }
+    50% { transform: translate(-1px, 0); }
+    60% { transform: translate(1px, 0); }
+    70% { transform: translate(0, 1px); }
+    80% { transform: translate(0, -1px); }
+    90% { transform: translate(1px, -1px); }
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   MENU LATERAL
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+.sidebar {
+    position: fixed;
+    left: -100%;
+    top: 0;
+    width: var(--sidebar-width);
+    height: 100vh;
+    background: var(--bg-color);
+    border-right: 1px solid var(--border-color);
+    z-index: 1000;
+    transition: left 0.3s ease;
+    overflow-y: auto;
+}
+
+.sidebar.active {
+    left: 0;
+}
+
+.sidebar-header {
+    padding: 1.5rem;
+    border-bottom: 1px solid var(--border-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sidebar-header h2 {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: normal;
+}
+
+.close-btn {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: var(--text-color);
+    transition: transform 0.2s ease;
+}
+
+.close-btn:hover {
+    transform: scale(1.2);
+}
+
+.nav-menu {
+    list-style: none;
+    padding: 1rem 0;
+}
+
+.nav-menu li {
+    border-bottom: 1px solid var(--border-color);
+}
+
+.nav-menu a {
+    display: block;
+    padding: 1rem 1.5rem;
+    color: var(--text-color);
+    text-decoration: none;
+    font-size: 11px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    transition: all 0.2s ease;
+    position: relative;
+}
+
+.nav-menu a::before {
+    content: '>';
+    position: absolute;
+    left: 0.5rem;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+}
+
+.nav-menu a:hover {
+    padding-left: 2rem;
+    background: rgba(0, 0, 0, 0.03);
+}
+
+.nav-menu a:hover::before {
+    opacity: 1;
+}
+
+.nav-menu a.active {
+    background: rgba(0, 0, 0, 0.05);
+    padding-left: 2rem;
+}
+
+.nav-menu a.active::before {
+    opacity: 1;
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   BOTÃO MENU
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+.menu-toggle {
+    position: fixed;
+    top: 2rem;
+    left: 2rem;
+    z-index: 999;
+    background: var(--bg-color);
+    color: var(--text-color);
+    border: 1px solid var(--border-color);
+    padding: 0.5rem 1rem;
+    font-size: 12px;
+    cursor: pointer;
+    font-family: var(--font-mono);
+    letter-spacing: 2px;
+    transition: all 0.2s ease;
+}
+
+.menu-toggle:hover {
+    background: var(--text-color);
+    color: var(--bg-color);
+    animation: buttonGlitch 0.3s ease-in-out;
+}
+
+@keyframes buttonGlitch {
+    0%, 100% { transform: translate(0, 0); }
+    20% { transform: translate(-2px, 0); }
+    40% { transform: translate(2px, 0); }
+    60% { transform: translate(-1px, 0); }
+    80% { transform: translate(1px, 0); }
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   CONTEÚDO PRINCIPAL
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+.main-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 4rem 3rem;
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   SEÇÕES - ANIMAÇÃO DE ENTRADA GRADUAL (estilo nfinitepaper/axon-pulse)
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+.section {
+    margin-bottom: 2rem;
+    padding: 4rem 0;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    
+    /* Estado inicial: invisível e deslocado */
+    opacity: 0;
+    transform: translateY(80px);
+    transition: none;
+}
+
+/* Estado visível: animação suave inspirada em nfinitepaper.com */
+.section.visible {
+    opacity: 1;
+    transform: translateY(0);
+    transition: 
+        opacity 1s cubic-bezier(0.25, 0.46, 0.45, 0.94),
+        transform 1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+/* Atraso escalonado para elementos filhos */
+.section.visible .chart-container {
+    opacity: 0;
+    transform: translateY(40px) scale(0.98);
+    animation: revealChart 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+    animation-delay: 0.3s;
+}
+
+.section.visible .chart-title {
+    opacity: 0;
+    animation: fadeSlideIn 0.6s ease forwards;
+    animation-delay: 0.1s;
+}
+
+.section.visible .chart-note {
+    opacity: 0;
+    animation: fadeSlideIn 0.6s ease forwards;
+    animation-delay: 0.8s;
+}
+
+@keyframes revealChart {
+    0% {
+        opacity: 0;
+        transform: translateY(40px) scale(0.98);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
+@keyframes fadeSlideIn {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Linha decorativa antes de cada seção */
+.section::before {
+    content: '════════════════════════════════════════════════════════════════';
+    display: block;
+    font-size: 10px;
+    color: var(--border-color);
+    margin-bottom: 2rem;
+    overflow: hidden;
+    white-space: nowrap;
+    opacity: 0;
+    transition: opacity 0.5s ease 0.2s;
+}
+
+.section.visible::before {
+    opacity: 1;
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   CONTAINERS DE GRÁFICOS
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+.chart-container {
+    background: var(--bg-color);
+    border: 1px solid var(--border-color);
+    padding: 2rem;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.chart-container:hover {
+    box-shadow: 4px 4px 0 var(--text-color);
+    transform: translate(-2px, -2px);
+}
+
+/* Canto decorativo ASCII */
+.chart-container::before {
+    content: '┌──';
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 12px;
+    color: var(--text-muted);
+    transform: translate(-1px, -1px);
+}
+
+.chart-container::after {
+    content: '──┘';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 12px;
+    color: var(--text-muted);
+    transform: translate(1px, 1px);
+}
+
+#defi-rates-chart-wrapper,
+#defi-rates-query2-chart-wrapper,
+#defi-rates-query3-chart-wrapper,
+#defi-rates-query4-chart-wrapper {
+    background: transparent;
+    padding: 1rem 0;
+    min-height: 400px;
+    position: relative;
+}
+
+#defi-rates-chart,
+#defi-rates-query2-chart,
+#defi-rates-query3-chart,
+#defi-rates-query4-chart {
+    max-height: 500px;
+    width: 100% !important;
+    height: auto !important;
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   TÍTULOS E TEXTOS
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+.chart-title {
+    font-size: 20px;  /* 2x o tamanho da legenda (10px) */
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--border-color);
+    color: var(--text-color);
+    position: relative;
+}
+
+.chart-title::before {
+    content: '// ';
+    color: var(--text-muted);
+}
+
+.chart-note {
+    font-size: 10px;
+    color: var(--text-muted);
+    margin-top: 1.5rem;
+    letter-spacing: 1px;
+}
+
+.chart-note::before {
+    content: '> ';
+}
+
+/* .chart-source removido conforme solicitado */
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   LEGENDAS E LABELS HTML CUSTOMIZADOS (com efeito glitch)
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+.chart-legend {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 1rem 0;
+    margin-bottom: 1rem;
+    flex-wrap: wrap;
+}
+
+.chart-legend-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: default;
+    transition: all 0.2s ease;
+}
+
+.chart-legend-item:hover {
+    animation: textGlitch 0.3s ease-in-out infinite;
+}
+
+.chart-legend-color {
+    width: 20px;
+    height: 3px;
+    display: inline-block;
+}
+
+.chart-legend-label {
+    color: var(--text-color);
+}
+
+/* Labels de eixo removidos conforme solicitado */
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   RODAPÉ
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+.footer {
+    text-align: center;
+    padding: 4rem 0 2rem 0;
+    margin-top: 4rem;
+    border-top: 1px solid var(--border-color);
+    color: var(--text-muted);
+    font-size: 10px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.footer::before {
+    content: '═══════════════════════════════════════════════════════════════';
+    display: block;
+    font-size: 10px;
+    margin-bottom: 2rem;
+    color: var(--border-color);
+}
+
+.footer p {
+    transition: all 0.2s ease;
+    cursor: default;
+}
+
+.footer p:hover {
+    animation: textGlitch 0.3s ease-in-out;
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   RESPONSIVIDADE
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+@media (max-width: 768px) {
+    .sidebar {
+        width: 100%;
+    }
+
+    .main-content {
+        padding: 2rem 1rem;
+    }
+
+    .section {
+        min-height: auto;
+        padding: 4rem 0;
+    }
+
+    .chart-container {
+        padding: 1rem;
+    }
+
+    .menu-toggle {
+        top: 1rem;
+        left: 1rem;
+        padding: 0.4rem 0.8rem;
+        font-size: 10px;
+    }
+
+    .section::before {
+        content: '════════════════════════';
+        font-size: 8px;
+    }
+}
+
+@media (max-width: 480px) {
+    .chart-title {
+        font-size: 16px;  /* 2x a legenda em mobile também */
+        letter-spacing: 2px;
+    }
+
+    .chart-note {
+        font-size: 8px;
+    }
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   SCROLL SUAVE
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   LOADING STATE
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+.loading {
+    position: relative;
+}
+
+.loading::after {
+    content: '█';
+    animation: blink 0.5s infinite;
+    margin-left: 2px;
+}
+
+@keyframes blink {
+    0%, 49% { opacity: 1; }
+    50%, 100% { opacity: 0; }
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   CANVAS DO GRÁFICO - Estado inicial oculto até scroll
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+.chart-canvas-hidden {
+    opacity: 0 !important;
+    visibility: hidden;
+}
+
+.chart-canvas-visible {
+    opacity: 1 !important;
+    visibility: visible;
+    transition: opacity 0.8s ease;
+}

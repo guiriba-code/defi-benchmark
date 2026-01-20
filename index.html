@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>// ANÁLISE DEFI - PARADIGMA</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+</head>
+<body>
+    <!-- Canvas para figura ASCII animada no fundo -->
+    <canvas id="ascii-background"></canvas>
+
+    <!-- Menu de Navegação Lateral -->
+    <nav class="sidebar" id="sidebar">
+        <div class="sidebar-header">
+            <h2 class="glitch-text">> índice</h2>
+            <button class="close-btn" id="closeSidebar">×</button>
+        </div>
+        <ul class="nav-menu">
+            <li><a href="#grafico-1">01 // benchmark</a></li>
+            <li><a href="#grafico-2">02 // stablecoins exóticas</a></li>
+            <li><a href="#grafico-3">03 // operações curadas por terceiros</a></li>
+            <li><a href="#grafico-4">04 // ativos reais tokenizados</a></li>
+        </ul>
+    </nav>
+
+    <!-- Botão para abrir menu -->
+    <button class="menu-toggle" id="menuToggle">[MENU]</button>
+
+    <!-- Conteúdo Principal -->
+    <main class="main-content">
+        
+        <!-- Gráfico 1 - Benchmark -->
+        <section id="grafico-1" class="section">
+            <div class="chart-container">
+                <h3 class="chart-title">benchmark</h3>
+                <div id="defi-rates-chart-wrapper">
+                    <div class="chart-legend" id="defi-rates-legend"></div>
+                    <canvas id="defi-rates-chart"></canvas>
+                    <p class="chart-note glitch-text" id="defi-rates-note">carregando dados...</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gráfico 2 - sNUSD/USDai -->
+        <section id="grafico-2" class="section">
+            <div class="chart-container">
+                <h3 class="chart-title">stablecoins exóticas</h3>
+                <div id="defi-rates-query2-chart-wrapper">
+                    <div class="chart-legend" id="defi-rates-query2-legend"></div>
+                    <canvas id="defi-rates-query2-chart"></canvas>
+                    <p class="chart-note glitch-text" id="defi-rates-query2-note">carregando dados...</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gráfico 3 - mAPOLLO/mHYPER -->
+        <section id="grafico-3" class="section">
+            <div class="chart-container">
+                <h3 class="chart-title">operações curadas por terceiros</h3>
+                <div id="defi-rates-query3-chart-wrapper">
+                    <div class="chart-legend" id="defi-rates-query3-legend"></div>
+                    <canvas id="defi-rates-query3-chart"></canvas>
+                    <p class="chart-note glitch-text" id="defi-rates-query3-note">carregando dados...</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gráfico 4 - OnRe/Re -->
+        <section id="grafico-4" class="section">
+            <div class="chart-container">
+                <h3 class="chart-title">garantidos por ativos reais tokenizados</h3>
+                <div id="defi-rates-query4-chart-wrapper">
+                    <div class="chart-legend" id="defi-rates-query4-legend"></div>
+                    <canvas id="defi-rates-query4-chart"></canvas>
+                    <p class="chart-note glitch-text" id="defi-rates-query4-note">carregando dados...</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Rodapé -->
+        <footer class="footer">
+            <p class="glitch-text">paradigma.education</p>
+        </footer>
+    </main>
+
+    <script src="js/main.js"></script>
+    <script src="js/defi-rates-chart.js"></script>
+    <script src="js/defi-rates-query2-chart.js"></script>
+    <script src="js/defi-rates-query3-chart.js"></script>
+    <script src="js/defi-rates-query4-chart.js"></script>
+</body>
+</html>

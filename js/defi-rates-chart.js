@@ -1,0 +1,302 @@
+/**
+ * ═══════════════════════════════════════════════════════════════════════════
+ * GRÁFICO 1 - BENCHMARK (Aave, Ethena, Morpho, T-Bill)
+ * Cores: Verde/Ciano/Azul/Teal
+ * ═══════════════════════════════════════════════════════════════════════════
+ */
+
+let defiRatesChart = null;
+
+// Cores específicas para Query 1 (Benchmark)
+const COLORS_Q1 = {
+    aave: '#800080',    // Roxo
+    juros: '#FF0000',   // Vermelho (Juros de Títulos Americanos)
+    ethena: '#000000',  // Preto
+    morpho: '#0000FF',  // Azul
+};
+
+// NÃO carregar automaticamente - será chamado pelo ScrollAnimations
+async function loadDefiRatesChart() {
+    const canvas = document.getElementById('defi-rates-chart');
+    const noteElement = document.getElementById('defi-rates-note');
+    
+    if (!canvas) {
+        console.warn('> Canvas defi-rates-chart não encontrado');
+        return;
+    }
+
+    try {
+        let dataUrl = 'data/defi_rates_data.json';
+        
+        if (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1') {
+            const port = window.location.port || '8000';
+            dataUrl = `http://${window.location.hostname}:${port}/data/defi_rates_data.json?t=${Date.now()}`;
+        }
+        
+        console.log('> Carregando Query 1 (Benchmark):', dataUrl);
+        const response = await fetch(dataUrl);
+        
+        if (!response.ok) {
+            throw new Error(`Erro ${response.status}`);
+        }
+
+        const jsonData = await response.json();
+        const rows = jsonData.data;
+
+        if (!rows || rows.length === 0) {
+            throw new Error('Nenhum dado encontrado');
+        }
+
+        let labels = [];
+        let aaveSupplyRates = [];
+        let tbillRates = [];
+        let ethenaSusdeRates = [];
+        let morphoSupplyRates = [];
+        
+        const sortedRows = [...rows].sort((a, b) => {
+            const dateA = new Date(a.date || a.Date || 0);
+            const dateB = new Date(b.date || b.Date || 0);
+            return dateA - dateB;
+        });
+        
+        sortedRows.forEach((row) => {
+            const dateField = row.date || row.Date;
+            if (dateField) {
+                try {
+                    const date = new Date(dateField);
+                    if (!isNaN(date.getTime())) {
+                        labels.push(date.toLocaleDateString('pt-BR', { 
+                            month: 'short', 
+                            day: 'numeric' 
+                        }));
+                    } else {
+                        labels.push(dateField);
+                    }
+                } catch (e) {
+                    labels.push(dateField);
+                }
+                
+                aaveSupplyRates.push(row.aave_supply_rate !== null ? parseFloat(row.aave_supply_rate) : null);
+                tbillRates.push(row.tbill_rate !== null ? parseFloat(row.tbill_rate) : null);
+                ethenaSusdeRates.push(row.ethena_susde_rate !== null ? parseFloat(row.ethena_susde_rate) : null);
+                morphoSupplyRates.push(row.morpho_supply_rate !== null ? parseFloat(row.morpho_supply_rate) : null);
+            }
+        });
+
+        const lastRow = sortedRows[sortedRows.length - 1];
+        if (lastRow && noteElement) {
+            const rates = [];
+            if (lastRow.aave_supply_rate !== null) rates.push(`Aave: ${(lastRow.aave_supply_rate * 100).toFixed(2)}%`);
+            if (lastRow.tbill_rate !== null) rates.push(`Juros Títulos US: ${(lastRow.tbill_rate * 100).toFixed(2)}%`);
+            if (lastRow.ethena_susde_rate !== null) rates.push(`Ethena: ${(lastRow.ethena_susde_rate * 100).toFixed(2)}%`);
+            if (lastRow.morpho_supply_rate !== null) rates.push(`Morpho: ${(lastRow.morpho_supply_rate * 100).toFixed(2)}%`);
+            noteElement.textContent = `Última atualização: ${rates.join(' | ')}`;
+        }
+
+        const ctx = canvas.getContext('2d');
+        
+        if (defiRatesChart) {
+            defiRatesChart.destroy();
+        }
+
+        defiRatesChart = new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: labels,
+                datasets: [
+                    {
+                        label: 'Aave',  // Simplificado
+                        data: aaveSupplyRates,
+                        borderColor: COLORS_Q1.aave,
+                        backgroundColor: 'transparent',
+                        borderWidth: 2,
+                        fill: false,
+                        stepped: 'before',
+                        borderJoinStyle: 'round',
+                        borderCapStyle: 'round',
+                        pointRadius: 0,
+                        pointHoverRadius: 4,
+                        pointHoverBackgroundColor: COLORS_Q1.aave,
+                        spanGaps: true
+                    },
+                    {
+                        label: 'Juros Títulos US',  // Juros de Títulos Americanos
+                        data: tbillRates,
+                        borderColor: COLORS_Q1.juros,
+                        backgroundColor: 'transparent',
+                        borderWidth: 2,
+                        fill: false,
+                        stepped: 'before',
+                        borderJoinStyle: 'round',
+                        borderCapStyle: 'round',
+                        pointRadius: 0,
+                        pointHoverRadius: 4,
+                        pointHoverBackgroundColor: COLORS_Q1.juros,
+                        spanGaps: true
+                    },
+                    {
+                        label: 'Ethena',  // Simplificado
+                        data: ethenaSusdeRates,
+                        borderColor: COLORS_Q1.ethena,
+                        backgroundColor: 'transparent',
+                        borderWidth: 2,
+                        fill: false,
+                        stepped: 'before',
+                        borderJoinStyle: 'round',
+                        borderCapStyle: 'round',
+                        pointRadius: 0,
+                        pointHoverRadius: 4,
+                        pointHoverBackgroundColor: COLORS_Q1.ethena,
+                        spanGaps: true
+                    },
+                    {
+                        label: 'Morpho',  // Simplificado
+                        data: morphoSupplyRates,
+                        borderColor: COLORS_Q1.morpho,
+                        backgroundColor: 'transparent',
+                        borderWidth: 2,
+                        fill: false,
+                        stepped: 'before',
+                        borderJoinStyle: 'round',
+                        borderCapStyle: 'round',
+                        pointRadius: 0,
+                        pointHoverRadius: 4,
+                        pointHoverBackgroundColor: COLORS_Q1.morpho,
+                        spanGaps: true
+                    }
+                ]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: true,
+                animation: {
+                    duration: 1200,
+                    easing: 'easeOutQuart'
+                },
+                plugins: {
+                    title: {
+                        display: false
+                    },
+                    legend: {
+                        display: false  // Usando legenda HTML customizada
+                    },
+                    tooltip: {
+                        mode: 'index',
+                        intersect: false,
+                        backgroundColor: '#ffffff',
+                        titleColor: '#000000',
+                        bodyColor: '#000000',
+                        borderColor: '#000000',
+                        borderWidth: 1,
+                        titleFont: {
+                            family: "'Monaco', 'Menlo', monospace",
+                            size: 11
+                        },
+                        bodyFont: {
+                            family: "'Monaco', 'Menlo', monospace",
+                            size: 10
+                        },
+                        padding: 12,
+                        callbacks: {
+                            label: function(context) {
+                                const value = context.parsed.y;
+                                if (value === null) return `${context.dataset.label}: N/A`;
+                                return `> ${context.dataset.label}: ${(value * 100).toFixed(2)}%`;
+                            }
+                        }
+                    }
+                },
+                scales: {
+                    y: {
+                        beginAtZero: false,
+                        title: {
+                            display: false  // Usando label HTML customizado
+                        },
+                        ticks: {
+                            color: '#666666',
+                            font: {
+                                family: "'Monaco', 'Menlo', monospace",
+                                size: 9
+                            },
+                            callback: function(value) {
+                                return (value * 100).toFixed(1) + '%';
+                            }
+                        },
+                        grid: {
+                            color: '#e0e0e0',
+                            lineWidth: 1
+                        },
+                        border: {
+                            color: '#cccccc'
+                        }
+                    },
+                    x: {
+                        title: {
+                            display: false  // Usando label HTML customizado
+                        },
+                        ticks: {
+                            color: '#666666',
+                            font: {
+                                family: "'Monaco', 'Menlo', monospace",
+                                size: 9
+                            },
+                            maxRotation: 45,
+                            minRotation: 45,
+                            maxTicksLimit: 15
+                        },
+                        grid: {
+                            color: '#e0e0e0',
+                            lineWidth: 1
+                        },
+                        border: {
+                            color: '#cccccc'
+                        }
+                    }
+                },
+                interaction: {
+                    mode: 'nearest',
+                    axis: 'x',
+                    intersect: false
+                }
+            }
+        });
+
+        // Criar legenda HTML customizada
+        createCustomLegend('defi-rates-legend', [
+            { label: 'Aave', color: COLORS_Q1.aave },
+            { label: 'Juros Títulos US', color: COLORS_Q1.juros },
+            { label: 'Ethena', color: COLORS_Q1.ethena },
+            { label: 'Morpho', color: COLORS_Q1.morpho }
+        ]);
+
+        console.log('> Gráfico 1 (Benchmark) carregado ✓');
+        
+    } catch (error) {
+        console.error('> Erro ao carregar gráfico 1:', error);
+        if (noteElement) {
+            noteElement.textContent = `Erro: ${error.message}`;
+            noteElement.style.color = '#cc0000';
+        }
+    }
+}
+
+// Função para criar legenda HTML customizada com efeito glitch
+function createCustomLegend(containerId, items) {
+    const container = document.getElementById(containerId);
+    if (!container) return;
+    
+    container.innerHTML = '';
+    
+    items.forEach(item => {
+        const legendItem = document.createElement('div');
+        legendItem.className = 'chart-legend-item glitch-text';
+        legendItem.innerHTML = `
+            <span class="chart-legend-color" style="background-color: ${item.color}"></span>
+            <span class="chart-legend-label">${item.label}</span>
+        `;
+        container.appendChild(legendItem);
+    });
+}
+
+// Expor função globalmente para o ScrollAnimations
+window.loadDefiRatesChart = loadDefiRatesChart;
