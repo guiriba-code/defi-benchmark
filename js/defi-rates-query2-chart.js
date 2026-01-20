@@ -198,11 +198,13 @@ async function loadDefiRatesQuery2Chart() {
                             color: '#666666',
                             font: {
                                 family: "'Monaco', 'Menlo', monospace",
-                                size: 9
+                                size: window.innerWidth < 768 ? 7 : 9
                             },
-                            maxRotation: 45,
+                            maxRotation: 90,
                             minRotation: 45,
-                            maxTicksLimit: 15
+                            autoSkip: true,
+                            autoSkipPadding: 10,
+                            maxTicksLimit: window.innerWidth < 480 ? 6 : (window.innerWidth < 768 ? 10 : 15)
                         },
                         grid: {
                             color: '#e0e0e0'
