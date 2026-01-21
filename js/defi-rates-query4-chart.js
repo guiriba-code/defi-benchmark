@@ -1,16 +1,17 @@
 /**
  * ═══════════════════════════════════════════════════════════════════════════
- * GRÁFICO 4 - OnRe e Re
- * Cores: Navy/Índigo (tons azuis escuros)
+ * GRÁFICO 4 - Ativos Reais Tokenizados (OnRe, Re, PayFi Vault, Rain Vault)
  * ═══════════════════════════════════════════════════════════════════════════
  */
 
 let defiRatesQuery4Chart = null;
 
-// Cores específicas para Query 4 (OnRe/Re)
+// Cores específicas para Query 4
 const COLORS_Q4 = {
-    onre: '#7FFFD4',    // Aquamarine
-    re: '#FFA500',      // Laranja
+    onre: '#7FFFD4',      // Aquamarine
+    re: '#FFA500',        // Laranja
+    payfi: '#9932CC',     // Dark Orchid (roxo)
+    rain: '#20B2AA',      // Light Sea Green (verde-azulado)
 };
 
 async function loadDefiRatesQuery4Chart() {
@@ -47,6 +48,12 @@ async function loadDefiRatesQuery4Chart() {
         let labels = [];
         let onReApr = [];
         let reApr = [];
+        let payfiApr = [];
+        let rainApr = [];
+        
+        // Campos dos vaults
+        const PAYFI_FIELD = 'avg_total_yield_address_0x6c99a74a62aaf2e6aa3ff08ce7661d5c86e01dbc';
+        const RAIN_FIELD = 'avg_total_yield_address_0xdfb94de0838b1989fbbb800042b17a6404692001';
         
         const sortedRows = [...rows].sort((a, b) => {
             const dateA = new Date(a.date || a.Date || 0);
@@ -73,6 +80,8 @@ async function loadDefiRatesQuery4Chart() {
                 
                 onReApr.push(row.OnRe_APR_7D !== null && row.OnRe_APR_7D !== undefined ? parseFloat(row.OnRe_APR_7D) : null);
                 reApr.push(row.Re_APR_7D !== null && row.Re_APR_7D !== undefined ? parseFloat(row.Re_APR_7D) : null);
+                payfiApr.push(row[PAYFI_FIELD] !== null && row[PAYFI_FIELD] !== undefined ? parseFloat(row[PAYFI_FIELD]) : null);
+                rainApr.push(row[RAIN_FIELD] !== null && row[RAIN_FIELD] !== undefined ? parseFloat(row[RAIN_FIELD]) : null);
             }
         });
 
@@ -84,7 +93,9 @@ async function loadDefiRatesQuery4Chart() {
             // Links das operações
             const LINKS = {
                 onre: 'https://app.onre.finance/earn',
-                re: 'https://app.re.xyz/reusde'
+                re: 'https://app.re.xyz/reusde',
+                payfi: 'https://app.huma.finance/',
+                rain: 'https://app.huma.finance/'
             };
             
             // Função para encontrar o último valor não-nulo
@@ -100,9 +111,13 @@ async function loadDefiRatesQuery4Chart() {
             
             const onReVal = findLastValue('OnRe_APR_7D');
             const reVal = findLastValue('Re_APR_7D');
+            const payfiVal = findLastValue(PAYFI_FIELD);
+            const rainVal = findLastValue(RAIN_FIELD);
             
             if (onReVal !== null) info.push(`<a href="${LINKS.onre}" target="_blank">OnRe</a>: ${(onReVal * 100).toFixed(1)}%`);
             if (reVal !== null) info.push(`<a href="${LINKS.re}" target="_blank">Re</a>: ${(reVal * 100).toFixed(1)}%`);
+            if (payfiVal !== null) info.push(`<a href="${LINKS.payfi}" target="_blank">PayFi Vault</a>: ${(payfiVal * 100).toFixed(1)}%`);
+            if (rainVal !== null) info.push(`<a href="${LINKS.rain}" target="_blank">Rain Vault</a>: ${(rainVal * 100).toFixed(1)}%`);
             
             if (isMobile) {
                 noteElement.innerHTML = `<strong>> Última atualização:</strong><br>${info.join('<br>')}`;
@@ -123,7 +138,7 @@ async function loadDefiRatesQuery4Chart() {
                 labels: labels,
                 datasets: [
                     {
-                        label: 'OnRe',  // Simplificado
+                        label: 'OnRe',
                         data: onReApr,
                         borderColor: COLORS_Q4.onre,
                         backgroundColor: 'transparent',
@@ -138,7 +153,7 @@ async function loadDefiRatesQuery4Chart() {
                         spanGaps: true
                     },
                     {
-                        label: 'Re',  // Simplificado
+                        label: 'Re',
                         data: reApr,
                         borderColor: COLORS_Q4.re,
                         backgroundColor: 'transparent',
@@ -150,6 +165,36 @@ async function loadDefiRatesQuery4Chart() {
                         pointRadius: 0,
                         pointHoverRadius: 4,
                         pointHoverBackgroundColor: COLORS_Q4.re,
+                        spanGaps: true
+                    },
+                    {
+                        label: 'PayFi Vault',
+                        data: payfiApr,
+                        borderColor: COLORS_Q4.payfi,
+                        backgroundColor: 'transparent',
+                        borderWidth: 2,
+                        fill: false,
+                        stepped: 'before',
+                        borderJoinStyle: 'round',
+                        borderCapStyle: 'round',
+                        pointRadius: 0,
+                        pointHoverRadius: 4,
+                        pointHoverBackgroundColor: COLORS_Q4.payfi,
+                        spanGaps: true
+                    },
+                    {
+                        label: 'Rain Vault',
+                        data: rainApr,
+                        borderColor: COLORS_Q4.rain,
+                        backgroundColor: 'transparent',
+                        borderWidth: 2,
+                        fill: false,
+                        stepped: 'before',
+                        borderJoinStyle: 'round',
+                        borderCapStyle: 'round',
+                        pointRadius: 0,
+                        pointHoverRadius: 4,
+                        pointHoverBackgroundColor: COLORS_Q4.rain,
                         spanGaps: true
                     }
                 ]
@@ -252,10 +297,12 @@ async function loadDefiRatesQuery4Chart() {
         // Criar legenda HTML customizada
         createCustomLegend4('defi-rates-query4-legend', [
             { label: 'OnRe', color: COLORS_Q4.onre },
-            { label: 'Re', color: COLORS_Q4.re }
+            { label: 'Re', color: COLORS_Q4.re },
+            { label: 'PayFi Vault', color: COLORS_Q4.payfi },
+            { label: 'Rain Vault', color: COLORS_Q4.rain }
         ]);
 
-        console.log('> Gráfico 4 (OnRe/Re) carregado ✓');
+        console.log('> Gráfico 4 (Ativos Reais Tokenizados) carregado ✓');
         
     } catch (error) {
         console.error('> Erro ao carregar gráfico 4:', error);
