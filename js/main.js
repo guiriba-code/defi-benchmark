@@ -223,16 +223,13 @@ class TextGlitchEffect {
     }
 
     init() {
-        // Aplicar efeito glitch a TODOS os textos do site
-        const glitchElements = document.querySelectorAll('.glitch-text, .chart-title, .chart-note, .nav-menu a, .footer p, .menu-toggle, .sidebar-header h2');
+        // Aplicar efeito glitch aos textos do site (EXCETO chart-note que tem links)
+        const glitchElements = document.querySelectorAll('.glitch-text, .chart-title, .nav-menu a, .footer p, .menu-toggle, .sidebar-header h2');
         
         glitchElements.forEach(element => {
             element.addEventListener('mouseenter', () => this.startGlitch(element));
             element.addEventListener('mouseleave', () => this.stopGlitch(element));
         });
-        
-        // Observer para aplicar efeito a elementos criados dinamicamente
-        this.observeDynamicElements();
         
         // Observar legendas criadas dinamicamente pelos gráficos
         this.observeLegendElements();
@@ -264,32 +261,6 @@ class TextGlitchEffect {
         legendContainers.forEach(container => observer.observe(container, config));
     }
     
-    observeDynamicElements() {
-        // Observar mudanças no DOM para aplicar efeito a novos elementos
-        const targetNodes = document.querySelectorAll('.chart-note');
-        
-        const config = { characterData: true, subtree: true, childList: true };
-        
-        const callback = (mutationsList, observer) => {
-            for (const mutation of mutationsList) {
-                if (mutation.type === 'characterData' || mutation.type === 'childList') {
-                    const target = mutation.target.parentElement || mutation.target;
-                    if (target.classList && target.classList.contains('chart-note')) {
-                        // Re-aplicar eventos se necessário
-                        if (!target.hasGlitchEvent) {
-                            target.hasGlitchEvent = true;
-                            target.addEventListener('mouseenter', () => this.startGlitch(target));
-                            target.addEventListener('mouseleave', () => this.stopGlitch(target));
-                        }
-                    }
-                }
-            }
-        };
-        
-        const observer = new MutationObserver(callback);
-        targetNodes.forEach(node => observer.observe(node, config));
-    }
-
     startGlitch(element) {
         element.classList.add('glitching');
         
