@@ -88,6 +88,13 @@ async function loadDefiRatesChart() {
             const isMobile = window.innerWidth < 768;
             const rates = [];
             
+            // Links das operações
+            const LINKS = {
+                aave: 'https://app.aave.com/',
+                ethena: 'https://ethena.fi/',
+                morpho: 'https://app.morpho.org/ethereum/vault/0xBEEF01735c132Ada46AA9aA4c54623cAA92A64CB/steakhouse-usdc'
+            };
+            
             // Função para encontrar o último valor não-nulo
             const findLastValue = (field) => {
                 for (let i = sortedRows.length - 1; i >= 0; i--) {
@@ -103,15 +110,15 @@ async function loadDefiRatesChart() {
             const ethenaVal = findLastValue('ethena_susde_rate');
             const morphoVal = findLastValue('morpho_supply_rate');
             
-            if (aaveVal !== null) rates.push(`Aave: ${(aaveVal * 100).toFixed(1)}%`);
+            if (aaveVal !== null) rates.push(`<a href="${LINKS.aave}" target="_blank">Aave</a>: ${(aaveVal * 100).toFixed(1)}%`);
             if (tbillVal !== null) rates.push(`Juros US: ${(tbillVal * 100).toFixed(1)}%`);
-            if (ethenaVal !== null) rates.push(`Ethena: ${(ethenaVal * 100).toFixed(1)}%`);
-            if (morphoVal !== null) rates.push(`Morpho: ${(morphoVal * 100).toFixed(1)}%`);
+            if (ethenaVal !== null) rates.push(`<a href="${LINKS.ethena}" target="_blank">Ethena</a>: ${(ethenaVal * 100).toFixed(1)}%`);
+            if (morphoVal !== null) rates.push(`<a href="${LINKS.morpho}" target="_blank">Morpho</a>: ${(morphoVal * 100).toFixed(1)}%`);
             
             if (isMobile) {
                 noteElement.innerHTML = `<strong>> Última atualização:</strong><br>${rates.join('<br>')}`;
             } else {
-                noteElement.textContent = `Última atualização: ${rates.join(' | ')}`;
+                noteElement.innerHTML = `> Última atualização: ${rates.join(' | ')}`;
             }
         }
 

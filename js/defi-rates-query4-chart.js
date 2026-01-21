@@ -81,6 +81,12 @@ async function loadDefiRatesQuery4Chart() {
             const isMobile = window.innerWidth < 768;
             const info = [];
             
+            // Links das operações
+            const LINKS = {
+                onre: 'https://app.onre.finance/earn',
+                re: 'https://app.re.xyz/reusde'
+            };
+            
             // Função para encontrar o último valor não-nulo
             const findLastValue = (field) => {
                 for (let i = sortedRows.length - 1; i >= 0; i--) {
@@ -95,13 +101,13 @@ async function loadDefiRatesQuery4Chart() {
             const onReVal = findLastValue('OnRe_APR_7D');
             const reVal = findLastValue('Re_APR_7D');
             
-            if (onReVal !== null) info.push(`OnRe: ${(onReVal * 100).toFixed(1)}%`);
-            if (reVal !== null) info.push(`Re: ${(reVal * 100).toFixed(1)}%`);
+            if (onReVal !== null) info.push(`<a href="${LINKS.onre}" target="_blank">OnRe</a>: ${(onReVal * 100).toFixed(1)}%`);
+            if (reVal !== null) info.push(`<a href="${LINKS.re}" target="_blank">Re</a>: ${(reVal * 100).toFixed(1)}%`);
             
             if (isMobile) {
                 noteElement.innerHTML = `<strong>> Última atualização:</strong><br>${info.join('<br>')}`;
             } else {
-                noteElement.textContent = `Última atualização: ${info.join(' | ')}`;
+                noteElement.innerHTML = `> Última atualização: ${info.join(' | ')}`;
             }
         }
 

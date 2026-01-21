@@ -405,8 +405,17 @@ body {
     letter-spacing: 1px;
 }
 
-.chart-note::before {
-    content: '> ';
+.chart-note a {
+    color: var(--text-color);
+    text-decoration: none;
+    border-bottom: 1px solid var(--border-color);
+    transition: all 0.2s ease;
+}
+
+.chart-note a:hover {
+    color: var(--text-color);
+    border-bottom-color: var(--text-color);
+    background: rgba(0, 0, 0, 0.05);
 }
 
 /* .chart-source removido conforme solicitado */

@@ -76,17 +76,37 @@ async function loadDefiRatesQuery2Chart() {
             }
         });
 
-        const lastRow = sortedRows[sortedRows.length - 1];
-        if (lastRow && noteElement) {
+        // Buscar o valor mais recente não-nulo para cada campo
+        if (noteElement) {
             const isMobile = window.innerWidth < 768;
             const info = [];
-            if (lastRow.snusd_apy_7d !== null) info.push(`sNUSD: ${(lastRow.snusd_apy_7d * 100).toFixed(1)}%`);
-            if (lastRow.usdai_apy_7dma !== null) info.push(`USDai: ${(lastRow.usdai_apy_7dma * 100).toFixed(1)}%`);
+            
+            // Links das operações
+            const LINKS = {
+                snusd: 'https://app.neutrl.fi/protocol',
+                usdai: 'https://app.usd.ai/'
+            };
+            
+            // Função para encontrar o último valor não-nulo
+            const findLastValue = (field) => {
+                for (let i = sortedRows.length - 1; i >= 0; i--) {
+                    if (sortedRows[i][field] !== null && sortedRows[i][field] !== undefined) {
+                        return sortedRows[i][field];
+                    }
+                }
+                return null;
+            };
+            
+            const snusdVal = findLastValue('snusd_apy_7d');
+            const usdaiVal = findLastValue('usdai_apy_7dma');
+            
+            if (snusdVal !== null) info.push(`<a href="${LINKS.snusd}" target="_blank">sNUSD</a>: ${(snusdVal * 100).toFixed(1)}%`);
+            if (usdaiVal !== null) info.push(`<a href="${LINKS.usdai}" target="_blank">USDai</a>: ${(usdaiVal * 100).toFixed(1)}%`);
             
             if (isMobile) {
                 noteElement.innerHTML = `<strong>> Última atualização:</strong><br>${info.join('<br>')}`;
             } else {
-                noteElement.textContent = `Última atualização: ${info.join(' | ')}`;
+                noteElement.innerHTML = `> Última atualização: ${info.join(' | ')}`;
             }
         }
 

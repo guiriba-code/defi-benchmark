@@ -92,6 +92,14 @@ async function loadDefiRatesQuery3Chart() {
             const isMobile = window.innerWidth < 768;
             const info = [];
             
+            // Links das operações
+            const LINKS = {
+                mapollo: 'https://midas.app/mapollo',
+                mhyper: 'https://midas.app/mhyper',
+                autousd: 'https://app.auto.finance/',
+                gtusda: 'https://app.gauntlet.xyz/vaults/gtusda'
+            };
+            
             // Função para encontrar o último valor não-nulo
             const findLastValue = (fields) => {
                 for (let i = sortedRows.length - 1; i >= 0; i--) {
@@ -110,15 +118,15 @@ async function loadDefiRatesQuery3Chart() {
             const autoUSDVal = findLastValue(['autoUSD annualized_return_ma7', 'autoUSD_annualized_return_ma7']);
             const gtUSDaVal = findLastValue(['gtUSDa annualized_return_ma7', 'gtUSDa_annualized_return_ma7']);
             
-            if (mApolloVal !== null) info.push(`mAPOLLO: ${(mApolloVal * 100).toFixed(1)}%`);
-            if (mHyperVal !== null) info.push(`mHYPER: ${(mHyperVal * 100).toFixed(1)}%`);
-            if (autoUSDVal !== null) info.push(`autoUSD: ${(autoUSDVal * 100).toFixed(1)}%`);
-            if (gtUSDaVal !== null) info.push(`gtUSDa: ${(gtUSDaVal * 100).toFixed(1)}%`);
+            if (mApolloVal !== null) info.push(`<a href="${LINKS.mapollo}" target="_blank">mAPOLLO</a>: ${(mApolloVal * 100).toFixed(1)}%`);
+            if (mHyperVal !== null) info.push(`<a href="${LINKS.mhyper}" target="_blank">mHYPER</a>: ${(mHyperVal * 100).toFixed(1)}%`);
+            if (autoUSDVal !== null) info.push(`<a href="${LINKS.autousd}" target="_blank">autoUSD</a>: ${(autoUSDVal * 100).toFixed(1)}%`);
+            if (gtUSDaVal !== null) info.push(`<a href="${LINKS.gtusda}" target="_blank">gtUSDa</a>: ${(gtUSDaVal * 100).toFixed(1)}%`);
             
             if (isMobile) {
                 noteElement.innerHTML = `<strong>> Última atualização:</strong><br>${info.join('<br>')}`;
             } else {
-                noteElement.textContent = `Última atualização: ${info.join(' | ')}`;
+                noteElement.innerHTML = `> Última atualização: ${info.join(' | ')}`;
             }
         }
 
