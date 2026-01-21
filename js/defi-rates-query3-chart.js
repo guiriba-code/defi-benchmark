@@ -64,10 +64,10 @@ async function loadDefiRatesQuery3Chart() {
                 try {
                     const date = new Date(dateField);
                     if (!isNaN(date.getTime())) {
-                        labels.push(date.toLocaleDateString('pt-BR', { 
-                            month: 'short', 
-                            day: 'numeric' 
-                        }));
+                        // Formato simples DD/MM (sem hora)
+                        const day = date.getDate().toString().padStart(2, '0');
+                        const month = (date.getMonth() + 1).toString().padStart(2, '0');
+                        labels.push(`${day}/${month}`);
                     } else {
                         labels.push(dateField);
                     }
@@ -89,16 +89,22 @@ async function loadDefiRatesQuery3Chart() {
 
         const lastRow = sortedRows[sortedRows.length - 1];
         if (lastRow && noteElement) {
+            const isMobile = window.innerWidth < 768;
             const info = [];
             const mApollo = lastRow.mAPOLLO_annualized_return_ma7 || lastRow['mAPOLLO annualized_return_ma7'];
             const mHyper = lastRow.mHYPER_annualized_return_ma7 || lastRow['mHYPER annualized_return_ma7'];
             const autoUSD = lastRow['autoUSD annualized_return_ma7'] || lastRow.autoUSD_annualized_return_ma7;
             const gtUSDa = lastRow['gtUSDa annualized_return_ma7'] || lastRow.gtUSDa_annualized_return_ma7;
-            if (mApollo !== null && mApollo !== undefined) info.push(`mAPOLLO: ${(mApollo * 100).toFixed(2)}%`);
-            if (mHyper !== null && mHyper !== undefined) info.push(`mHYPER: ${(mHyper * 100).toFixed(2)}%`);
-            if (autoUSD !== null && autoUSD !== undefined) info.push(`autoUSD: ${(autoUSD * 100).toFixed(2)}%`);
-            if (gtUSDa !== null && gtUSDa !== undefined) info.push(`gtUSDa: ${(gtUSDa * 100).toFixed(2)}%`);
-            noteElement.textContent = `Última atualização: ${info.join(' | ')}`;
+            if (mApollo !== null && mApollo !== undefined) info.push(`mAPOLLO: ${(mApollo * 100).toFixed(1)}%`);
+            if (mHyper !== null && mHyper !== undefined) info.push(`mHYPER: ${(mHyper * 100).toFixed(1)}%`);
+            if (autoUSD !== null && autoUSD !== undefined) info.push(`autoUSD: ${(autoUSD * 100).toFixed(1)}%`);
+            if (gtUSDa !== null && gtUSDa !== undefined) info.push(`gtUSDa: ${(gtUSDa * 100).toFixed(1)}%`);
+            
+            if (isMobile) {
+                noteElement.innerHTML = `<strong>> Última atualização:</strong><br>${info.join('<br>')}`;
+            } else {
+                noteElement.textContent = `Última atualização: ${info.join(' | ')}`;
+            }
         }
 
         const ctx = canvas.getContext('2d');

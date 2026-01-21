@@ -364,7 +364,7 @@ body {
 #defi-rates-query4-chart-wrapper {
     background: transparent;
     padding: 1rem 0;
-    min-height: 400px;
+    min-height: 350px;
     position: relative;
 }
 
@@ -494,16 +494,25 @@ body {
     }
 
     .main-content {
-        padding: 2rem 1rem;
+        padding: 1.5rem 0.75rem;
     }
 
     .section {
         min-height: auto;
-        padding: 4rem 0;
+        padding: 2rem 0;
+        margin-bottom: 1rem;
     }
 
     .chart-container {
-        padding: 1rem;
+        padding: 0.75rem;
+    }
+    
+    #defi-rates-chart-wrapper,
+    #defi-rates-query2-chart-wrapper,
+    #defi-rates-query3-chart-wrapper,
+    #defi-rates-query4-chart-wrapper {
+        padding: 0.5rem 0;
+        min-height: 280px;
     }
 
     .menu-toggle {
@@ -517,16 +526,66 @@ body {
         content: '════════════════════════';
         font-size: 8px;
     }
+    
+    .chart-legend {
+        gap: 1rem;
+        padding: 0.5rem 0;
+    }
+    
+    .chart-legend-item {
+        font-size: 8px;
+        letter-spacing: 1px;
+    }
 }
 
 @media (max-width: 480px) {
+    .main-content {
+        padding: 1rem 0.5rem;
+    }
+    
+    .section {
+        padding: 1.5rem 0;
+    }
+    
+    .chart-container {
+        padding: 0.5rem;
+    }
+    
+    #defi-rates-chart-wrapper,
+    #defi-rates-query2-chart-wrapper,
+    #defi-rates-query3-chart-wrapper,
+    #defi-rates-query4-chart-wrapper {
+        padding: 0.25rem 0;
+        min-height: 240px;
+    }
+    
     .chart-title {
-        font-size: 16px;  /* 2x a legenda em mobile também */
-        letter-spacing: 2px;
+        font-size: 14px;
+        letter-spacing: 1px;
+        margin-bottom: 1rem;
+        padding-bottom: 0.5rem;
     }
 
     .chart-note {
-        font-size: 8px;
+        font-size: 9px;
+        line-height: 1.6;
+        margin-top: 1rem;
+    }
+    
+    .chart-legend {
+        gap: 0.75rem;
+        padding: 0.25rem 0;
+        margin-bottom: 0.5rem;
+    }
+    
+    .chart-legend-item {
+        font-size: 7px;
+        gap: 0.25rem;
+    }
+    
+    .chart-legend-color {
+        width: 15px;
+        height: 2px;
     }
 }
 

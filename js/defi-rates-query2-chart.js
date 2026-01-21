@@ -60,10 +60,10 @@ async function loadDefiRatesQuery2Chart() {
                 try {
                     const date = new Date(dateField);
                     if (!isNaN(date.getTime())) {
-                        labels.push(date.toLocaleDateString('pt-BR', { 
-                            month: 'short', 
-                            day: 'numeric' 
-                        }));
+                        // Formato simples DD/MM (sem hora)
+                        const day = date.getDate().toString().padStart(2, '0');
+                        const month = (date.getMonth() + 1).toString().padStart(2, '0');
+                        labels.push(`${day}/${month}`);
                     } else {
                         labels.push(dateField);
                     }
@@ -78,10 +78,16 @@ async function loadDefiRatesQuery2Chart() {
 
         const lastRow = sortedRows[sortedRows.length - 1];
         if (lastRow && noteElement) {
+            const isMobile = window.innerWidth < 768;
             const info = [];
-            if (lastRow.snusd_apy_7d !== null) info.push(`sNUSD: ${(lastRow.snusd_apy_7d * 100).toFixed(2)}%`);
-            if (lastRow.usdai_apy_7dma !== null) info.push(`USDai: ${(lastRow.usdai_apy_7dma * 100).toFixed(2)}%`);
-            noteElement.textContent = `Última atualização: ${info.join(' | ')}`;
+            if (lastRow.snusd_apy_7d !== null) info.push(`sNUSD: ${(lastRow.snusd_apy_7d * 100).toFixed(1)}%`);
+            if (lastRow.usdai_apy_7dma !== null) info.push(`USDai: ${(lastRow.usdai_apy_7dma * 100).toFixed(1)}%`);
+            
+            if (isMobile) {
+                noteElement.innerHTML = `<strong>> Última atualização:</strong><br>${info.join('<br>')}`;
+            } else {
+                noteElement.textContent = `Última atualização: ${info.join(' | ')}`;
+            }
         }
 
         const ctx = canvas.getContext('2d');

@@ -60,10 +60,10 @@ async function loadDefiRatesQuery4Chart() {
                 try {
                     const date = new Date(dateField);
                     if (!isNaN(date.getTime())) {
-                        labels.push(date.toLocaleDateString('pt-BR', { 
-                            month: 'short', 
-                            day: 'numeric' 
-                        }));
+                        // Formato simples DD/MM (sem hora)
+                        const day = date.getDate().toString().padStart(2, '0');
+                        const month = (date.getMonth() + 1).toString().padStart(2, '0');
+                        labels.push(`${day}/${month}`);
                     } else {
                         labels.push(dateField);
                     }
@@ -78,10 +78,16 @@ async function loadDefiRatesQuery4Chart() {
 
         const lastRow = sortedRows[sortedRows.length - 1];
         if (lastRow && noteElement) {
+            const isMobile = window.innerWidth < 768;
             const info = [];
-            if (lastRow.OnRe_APR_7D !== null && lastRow.OnRe_APR_7D !== undefined) info.push(`OnRe: ${(lastRow.OnRe_APR_7D * 100).toFixed(2)}%`);
-            if (lastRow.Re_APR_7D !== null && lastRow.Re_APR_7D !== undefined) info.push(`Re: ${(lastRow.Re_APR_7D * 100).toFixed(2)}%`);
-            noteElement.textContent = `Última atualização: ${info.join(' | ')}`;
+            if (lastRow.OnRe_APR_7D !== null && lastRow.OnRe_APR_7D !== undefined) info.push(`OnRe: ${(lastRow.OnRe_APR_7D * 100).toFixed(1)}%`);
+            if (lastRow.Re_APR_7D !== null && lastRow.Re_APR_7D !== undefined) info.push(`Re: ${(lastRow.Re_APR_7D * 100).toFixed(1)}%`);
+            
+            if (isMobile) {
+                noteElement.innerHTML = `<strong>> Última atualização:</strong><br>${info.join('<br>')}`;
+            } else {
+                noteElement.textContent = `Última atualização: ${info.join(' | ')}`;
+            }
         }
 
         const ctx = canvas.getContext('2d');
