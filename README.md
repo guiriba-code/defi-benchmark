@@ -1,119 +1,142 @@
-# 📊 Site Navegável - 10 Previsões Para 2026
+# DeFi Benchmark - Comparativo de Rendas Dolarizadas
 
-Site interativo convertido do relatório PDF, com suporte para gráficos embebidos do Dune Analytics e outras fontes.
+Dashboard interativo para comparação de rendimentos em protocolos DeFi e ativos tokenizados. Dados atualizados via Dune Analytics.
 
-## 🚀 Início Rápido
+**Site ao vivo:** [rendadolarizada.vercel.app](https://rendadolarizada.vercel.app)
 
-### Opção 1: Servidor Automático (Recomendado) ⭐
+---
 
-O servidor executa o script Python automaticamente e atualiza os dados!
+## O que é este projeto?
+
+Este site apresenta uma análise comparativa de diferentes oportunidades de renda em dólar no ecossistema DeFi e RWA (Real World Assets), permitindo visualizar e comparar yields de:
+
+- Protocolos de lending (Aave, Morpho)
+- Stablecoins com rendimento (Ethena, sNUSD, USDai)
+- Vaults curados (mAPOLLO, mHYPER, autoUSD, gtUSDa)
+- Ativos reais tokenizados (OnRe, Re, PayFi Vault, Rain Vault)
+
+---
+
+## Seções do Dashboard
+
+### 1. Benchmark
+Comparativo das principais taxas de referência do mercado DeFi:
+- **Aave** - Taxa de supply em USDC
+- **Ethena** - Rendimento do sUSDe
+- **Morpho** - Taxa de supply otimizada
+- **Juros Títulos US** - Taxa de T-Bills como referência tradicional
+
+### 2. Stablecoins Exóticas
+Stablecoins alternativas com mecanismos de rendimento diferenciados:
+- **sNUSD** - Neutrl Finance
+- **USDai** - USD.ai Protocol
+
+### 3. Operações Curadas por Terceiros
+Vaults gerenciados por terceiros que otimizam estratégias de yield:
+- **mAPOLLO** - Midas Protocol
+- **mHYPER** - Midas Protocol
+- **autoUSD** - Auto Finance
+- **gtUSDa** - Gauntlet USD Alpha
+
+### 4. Garantidos por Ativos Reais Tokenizados
+Rendimentos lastreados em ativos do mundo real:
+- **OnRe** - OnRe Finance
+- **Re** - Re Protocol (Insurance Alpha)
+- **PayFi Vault** - Credit Coop
+- **Rain Vault** - Credit Coop
+
+---
+
+## Início Rápido
+
+### Rodar localmente
 
 ```bash
-cd relatorio-site
-./iniciar-servidor.sh
+# Clonar o repositório
+git clone https://github.com/guiriba-code/defi-benchmark.git
+cd defi-benchmark
+
+# Iniciar servidor local
+python3 -m http.server 8000
+
+# Abrir no navegador
+open http://localhost:8000
 ```
 
-Depois abra: **http://localhost:8000**
+### Atualizar dados do Dune Analytics
 
-**Vantagens:**
-- ✅ Executa `fetch_dune_data.py` automaticamente
-- ✅ Atualiza dados a cada 5 minutos
-- ✅ Gráficos sempre funcionando
-
-### Opção 2: Abrir Diretamente
-
-1. Abra o arquivo `index.html` no navegador
-2. Execute `python3 fetch_dune_data.py` manualmente para atualizar dados
+```bash
+# Executar scripts de fetch (requer API key do Dune)
+python3 fetch_dune_data.py
+python3 fetch_dune_data_query2.py
+python3 fetch_dune_data_query3.py
+python3 fetch_dune_data_query4.py
+```
 
 ---
 
-## 📈 Gráficos do Dune Analytics
-
-O site já está configurado com:
-- ✅ **Query ID:** 6517647
-- ✅ **API Key:** Configurada no script
-- ✅ **Atualização automática** quando usando o servidor
-
-### Gráfico Implementado
-
-- **Previsão 3:** Análise de Taxas - Aave, Ethena e Morpho
-  - Mostra taxas de supply e borrow ao longo do tempo
-  - Atualiza automaticamente via servidor
-
----
-
-## 📁 Estrutura de Arquivos
+## Estrutura do Projeto
 
 ```
-relatorio-site/
-├── index.html              # Página principal
-├── server.py               # Servidor que executa script automaticamente
-├── iniciar-servidor.sh      # Script para iniciar servidor
-├── fetch_dune_data.py       # Script para buscar dados do Dune
+defi-benchmark/
+├── index.html                    # Página principal
 ├── css/
-│   └── style.css           # Estilos
+│   └── style.css                 # Estilos (estética ASCII)
 ├── js/
-│   ├── main.js             # JavaScript principal
-│   └── mnav-chart.js       # Gráfico do Dune Analytics
+│   ├── main.js                   # Animações e scroll
+│   ├── defi-rates-chart.js       # Gráfico 1 - Benchmark
+│   ├── defi-rates-query2-chart.js # Gráfico 2 - Stablecoins
+│   ├── defi-rates-query3-chart.js # Gráfico 3 - Vaults Curados
+│   └── defi-rates-query4-chart.js # Gráfico 4 - RWA
 ├── data/
-│   └── mnav_data.json      # Dados do Dune (gerado automaticamente)
-└── README.md               # Este arquivo
+│   ├── defi_rates_data.json      # Dados Benchmark
+│   ├── defi_rates_query2_data.json
+│   ├── defi_rates_query3_data.json
+│   └── defi_rates_query4_data.json
+├── fetch_dune_data*.py           # Scripts de fetch
+└── README.md
 ```
 
 ---
 
-## 🔧 Funcionalidades
+## Queries do Dune Analytics
 
-- ✅ Menu lateral de navegação
-- ✅ Scroll suave entre seções
-- ✅ Destaque da seção atual no menu
-- ✅ Design responsivo
-- ✅ Gráfico interativo do Dune Analytics
-- ✅ Atualização automática de dados (via servidor)
-
----
-
-## 📝 Seções do Relatório
-
-1. **Capa** - Apresentação visual
-2. **Introdução** - Contexto geral
-3. **10 Previsões** - Cada uma em sua seção:
-   - Previsão 1: Polymarket Presidencial
-   - Previsão 2: Computação Quântica
-   - Previsão 3: mNAV Strategy (com gráfico Dune)
-   - Previsão 4: Base e Polymarket Tokens
-   - Previsão 5: MVRV Bitcoin
-   - Previsão 6: Bitcoin em Debates
-   - Previsão 7: Apostar Lula vs BTC
-   - Previsão 8: Patrocínio Futebol
-   - Previsão 9: Bancões e BTC
-   - Previsão 10: Cripto-cartões
+| Seção | Query ID | Dados |
+|-------|----------|-------|
+| Benchmark | 6517647 | Aave, Ethena, Morpho, T-Bills |
+| Stablecoins Exóticas | 6554864 | sNUSD, USDai |
+| Operações Curadas | 6555058 | mAPOLLO, mHYPER, autoUSD, gtUSDa |
+| Ativos Reais | 6563351 | OnRe, Re, PayFi Vault, Rain Vault |
 
 ---
 
-## 🐛 Troubleshooting
+## Tecnologias
 
-### Gráfico não aparece
-- **Com servidor:** Verifique se o servidor está rodando
-- **Sem servidor:** Execute `python3 fetch_dune_data.py` manualmente
-- Abra o console do navegador (F12) para ver erros
-
-### "Failed to fetch"
-- Use o servidor automático: `./iniciar-servidor.sh`
-- Ou execute `python3 fetch_dune_data.py` antes de abrir a página
-
-### Porta 8000 já em uso
-- Pare o outro processo ou mude a porta no `server.py`
+- **Chart.js** - Gráficos interativos
+- **Dune Analytics API** - Fonte de dados on-chain
+- **Vanilla JS** - Sem frameworks
+- **CSS Animations** - Estética ASCII/terminal
 
 ---
 
-## 📚 Documentação Adicional
+## Links dos Protocolos
 
-- `COMO_ABRIR.md` - Guia completo de como abrir o site
-- `COMO_USAR_SERVIDOR.md` - Detalhes sobre o servidor automático
-- `INSTRUCOES_MNAV.md` - Instruções do gráfico mNAV
-- `EXEMPLO_EMBED.md` - Exemplos de como embedar outros gráficos
+| Protocolo | Link |
+|-----------|------|
+| Aave | [app.aave.com](https://app.aave.com/) |
+| Ethena | [ethena.fi](https://ethena.fi/) |
+| Morpho | [app.morpho.org](https://app.morpho.org/) |
+| sNUSD | [app.neutrl.fi](https://app.neutrl.fi/protocol) |
+| USDai | [app.usd.ai](https://app.usd.ai/) |
+| mAPOLLO | [midas.app/mapollo](https://midas.app/mapollo) |
+| mHYPER | [midas.app/mhyper](https://midas.app/mhyper) |
+| autoUSD | [app.auto.finance](https://app.auto.finance/) |
+| gtUSDa | [app.gauntlet.xyz](https://app.gauntlet.xyz/vaults/gtusda) |
+| OnRe | [app.onre.finance](https://app.onre.finance/earn) |
+| Re | [app.re.xyz](https://app.re.xyz/reusde) |
+| PayFi Vault | [app.creditcoop.xyz](https://app.creditcoop.xyz/earn/details/0x6c99a74a62aaf2e6aa3ff08ce7661d5c86e01dbc) |
+| Rain Vault | [app.creditcoop.xyz](https://app.creditcoop.xyz/earn/details/0xdfb94de0838b1989fbbb800042b17a6404692001) |
 
 ---
 
-**Desenvolvido para Paradigma Education** 🎓
+**Desenvolvido por [Paradigma Education](https://paradigma.education)**
