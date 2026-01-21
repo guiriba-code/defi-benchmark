@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Script para buscar dados da quarta query do Dune Analytics (Query ID: 6559258)
+Script para buscar dados da quarta query do Dune Analytics (Query ID: 6563351)
 Mostra dados sobre OnRe_APR_7D e Re_APR_7D
 Usa o cliente oficial do Dune, requests, ou urllib como fallback
 """
@@ -11,7 +11,7 @@ from datetime import datetime
 
 # Configuração
 DUNE_API_KEY = "W8eHxGbL5IdI2dL9sKwNqAkPrYFoEHjt"
-QUERY_ID = 6559258
+QUERY_ID = 6563351
 OUTPUT_FILE = "data/defi_rates_query4_data.json"
 
 def fetch_with_urllib():
