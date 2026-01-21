@@ -94,8 +94,8 @@ async function loadDefiRatesQuery4Chart() {
             const LINKS = {
                 onre: 'https://app.onre.finance/earn',
                 re: 'https://app.re.xyz/reusde',
-                payfi: 'https://app.huma.finance/',
-                rain: 'https://app.huma.finance/'
+                payfi: 'https://app.creditcoop.xyz/earn/details/0x6c99a74a62aaf2e6aa3ff08ce7661d5c86e01dbc',
+                rain: 'https://app.creditcoop.xyz/earn/details/0xdfb94de0838b1989fbbb800042b17a6404692001'
             };
             
             // Função para encontrar o último valor não-nulo
