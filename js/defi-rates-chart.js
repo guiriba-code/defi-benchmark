@@ -83,14 +83,30 @@ async function loadDefiRatesChart() {
             }
         });
 
-        const lastRow = sortedRows[sortedRows.length - 1];
-        if (lastRow && noteElement) {
+        // Buscar o valor mais recente não-nulo para cada campo
+        if (noteElement) {
             const isMobile = window.innerWidth < 768;
             const rates = [];
-            if (lastRow.aave_supply_rate !== null) rates.push(`Aave: ${(lastRow.aave_supply_rate * 100).toFixed(1)}%`);
-            if (lastRow.tbill_rate !== null) rates.push(`Juros US: ${(lastRow.tbill_rate * 100).toFixed(1)}%`);
-            if (lastRow.ethena_susde_rate !== null) rates.push(`Ethena: ${(lastRow.ethena_susde_rate * 100).toFixed(1)}%`);
-            if (lastRow.morpho_supply_rate !== null) rates.push(`Morpho: ${(lastRow.morpho_supply_rate * 100).toFixed(1)}%`);
+            
+            // Função para encontrar o último valor não-nulo
+            const findLastValue = (field) => {
+                for (let i = sortedRows.length - 1; i >= 0; i--) {
+                    if (sortedRows[i][field] !== null && sortedRows[i][field] !== undefined) {
+                        return sortedRows[i][field];
+                    }
+                }
+                return null;
+            };
+            
+            const aaveVal = findLastValue('aave_supply_rate');
+            const tbillVal = findLastValue('tbill_rate');
+            const ethenaVal = findLastValue('ethena_susde_rate');
+            const morphoVal = findLastValue('morpho_supply_rate');
+            
+            if (aaveVal !== null) rates.push(`Aave: ${(aaveVal * 100).toFixed(1)}%`);
+            if (tbillVal !== null) rates.push(`Juros US: ${(tbillVal * 100).toFixed(1)}%`);
+            if (ethenaVal !== null) rates.push(`Ethena: ${(ethenaVal * 100).toFixed(1)}%`);
+            if (morphoVal !== null) rates.push(`Morpho: ${(morphoVal * 100).toFixed(1)}%`);
             
             if (isMobile) {
                 noteElement.innerHTML = `<strong>> Última atualização:</strong><br>${rates.join('<br>')}`;

@@ -87,18 +87,33 @@ async function loadDefiRatesQuery3Chart() {
             }
         });
 
-        const lastRow = sortedRows[sortedRows.length - 1];
-        if (lastRow && noteElement) {
+        // Buscar o valor mais recente não-nulo para cada campo
+        if (noteElement) {
             const isMobile = window.innerWidth < 768;
             const info = [];
-            const mApollo = lastRow.mAPOLLO_annualized_return_ma7 || lastRow['mAPOLLO annualized_return_ma7'];
-            const mHyper = lastRow.mHYPER_annualized_return_ma7 || lastRow['mHYPER annualized_return_ma7'];
-            const autoUSD = lastRow['autoUSD annualized_return_ma7'] || lastRow.autoUSD_annualized_return_ma7;
-            const gtUSDa = lastRow['gtUSDa annualized_return_ma7'] || lastRow.gtUSDa_annualized_return_ma7;
-            if (mApollo !== null && mApollo !== undefined) info.push(`mAPOLLO: ${(mApollo * 100).toFixed(1)}%`);
-            if (mHyper !== null && mHyper !== undefined) info.push(`mHYPER: ${(mHyper * 100).toFixed(1)}%`);
-            if (autoUSD !== null && autoUSD !== undefined) info.push(`autoUSD: ${(autoUSD * 100).toFixed(1)}%`);
-            if (gtUSDa !== null && gtUSDa !== undefined) info.push(`gtUSDa: ${(gtUSDa * 100).toFixed(1)}%`);
+            
+            // Função para encontrar o último valor não-nulo
+            const findLastValue = (fields) => {
+                for (let i = sortedRows.length - 1; i >= 0; i--) {
+                    for (const field of fields) {
+                        const val = sortedRows[i][field];
+                        if (val !== null && val !== undefined) {
+                            return val;
+                        }
+                    }
+                }
+                return null;
+            };
+            
+            const mApolloVal = findLastValue(['mAPOLLO annualized_return_ma7', 'mAPOLLO_annualized_return_ma7']);
+            const mHyperVal = findLastValue(['mHYPER annualized_return_ma7', 'mHYPER_annualized_return_ma7']);
+            const autoUSDVal = findLastValue(['autoUSD annualized_return_ma7', 'autoUSD_annualized_return_ma7']);
+            const gtUSDaVal = findLastValue(['gtUSDa annualized_return_ma7', 'gtUSDa_annualized_return_ma7']);
+            
+            if (mApolloVal !== null) info.push(`mAPOLLO: ${(mApolloVal * 100).toFixed(1)}%`);
+            if (mHyperVal !== null) info.push(`mHYPER: ${(mHyperVal * 100).toFixed(1)}%`);
+            if (autoUSDVal !== null) info.push(`autoUSD: ${(autoUSDVal * 100).toFixed(1)}%`);
+            if (gtUSDaVal !== null) info.push(`gtUSDa: ${(gtUSDaVal * 100).toFixed(1)}%`);
             
             if (isMobile) {
                 noteElement.innerHTML = `<strong>> Última atualização:</strong><br>${info.join('<br>')}`;

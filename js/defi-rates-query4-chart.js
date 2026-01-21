@@ -76,12 +76,27 @@ async function loadDefiRatesQuery4Chart() {
             }
         });
 
-        const lastRow = sortedRows[sortedRows.length - 1];
-        if (lastRow && noteElement) {
+        // Buscar o valor mais recente não-nulo para cada campo
+        if (noteElement) {
             const isMobile = window.innerWidth < 768;
             const info = [];
-            if (lastRow.OnRe_APR_7D !== null && lastRow.OnRe_APR_7D !== undefined) info.push(`OnRe: ${(lastRow.OnRe_APR_7D * 100).toFixed(1)}%`);
-            if (lastRow.Re_APR_7D !== null && lastRow.Re_APR_7D !== undefined) info.push(`Re: ${(lastRow.Re_APR_7D * 100).toFixed(1)}%`);
+            
+            // Função para encontrar o último valor não-nulo
+            const findLastValue = (field) => {
+                for (let i = sortedRows.length - 1; i >= 0; i--) {
+                    const val = sortedRows[i][field];
+                    if (val !== null && val !== undefined) {
+                        return val;
+                    }
+                }
+                return null;
+            };
+            
+            const onReVal = findLastValue('OnRe_APR_7D');
+            const reVal = findLastValue('Re_APR_7D');
+            
+            if (onReVal !== null) info.push(`OnRe: ${(onReVal * 100).toFixed(1)}%`);
+            if (reVal !== null) info.push(`Re: ${(reVal * 100).toFixed(1)}%`);
             
             if (isMobile) {
                 noteElement.innerHTML = `<strong>> Última atualização:</strong><br>${info.join('<br>')}`;
