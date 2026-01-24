@@ -1,16 +1,16 @@
 /**
  * ═══════════════════════════════════════════════════════════════════════════
- * GRÁFICO 2 - sNUSD e USDai
- * Cores: Dourado/Âmbar (tons quentes)
+ * GRÁFICO 2 - Stablecoins Exóticas (J3, sNUSD, USDai)
  * ═══════════════════════════════════════════════════════════════════════════
  */
 
 let defiRatesQuery2Chart = null;
 
-// Cores específicas para Query 2 (sNUSD/USDai)
+// Cores específicas para Query 2 (J3/sNUSD/USDai)
 const COLORS_Q2 = {
-    snusd: '#00FF00',   // Lime
-    usdai: '#ffaa00',   // Mantém a mesma cor (Âmbar)
+    j3: '#FF1493',       // Deep Pink
+    snusd: '#00FF00',    // Lime
+    usdai: '#ffaa00',    // Âmbar
 };
 
 async function loadDefiRatesQuery2Chart() {
@@ -30,7 +30,7 @@ async function loadDefiRatesQuery2Chart() {
             dataUrl = `http://${window.location.hostname}:${port}/data/defi_rates_query2_data.json?t=${Date.now()}`;
         }
         
-        console.log('> Carregando Query 2 (sNUSD/USDai):', dataUrl);
+        console.log('> Carregando Query 2 (J3/sNUSD/USDai):', dataUrl);
         const response = await fetch(dataUrl);
         
         if (!response.ok) {
@@ -45,6 +45,7 @@ async function loadDefiRatesQuery2Chart() {
         }
 
         let labels = [];
+        let j3Apy7d = [];
         let snusdApy7d = [];
         let usdaiApy7dma = [];
         
@@ -71,8 +72,9 @@ async function loadDefiRatesQuery2Chart() {
                     labels.push(dateField);
                 }
                 
-                snusdApy7d.push(row.snusd_apy_7d !== null ? parseFloat(row.snusd_apy_7d) : null);
-                usdaiApy7dma.push(row.usdai_apy_7dma !== null ? parseFloat(row.usdai_apy_7dma) : null);
+                j3Apy7d.push(row.j3_apy_7d !== null && row.j3_apy_7d !== undefined ? parseFloat(row.j3_apy_7d) : null);
+                snusdApy7d.push(row.snusd_apy_7d !== null && row.snusd_apy_7d !== undefined ? parseFloat(row.snusd_apy_7d) : null);
+                usdaiApy7dma.push(row.usdai_apy_7dma !== null && row.usdai_apy_7dma !== undefined ? parseFloat(row.usdai_apy_7dma) : null);
             }
         });
 
@@ -83,6 +85,7 @@ async function loadDefiRatesQuery2Chart() {
             
             // Links das operações
             const LINKS = {
+                j3: 'https://j3.money/',
                 snusd: 'https://app.neutrl.fi/protocol',
                 usdai: 'https://app.usd.ai/'
             };
@@ -97,9 +100,11 @@ async function loadDefiRatesQuery2Chart() {
                 return null;
             };
             
+            const j3Val = findLastValue('j3_apy_7d');
             const snusdVal = findLastValue('snusd_apy_7d');
             const usdaiVal = findLastValue('usdai_apy_7dma');
             
+            if (j3Val !== null) info.push(`<a href="${LINKS.j3}" target="_blank">J3</a>: ${(j3Val * 100).toFixed(1)}%`);
             if (snusdVal !== null) info.push(`<a href="${LINKS.snusd}" target="_blank">sNUSD</a>: ${(snusdVal * 100).toFixed(1)}%`);
             if (usdaiVal !== null) info.push(`<a href="${LINKS.usdai}" target="_blank">USDai</a>: ${(usdaiVal * 100).toFixed(1)}%`);
             
@@ -122,7 +127,22 @@ async function loadDefiRatesQuery2Chart() {
                 labels: labels,
                 datasets: [
                     {
-                        label: 'sNUSD',  // Simplificado
+                        label: 'J3',
+                        data: j3Apy7d,
+                        borderColor: COLORS_Q2.j3,
+                        backgroundColor: 'transparent',
+                        borderWidth: 2,
+                        fill: false,
+                        stepped: 'before',
+                        borderJoinStyle: 'round',
+                        borderCapStyle: 'round',
+                        pointRadius: 0,
+                        pointHoverRadius: 4,
+                        pointHoverBackgroundColor: COLORS_Q2.j3,
+                        spanGaps: true
+                    },
+                    {
+                        label: 'sNUSD',
                         data: snusdApy7d,
                         borderColor: COLORS_Q2.snusd,
                         backgroundColor: 'transparent',
@@ -137,7 +157,7 @@ async function loadDefiRatesQuery2Chart() {
                         spanGaps: true
                     },
                     {
-                        label: 'USDai',  // Simplificado
+                        label: 'USDai',
                         data: usdaiApy7dma,
                         borderColor: COLORS_Q2.usdai,
                         backgroundColor: 'transparent',
@@ -197,7 +217,7 @@ async function loadDefiRatesQuery2Chart() {
                     y: {
                         beginAtZero: false,
                         title: {
-                            display: false  // Usando label HTML customizado
+                            display: false
                         },
                         ticks: {
                             color: '#666666',
@@ -218,7 +238,7 @@ async function loadDefiRatesQuery2Chart() {
                     },
                     x: {
                         title: {
-                            display: false  // Usando label HTML customizado
+                            display: false
                         },
                         ticks: {
                             color: '#666666',
@@ -250,11 +270,12 @@ async function loadDefiRatesQuery2Chart() {
 
         // Criar legenda HTML customizada
         createCustomLegend2('defi-rates-query2-legend', [
+            { label: 'J3', color: COLORS_Q2.j3 },
             { label: 'sNUSD', color: COLORS_Q2.snusd },
             { label: 'USDai', color: COLORS_Q2.usdai }
         ]);
 
-        console.log('> Gráfico 2 (sNUSD/USDai) carregado ✓');
+        console.log('> Gráfico 2 (Stablecoins Exóticas) carregado ✓');
         
     } catch (error) {
         console.error('> Erro ao carregar gráfico 2:', error);
