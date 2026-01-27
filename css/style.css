@@ -580,14 +580,7 @@ body {
     #defi-rates-query3-chart-wrapper,
     #defi-rates-query4-chart-wrapper {
         padding: 0.5rem 0;
-        min-height: 320px;
-    }
-    
-    #defi-rates-chart,
-    #defi-rates-query2-chart,
-    #defi-rates-query3-chart,
-    #defi-rates-query4-chart {
-        min-height: 280px !important;
+        min-height: 280px;
     }
 
     .menu-toggle {
@@ -631,14 +624,7 @@ body {
     #defi-rates-query3-chart-wrapper,
     #defi-rates-query4-chart-wrapper {
         padding: 0.25rem 0;
-        min-height: 280px;
-    }
-    
-    #defi-rates-chart,
-    #defi-rates-query2-chart,
-    #defi-rates-query3-chart,
-    #defi-rates-query4-chart {
-        min-height: 240px !important;
+        min-height: 240px;
     }
     
     .chart-title {

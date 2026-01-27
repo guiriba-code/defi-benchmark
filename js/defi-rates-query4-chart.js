@@ -55,9 +55,19 @@ async function loadDefiRatesQuery4Chart() {
         const PAYFI_FIELD = 'avg_total_yield_address_0x6c99a74a62aaf2e6aa3ff08ce7661d5c86e01dbc';
         const RAIN_FIELD = 'avg_total_yield_address_0xdfb94de0838b1989fbbb800042b17a6404692001';
         
+        // Função para extrair data de forma robusta (funciona em todos os navegadores)
+        const parseDate = (dateField) => {
+            if (!dateField) return new Date(0);
+            // Extrair apenas YYYY-MM-DD da string (remove timestamp se houver)
+            const dateStr = dateField.toString().split(' ')[0];
+            // Criar data no formato ISO: YYYY-MM-DDT00:00:00
+            const date = new Date(dateStr + 'T00:00:00');
+            return isNaN(date.getTime()) ? new Date(0) : date;
+        };
+        
         const sortedRows = [...rows].sort((a, b) => {
-            const dateA = new Date(a.date || a.Date || 0);
-            const dateB = new Date(b.date || b.Date || 0);
+            const dateA = parseDate(a.date || a.Date);
+            const dateB = parseDate(b.date || b.Date);
             return dateA - dateB;
         });
         
@@ -65,14 +75,22 @@ async function loadDefiRatesQuery4Chart() {
             const dateField = row.date || row.Date;
             if (dateField) {
                 try {
-                    const date = new Date(dateField);
+                    // Extrair apenas a parte da data (YYYY-MM-DD) se vier com timestamp
+                    const dateStr = dateField.toString().split(' ')[0];
+                    const date = new Date(dateStr + 'T00:00:00');
                     if (!isNaN(date.getTime())) {
                         // Formato simples DD/MM (sem hora)
                         const day = date.getDate().toString().padStart(2, '0');
                         const month = (date.getMonth() + 1).toString().padStart(2, '0');
                         labels.push(`${day}/${month}`);
                     } else {
-                        labels.push(dateField);
+                        // Fallback: tentar extrair manualmente
+                        const parts = dateStr.split('-');
+                        if (parts.length >= 3) {
+                            labels.push(`${parts[2]}/${parts[1]}`);
+                        } else {
+                            labels.push(dateField);
+                        }
                     }
                 } catch (e) {
                     labels.push(dateField);
