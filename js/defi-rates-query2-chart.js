@@ -59,14 +59,22 @@ async function loadDefiRatesQuery2Chart() {
             const dateField = row.date || row.Date;
             if (dateField) {
                 try {
-                    const date = new Date(dateField);
+                    // Extrair apenas a parte da data (YYYY-MM-DD) se vier com timestamp
+                    const dateStr = dateField.toString().split(' ')[0];
+                    const date = new Date(dateStr + 'T00:00:00');
                     if (!isNaN(date.getTime())) {
                         // Formato simples DD/MM (sem hora)
                         const day = date.getDate().toString().padStart(2, '0');
                         const month = (date.getMonth() + 1).toString().padStart(2, '0');
                         labels.push(`${day}/${month}`);
                     } else {
-                        labels.push(dateField);
+                        // Fallback: tentar extrair manualmente
+                        const parts = dateStr.split('-');
+                        if (parts.length >= 3) {
+                            labels.push(`${parts[2]}/${parts[1]}`);
+                        } else {
+                            labels.push(dateField);
+                        }
                     }
                 } catch (e) {
                     labels.push(dateField);
