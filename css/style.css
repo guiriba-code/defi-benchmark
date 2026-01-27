@@ -378,6 +378,60 @@ body {
 }
 
 /* ═══════════════════════════════════════════════════════════════════════════
+   SEÇÃO INTRODUÇÃO
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+.section-intro {
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-intro::before {
+    display: none;  /* Remove a linha decorativa da intro */
+}
+
+.intro-container {
+    max-width: 700px;
+    text-align: center;
+    padding: 2rem;
+}
+
+.intro-title {
+    font-size: 28px;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin-bottom: 2rem;
+    color: var(--text-color);
+}
+
+.intro-content {
+    font-size: 15px;
+    line-height: 2;
+    color: var(--text-color);
+}
+
+.intro-content p {
+    margin-bottom: 1.5rem;
+}
+
+.intro-content p:last-child {
+    margin-bottom: 0;
+}
+
+.intro-content strong {
+    font-weight: 600;
+}
+
+.section.visible .intro-container {
+    opacity: 0;
+    animation: fadeSlideIn 1s ease forwards;
+    animation-delay: 0.2s;
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
    TÍTULOS E TEXTOS
    ═══════════════════════════════════════════════════════════════════════════ */
 
@@ -573,6 +627,26 @@ body {
 
     .chart-container {
         padding: 0.75rem;
+    }
+    
+    .section-intro {
+        min-height: 50vh;
+        padding: 3rem 0;
+    }
+    
+    .intro-container {
+        padding: 1rem;
+    }
+    
+    .intro-title {
+        font-size: 20px;
+        letter-spacing: 2px;
+        margin-bottom: 1.5rem;
+    }
+    
+    .intro-content {
+        font-size: 13px;
+        line-height: 1.8;
     }
     
     #defi-rates-chart-wrapper,
