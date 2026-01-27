@@ -233,6 +233,92 @@ class TextGlitchEffect {
         
         // Observar legendas criadas dinamicamente pelos gráficos
         this.observeLegendElements();
+        
+        // Aplicar efeito visual de glitch às descrições (sem alterar texto)
+        this.initDescriptionGlitch();
+    }
+    
+    // Efeito de glitch de caracteres para descrições (mesmo dos títulos)
+    initDescriptionGlitch() {
+        const descriptions = document.querySelectorAll('.glitch-subtle');
+        
+        descriptions.forEach(element => {
+            element.addEventListener('mouseenter', () => this.startDescriptionGlitch(element));
+            element.addEventListener('mouseleave', () => this.stopDescriptionGlitch(element));
+        });
+    }
+    
+    // Coleta todos os nós de texto de um elemento (preservando estrutura HTML)
+    getTextNodes(element) {
+        const textNodes = [];
+        const walker = document.createTreeWalker(
+            element,
+            NodeFilter.SHOW_TEXT,
+            null,
+            false
+        );
+        
+        let node;
+        while (node = walker.nextNode()) {
+            // Ignora nós de texto vazios ou só com espaços
+            if (node.textContent.trim().length > 0) {
+                textNodes.push(node);
+            }
+        }
+        return textNodes;
+    }
+    
+    startDescriptionGlitch(element) {
+        // Coleta todos os nós de texto
+        const textNodes = this.getTextNodes(element);
+        
+        // Guarda texto original de cada nó
+        element.originalTexts = textNodes.map(node => ({
+            node: node,
+            text: node.textContent
+        }));
+        
+        let iterations = 0;
+        const maxIterations = 10;
+        
+        element.descGlitchInterval = setInterval(() => {
+            if (iterations >= maxIterations) {
+                // Restaura texto original
+                element.originalTexts.forEach(item => {
+                    item.node.textContent = item.text;
+                });
+                clearInterval(element.descGlitchInterval);
+                return;
+            }
+            
+            // Aplica glitch em cada nó de texto
+            element.originalTexts.forEach(item => {
+                const originalText = item.text;
+                item.node.textContent = originalText.split('').map((char, index) => {
+                    if (index < iterations) {
+                        return originalText[index];
+                    }
+                    // Preserva espaços
+                    if (char === ' ') return ' ';
+                    return this.getRandomChar();
+                }).join('');
+            });
+            
+            iterations++;
+        }, 30);
+    }
+    
+    stopDescriptionGlitch(element) {
+        if (element.descGlitchInterval) {
+            clearInterval(element.descGlitchInterval);
+        }
+        
+        // Restaura texto original
+        if (element.originalTexts) {
+            element.originalTexts.forEach(item => {
+                item.node.textContent = item.text;
+            });
+        }
     }
     
     observeLegendElements() {

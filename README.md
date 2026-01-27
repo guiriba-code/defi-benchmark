@@ -11,7 +11,7 @@ Dashboard interativo para comparação de rendimentos em protocolos DeFi e ativo
 Este site apresenta uma análise comparativa de diferentes oportunidades de renda em dólar no ecossistema DeFi e RWA (Real World Assets), permitindo visualizar e comparar yields de:
 
 - Protocolos de lending (Aave, Morpho)
-- Stablecoins com rendimento (Ethena, sNUSD, USDai)
+- Stablecoins com rendimento (Ethena, sUSD3, sNUSD, USDai)
 - Vaults curados (mAPOLLO, mHYPER, autoUSD, gtUSDa)
 - Ativos reais tokenizados (OnRe, Re, PayFi Vault, Rain Vault)
 
@@ -28,6 +28,7 @@ Comparativo das principais taxas de referência do mercado DeFi:
 
 ### 2. Stablecoins Exóticas
 Stablecoins alternativas com mecanismos de rendimento diferenciados:
+- **sUSD3** - 3jane
 - **sNUSD** - Neutrl Finance
 - **USDai** - USD.ai Protocol
 
@@ -49,29 +50,60 @@ Rendimentos lastreados em ativos do mundo real:
 
 ## Início Rápido
 
-### Rodar localmente
+### Rodar localmente (no seu terminal)
+
+O site **precisa** de um servidor HTTP — abrir o `index.html` direto (file://) faz os gráficos falharem ao carregar os dados.
+
+**No Terminal** (Terminal.app, iTerm ou terminal do Cursor), dentro da pasta do projeto:
 
 ```bash
-# Clonar o repositório
-git clone https://github.com/guiriba-code/defi-benchmark.git
-cd defi-benchmark
-
-# Iniciar servidor local
-python3 -m http.server 8000
-
-# Abrir no navegador
-open http://localhost:8000
+cd "Site DeFi"    # ou o caminho completo até a pasta Site DeFi
+./rodar-site.sh
 ```
+
+**Ou**, sem o script:
+
+```bash
+cd "Site DeFi"
+python3 -m http.server 8000
+```
+
+Deixe o terminal aberto e abra no navegador: **http://localhost:8000**
+
+Se a pasta estiver em outro lugar (ex.: workspace Taxas Médias):
+
+```bash
+cd "/Users/guilhermebarbosa/Documents/Paradigma/2025/Pesquisas/Taxas Médias Aave_Ethena_Tbills/Site DeFi"
+./rodar-site.sh
+```
+
+Se `http://localhost:8000` não abrir, veja **TROUBLESHOOTING.md**.
+
+### Verificar se está em dia com o GitHub
+
+```bash
+git fetch origin
+git status          # Ver se há commits à frente/atrás de origin/main
+git log -1 --oneline HEAD
+git log -1 --oneline origin/main
+```
+
+Se `Your branch is up to date with 'origin/main'` e não houver alterações locais importantes, você está alinhado. Alterações locais aparecem em `git status`.
 
 ### Atualizar dados do Dune Analytics
 
 ```bash
-# Executar scripts de fetch (requer API key do Dune)
+# Opção 1: atualizar os 4 gráficos de uma vez (4 chamadas à API)
+./atualizar_todos_dados.sh
+
+# Opção 2: rodar cada script separadamente
 python3 fetch_dune_data.py
 python3 fetch_dune_data_query2.py
 python3 fetch_dune_data_query3.py
 python3 fetch_dune_data_query4.py
 ```
+
+**Frequência e uso da API:** não há cron nem agendamento. Cada execução desses scripts faz **4 chamadas** à API do Dune (uma por query). Se usar o `server.py`, cada carregamento da página que pede os 4 JSONs dispara **4 chamadas**. Detalhes em `LOGICA_ATUALIZACAO_E_USO_APIS.md`.
 
 ---
 

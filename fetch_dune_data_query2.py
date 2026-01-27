@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Script para buscar dados da segunda query do Dune Analytics (Query ID: 6590944)
-Mostra dados sobre J3, sNUSD e USDai (APY)
+Mostra dados sobre sUSD3, sNUSD e USDai (APY)
 Usa o cliente oficial do Dune, requests, ou urllib como fallback
 """
 

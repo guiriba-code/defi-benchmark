@@ -1,14 +1,14 @@
 /**
  * ═══════════════════════════════════════════════════════════════════════════
- * GRÁFICO 2 - Stablecoins Exóticas (J3, sNUSD, USDai)
+ * GRÁFICO 2 - Stablecoins Exóticas (sUSD3, sNUSD, USDai)
  * ═══════════════════════════════════════════════════════════════════════════
  */
 
 let defiRatesQuery2Chart = null;
 
-// Cores específicas para Query 2 (J3/sNUSD/USDai)
+// Cores específicas para Query 2 (sUSD3/sNUSD/USDai)
 const COLORS_Q2 = {
-    j3: '#FF1493',       // Deep Pink
+    usd3: '#FF0000',     // Vermelho
     snusd: '#00FF00',    // Lime
     usdai: '#ffaa00',    // Âmbar
 };
@@ -30,7 +30,7 @@ async function loadDefiRatesQuery2Chart() {
             dataUrl = `http://${window.location.hostname}:${port}/data/defi_rates_query2_data.json?t=${Date.now()}`;
         }
         
-        console.log('> Carregando Query 2 (J3/sNUSD/USDai):', dataUrl);
+        console.log('> Carregando Query 2 (sUSD3/sNUSD/USDai):', dataUrl);
         const response = await fetch(dataUrl);
         
         if (!response.ok) {
@@ -45,7 +45,7 @@ async function loadDefiRatesQuery2Chart() {
         }
 
         let labels = [];
-        let j3Apy7d = [];
+        let usd3Apy30d = [];
         let snusdApy7d = [];
         let usdaiApy7dma = [];
         
@@ -72,7 +72,7 @@ async function loadDefiRatesQuery2Chart() {
                     labels.push(dateField);
                 }
                 
-                j3Apy7d.push(row.j3_apy_7d !== null && row.j3_apy_7d !== undefined ? parseFloat(row.j3_apy_7d) : null);
+                usd3Apy30d.push(row.j3_apy_30d_rolling !== null && row.j3_apy_30d_rolling !== undefined ? parseFloat(row.j3_apy_30d_rolling) : null);
                 snusdApy7d.push(row.snusd_apy_7d !== null && row.snusd_apy_7d !== undefined ? parseFloat(row.snusd_apy_7d) : null);
                 usdaiApy7dma.push(row.usdai_apy_7dma !== null && row.usdai_apy_7dma !== undefined ? parseFloat(row.usdai_apy_7dma) : null);
             }
@@ -85,7 +85,7 @@ async function loadDefiRatesQuery2Chart() {
             
             // Links das operações
             const LINKS = {
-                j3: 'https://j3.money/',
+                usd3: 'https://app.3jane.xyz/supply',
                 snusd: 'https://app.neutrl.fi/protocol',
                 usdai: 'https://app.usd.ai/'
             };
@@ -100,11 +100,11 @@ async function loadDefiRatesQuery2Chart() {
                 return null;
             };
             
-            const j3Val = findLastValue('j3_apy_7d');
+            const usd3Val = findLastValue('j3_apy_30d_rolling');
             const snusdVal = findLastValue('snusd_apy_7d');
             const usdaiVal = findLastValue('usdai_apy_7dma');
             
-            if (j3Val !== null) info.push(`<a href="${LINKS.j3}" target="_blank">J3</a>: ${(j3Val * 100).toFixed(1)}%`);
+            if (usd3Val !== null) info.push(`<a href="${LINKS.usd3}" target="_blank">sUSD3</a>: ${(usd3Val * 100).toFixed(1)}%`);
             if (snusdVal !== null) info.push(`<a href="${LINKS.snusd}" target="_blank">sNUSD</a>: ${(snusdVal * 100).toFixed(1)}%`);
             if (usdaiVal !== null) info.push(`<a href="${LINKS.usdai}" target="_blank">USDai</a>: ${(usdaiVal * 100).toFixed(1)}%`);
             
@@ -127,9 +127,9 @@ async function loadDefiRatesQuery2Chart() {
                 labels: labels,
                 datasets: [
                     {
-                        label: 'J3',
-                        data: j3Apy7d,
-                        borderColor: COLORS_Q2.j3,
+                        label: 'sUSD3',
+                        data: usd3Apy30d,
+                        borderColor: COLORS_Q2.usd3,
                         backgroundColor: 'transparent',
                         borderWidth: 2,
                         fill: false,
@@ -138,7 +138,7 @@ async function loadDefiRatesQuery2Chart() {
                         borderCapStyle: 'round',
                         pointRadius: 0,
                         pointHoverRadius: 4,
-                        pointHoverBackgroundColor: COLORS_Q2.j3,
+                        pointHoverBackgroundColor: COLORS_Q2.usd3,
                         spanGaps: true
                     },
                     {
@@ -270,7 +270,7 @@ async function loadDefiRatesQuery2Chart() {
 
         // Criar legenda HTML customizada
         createCustomLegend2('defi-rates-query2-legend', [
-            { label: 'J3', color: COLORS_Q2.j3 },
+            { label: 'sUSD3', color: COLORS_Q2.usd3 },
             { label: 'sNUSD', color: COLORS_Q2.snusd },
             { label: 'USDai', color: COLORS_Q2.usdai }
         ]);

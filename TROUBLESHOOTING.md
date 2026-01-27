@@ -2,20 +2,30 @@
 
 ## Problema: http://localhost:8000 não está funcionando
 
-### Passo 1: Verificar se o servidor está rodando
+**Causa mais comum:** o servidor não está rodando. O site **precisa** de um servidor HTTP local — abrir o `index.html` diretamente (file://) faz os gráficos falharem ao carregar os JSONs (fetch/CORS).
 
-Abra um terminal e execute:
+### Passo 1: Iniciar o servidor no seu terminal
+
+Abra um terminal (Terminal.app, iTerm ou o terminal do Cursor) e execute:
 
 ```bash
-cd relatorio-site
-python3 server.py
+cd "/Users/guilhermebarbosa/Documents/Paradigma/2025/Pesquisas/Taxas Médias Aave_Ethena_Tbills/Site DeFi"
+./rodar-site.sh
 ```
 
-Você deve ver:
+**Ou**, sem o script:
+
+```bash
+cd "/Users/guilhermebarbosa/Documents/Paradigma/2025/Pesquisas/Taxas Médias Aave_Ethena_Tbills/Site DeFi"
+python3 -m http.server 8000
 ```
-🚀 Iniciando servidor na porta 8000...
-✅ Servidor rodando em http://localhost:8000
+
+Você deve ver algo como:
 ```
+Serving HTTP on 0.0.0.0 port 8000 (http://0.0.0.0:8000/) ...
+```
+
+**Deixe esse terminal aberto.** Enquanto estiver assim, abra no navegador: **http://localhost:8000**
 
 **Se não aparecer isso, há um erro. Veja as mensagens de erro abaixo.**
 
@@ -72,7 +82,7 @@ Se funcionar manualmente, o servidor também deve funcionar.
 Em outro terminal, execute:
 
 ```bash
-cd relatorio-site
+cd "/Users/guilhermebarbosa/Documents/Paradigma/2025/Pesquisas/Taxas Médias Aave_Ethena_Tbills/Site DeFi"
 python3 testar-servidor.py
 ```
 
@@ -154,7 +164,7 @@ sudo ufw status
 Execute estes comandos e verifique:
 
 ```bash
-cd relatorio-site
+cd "/Users/guilhermebarbosa/Documents/Paradigma/2025/Pesquisas/Taxas Médias Aave_Ethena_Tbills/Site DeFi"
 
 # 1. Verificar se os arquivos existem
 ls -la index.html server.py fetch_dune_data.py
@@ -165,8 +175,8 @@ python3 --version
 # 3. Testar script de dados
 python3 fetch_dune_data.py
 
-# 4. Verificar se dados foram gerados
-ls -la data/mnav_data.json
+# 4. Verificar se dados foram gerados (Benchmark e demais)
+ls -la data/defi_rates_data.json data/defi_rates_query2_data.json
 
 # 5. Iniciar servidor
 python3 server.py
@@ -179,13 +189,12 @@ python3 server.py
 Se nada funcionar, use esta solução simples:
 
 ```bash
-cd relatorio-site
+cd "/Users/guilhermebarbosa/Documents/Paradigma/2025/Pesquisas/Taxas Médias Aave_Ethena_Tbills/Site DeFi"
 
-# 1. Buscar dados
-python3 fetch_dune_data.py
-
+# 1. (Opcional) Atualizar dados: ./atualizar_todos_dados.sh
 # 2. Servidor simples
 python3 -m http.server 8000
+# ou: ./rodar-site.sh
 ```
 
 Depois acesse: `http://localhost:8000`
